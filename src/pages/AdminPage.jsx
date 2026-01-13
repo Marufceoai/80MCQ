@@ -91,11 +91,8 @@ function AdminPage() {
     const now = Date.now();
     const groups = {}
 
-    // 1. Filter submissions (keep only last 10 minutes)
-    const validSubmissions = submissions.filter(sub => {
-      const subTime = new Date(sub.timestamp).getTime();
-      return (now - subTime) < TEN_MINUTES_MS;
-    });
+    // 1. No filtering by time - show all submissions
+    const validSubmissions = submissions;
 
     // 2. Group submissions by student (latest only)
     validSubmissions.forEach(sub => {
