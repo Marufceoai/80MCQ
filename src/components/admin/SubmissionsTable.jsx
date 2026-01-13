@@ -436,6 +436,94 @@ function SubmissionsTable({
                   </div>
                 </div>
 
+                {/* Subject-wise Analysis Section */}
+                {(() => {
+                  const subjectStats = (() => {
+                    // Use existing stats if available
+                    if (selectedSubmission.subjectStats) return selectedSubmission.subjectStats;
+
+                    // Calculate on the fly for old submissions
+                    const stats = {};
+                    const answers = selectedSubmission.answers || {};
+
+                    questions.forEach(q => {
+                      const subject = q.subject || 'General';
+                      if (!stats[subject]) {
+                        stats[subject] = { correct: 0, wrong: 0, attempted: 0, total: 0 };
+                      }
+                      stats[subject].total++;
+
+                      const selected = answers[q.id.toString()];
+                      if (selected !== undefined && selected !== null) {
+                        stats[subject].attempted++;
+                        if (selected === q.correctAnswer) {
+                          stats[subject].correct++;
+                        } else {
+                          stats[subject].wrong++;
+                        }
+                      }
+                    });
+
+                    // Calculate percentages
+                    Object.values(stats).forEach(stat => {
+                      stat.percentage = stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : 0;
+                    });
+
+                    return stats;
+                  })();
+
+                  const subjectNames = {
+                    'Biology': 'Biology',
+                    'Chemistry': 'রসায়ন',
+                    'ICT': 'আইসিটি',
+                    'Physics': 'পদার্থবিজ্ঞান',
+                    'General': 'সাধারণ'
+                  };
+
+                  if (Object.keys(subjectStats).length === 0) return null;
+
+                  return (
+                    <div className="subject-analysis">
+                      <h2 className="subject-analysis-title bengali">
+                        <span className="analysis-icon">📊</span>
+                        বিষয়ভিত্তিক পারদর্শিতা বিশ্লেষণ
+                      </h2>
+                      <div className="subject-grid">
+                        {Object.entries(subjectStats).map(([subject, stats]) => (
+                          <div key={subject} className="subject-card">
+                            <div className="subject-card-header">
+                              <span className="subject-name bengali">{subjectNames[subject] || subject}</span>
+                              <span className={`subject-percent ${stats.percentage >= 80 ? 'high' : stats.percentage >= 50 ? 'mid' : 'low'}`}>
+                                {stats.percentage}%
+                              </span>
+                            </div>
+                            <div className="subject-progress-container">
+                              <div
+                                className={`subject-progress-bar ${stats.percentage >= 80 ? 'high' : stats.percentage >= 50 ? 'mid' : 'low'}`}
+                                style={{ width: `${stats.percentage}%` }}
+                              ></div>
+                            </div>
+                            <div className="subject-metrics">
+                              <div className="metric-box correct">
+                                <span className="metric-icon">✓</span>
+                                <span className="metric-value">{stats.correct}</span>
+                              </div>
+                              <div className="metric-box wrong">
+                                <span className="metric-icon">X</span>
+                                <span className="metric-value">{stats.wrong}</span>
+                              </div>
+                              <div className="metric-box skipped">
+                                <span className="metric-icon">📝</span>
+                                <span className="metric-value">{stats.total - stats.attempted}</span>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })()}
+
                 <div className="info-item">
                   <span className="info-label bengali">স্ট্যাটাস:</span>
                   <span className={`info-value ${selectedSubmission.pass ? 'pass-status' : 'fail-status'}`}>
