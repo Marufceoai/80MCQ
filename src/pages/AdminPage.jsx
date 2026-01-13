@@ -163,7 +163,7 @@ function AdminPage() {
         } else if (subjectFilter === 'chemistry') {
           return fileName.includes('chemistry') || fileName.includes('chem') || fileName.includes('রসায়ন')
         } else if (subjectFilter === 'physics') {
-          return fileName.includes('physics') || fileName.includes('পদার্থ')
+          return fileName.includes('physics') || fileName.includes('পদার্থ') || fileName.includes('questions2')
         } else if (subjectFilter === 'math') {
           return fileName.includes('math') || fileName.includes('গণিত')
         }
