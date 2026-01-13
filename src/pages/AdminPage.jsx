@@ -13,7 +13,7 @@ function AdminPage() {
   const [searchTerm, setSearchTerm] = useState('')
   const [subjectFilter, setSubjectFilter] = useState('all-subjects')
   const [lastRefresh, setLastRefresh] = useState(null)
-  const [autoRefresh, setAutoRefresh] = useState(false)
+  const [autoRefresh, setAutoRefresh] = useState(true)
   const [notification, setNotification] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
   const [showSettingsModal, setShowSettingsModal] = useState(false)
@@ -85,24 +85,37 @@ function AdminPage() {
 
   // Group submissions by student (latest only) and merge with pending students
   const submissionsByStudent = useMemo(() => {
+    // --- FILTER OLD DATA FROM DISPLAY ---
+    const TEN_MINUTES_MS = 10 * 60 * 1000;
+    const EIGHTY_MINUTES_MS = 80 * 60 * 1000;
+    const now = Date.now();
     const groups = {}
 
-    // Add all submissions
-    submissions.forEach(sub => {
+    // 1. Filter submissions (keep only last 10 minutes)
+    const validSubmissions = submissions.filter(sub => {
+      const subTime = new Date(sub.timestamp).getTime();
+      return (now - subTime) < TEN_MINUTES_MS;
+    });
+
+    // 2. Group submissions by student (latest only)
+    validSubmissions.forEach(sub => {
       const studentKey = sub.studentId || sub.studentName
       if (!groups[studentKey] || new Date(sub.timestamp) > new Date(groups[studentKey].timestamp)) {
         groups[studentKey] = sub
       }
     })
 
-    // Add pending students who haven't submitted yet
+    // 3. Add pending students who haven't submitted yet and are not too old
     pendingStudents.forEach(pending => {
       const studentKey = pending.studentName
       if (!groups[studentKey]) {
-        // Calculate elapsed time to check if expired
-        const now = Date.now()
+        // Calculate elapsed time
         const start = new Date(pending.timestamp).getTime()
         const elapsed = now - start
+
+        // Filter out pending students older than 80 minutes
+        if (elapsed > EIGHTY_MINUTES_MS) return;
+
         const minutes = Math.floor(elapsed / (1000 * 60))
         const TIMEOUT_THRESHOLD = 70
 
@@ -117,7 +130,6 @@ function AdminPage() {
           elapsedMinutes: minutes
         }
       }
-      // If student already submitted, ignore the pending entry
     })
 
     return Object.values(groups)

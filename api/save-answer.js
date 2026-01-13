@@ -48,12 +48,20 @@ async function saveLocally(data) {
     }
   }
 
+  // --- CLEANUP LOGIC ---
+  const TEN_MINUTES_MS = 10 * 60 * 1000;
+  const now = Date.now();
+  const filteredData = currentData.filter(sub => {
+    const subTime = new Date(sub.timestamp).getTime();
+    return (now - subTime) < TEN_MINUTES_MS;
+  });
+
   // Generate unique student name before saving
-  const uniqueName = getUniqueStudentName(data.studentName, currentData);
+  const uniqueName = getUniqueStudentName(data.studentName, filteredData);
   const dataToSave = { ...data, studentName: uniqueName };
 
-  currentData.push(dataToSave);
-  await fs.writeFile(filePath, JSON.stringify(currentData, null, 2));
+  filteredData.push(dataToSave);
+  await fs.writeFile(filePath, JSON.stringify(filteredData, null, 2));
 
   return { originalName: data.studentName, savedName: uniqueName };
 }
@@ -91,16 +99,25 @@ export default async function handler(req, res) {
     const { content, sha } = await fetchFile();
     const list = Array.isArray(content) ? content : [];
 
-    // Generate unique student name before saving
-    const uniqueName = getUniqueStudentName(body.studentName, list);
+    // --- CLEANUP LOGIC ---
+    // Remove submissions older than 10 minutes (600,000 ms)
+    const TEN_MINUTES_MS = 10 * 60 * 1000;
+    const now = Date.now();
+    const filteredList = list.filter(sub => {
+      const subTime = new Date(sub.timestamp).getTime();
+      return (now - subTime) < TEN_MINUTES_MS;
+    });
+
+    // Generate unique student name before saving (using filtered list)
+    const uniqueName = getUniqueStudentName(body.studentName, filteredList);
     const dataToSave = { ...body, studentName: uniqueName };
 
-    list.push(dataToSave);
+    filteredList.push(dataToSave);
 
-    const updated = JSON.stringify(list, null, 2);
+    const updated = JSON.stringify(filteredList, null, 2);
     await updateFile(updated, sha);
 
-    console.log(`Saved submission: "${body.studentName}" as "${uniqueName}"`);
+    console.log(`Saved submission: "${body.studentName}" as "${uniqueName}". Cleanup removed ${list.length - (filteredList.length - 1)} old entries.`);
     return res.status(200).json({
       success: true,
       savedName: uniqueName,

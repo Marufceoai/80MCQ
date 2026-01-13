@@ -27,9 +27,9 @@ async function removeLocally(studentName) {
         item => item.studentName !== studentName
     );
 
-    // Also cleanup expired pending students (>70 minutes)
+    // Also cleanup expired pending students (>80 minutes: 70 min timeout + 10 min grace)
     const now = Date.now();
-    const TIMEOUT_THRESHOLD = 70 * 60 * 1000; // 70 minutes in milliseconds
+    const TIMEOUT_THRESHOLD = 80 * 60 * 1000; // 80 minutes in milliseconds
 
     filteredData = filteredData.filter(item => {
         const timestamp = new Date(item.timestamp).getTime();
@@ -73,9 +73,9 @@ export default async function handler(req, res) {
             item => item.studentName !== body.studentName
         );
 
-        // Also cleanup expired pending students (>70 minutes)
+        // Also cleanup expired pending students (>80 minutes)
         const now = Date.now();
-        const TIMEOUT_THRESHOLD = 70 * 60 * 1000; // 70 minutes in milliseconds
+        const TIMEOUT_THRESHOLD = 80 * 60 * 1000; // 80 minutes in milliseconds
 
         filteredList = filteredList.filter(item => {
             const timestamp = new Date(item.timestamp).getTime();

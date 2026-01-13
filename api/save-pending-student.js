@@ -20,17 +20,28 @@ async function saveLocally(data) {
     }
   }
 
-  // Check for duplicates - prevent same student from being added multiple times
-  const existingIndex = currentData.findIndex(
+  // --- CLEANUP LOGIC ---
+  // Remove pending students older than 80 minutes (60 + 10 grace + 10 buffer)
+  const EIGHTY_MINUTES_MS = 80 * 60 * 1000;
+  const now = Date.now();
+  const filteredData = currentData.filter(item => {
+    const itemTime = new Date(item.timestamp).getTime();
+    return (now - itemTime) < EIGHTY_MINUTES_MS;
+  });
+
+  // Check for duplicates in the filtered data
+  const existingIndex = filteredData.findIndex(
     item => item.studentName === data.studentName
   );
 
   if (existingIndex === -1) {
-    // Student not found, add new entry
-    currentData.push(data);
-    await fs.writeFile(filePath, JSON.stringify(currentData, null, 2));
+    filteredData.push(data);
+  } else {
+    // Update timestamp for existing student (heartbeat)
+    filteredData[existingIndex].timestamp = data.timestamp;
   }
-  // If student already exists, don't add duplicate
+
+  await fs.writeFile(filePath, JSON.stringify(filteredData, null, 2));
 }
 
 export default async function handler(req, res) {
@@ -67,18 +78,29 @@ export default async function handler(req, res) {
     const { content, sha } = await fetchFile();
     const list = Array.isArray(content) ? content : [];
 
+    // --- CLEANUP LOGIC ---
+    // Remove pending students older than 80 minutes
+    const EIGHTY_MINUTES_MS = 80 * 60 * 1000;
+    const now = Date.now();
+    const filteredList = list.filter(item => {
+      const itemTime = new Date(item.timestamp).getTime();
+      return (now - itemTime) < EIGHTY_MINUTES_MS;
+    });
+
     // Check for duplicates
-    const existingIndex = list.findIndex(
+    const existingIndex = filteredList.findIndex(
       item => item.studentName === pendingStudent.studentName
     );
 
     if (existingIndex === -1) {
-      // Student not found, add new entry
-      list.push(pendingStudent);
-      const updated = JSON.stringify(list, null, 2);
-      await updateFile(updated, sha);
+      filteredList.push(pendingStudent);
+    } else {
+      // Update timestamp for heartbeat
+      filteredList[existingIndex].timestamp = pendingStudent.timestamp;
     }
-    // If student already exists, don't add duplicate
+
+    const updated = JSON.stringify(filteredList, null, 2);
+    await updateFile(updated, sha);
 
     return res.status(200).json({ success: true });
   } catch (err) {
