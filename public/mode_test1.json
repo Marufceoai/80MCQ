@@ -1,0 +1,1504 @@
+[
+    {
+        "id": 1,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "দুটি ভেক্টরের স্কেলার গুণফল ১৮ এবং ভেক্টর গুণফলের মান ৬√৩ হলে, ভেক্টরদ্বয়ের মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৩০°",
+            "b": "৬০°",
+            "c": "৯০°",
+            "d": "৪৫°"
+        },
+        "correctAnswer": "a",
+        "explanation": "tanθ = (ভেক্টর গুণফলের মান / স্কেলার গুণফল) = 6√3 / 18 = 1/√3. তাই θ = 30°।"
+    },
+    {
+        "id": 2,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "নিচের কোনটি স্কেলার রাশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তড়িৎ তীব্রতা",
+            "b": "তড়িৎ বিভব",
+            "c": "ভরবেগ",
+            "d": "টর্ক"
+        },
+        "correctAnswer": "b",
+        "explanation": "তড়িৎ বিভব হলো কাজ বা শক্তির সাথে সম্পর্কিত, যার কোনো দিক নেই। তাই এটি স্কেলার রাশি।"
+    },
+    {
+        "id": 3,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "কেন্দ্রমুখী বল দ্বারা কৃতকাজ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ধনাত্মক",
+            "b": "ঋণাত্মক",
+            "c": "শূন্য",
+            "d": "অসীম"
+        },
+        "correctAnswer": "c",
+        "explanation": "কেন্দ্রমুখী বল ও সরণের মধ্যবর্তী কোণ ৯০°। W = Fs cos90° = 0।"
+    },
+    {
+        "id": 4,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "রাস্তায় ব্যাংকিং করার কারণ কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ঘর্ষণ কমানো",
+            "b": "কেন্দ্রবিমুখী বল সৃষ্টি",
+            "c": "প্রয়োজনীয় কেন্দ্রমুখী বল যোগান দেয়া",
+            "d": "গাড়ির গতি কমানো"
+        },
+        "correctAnswer": "c",
+        "explanation": "বাঁক নেয়ার সময় যাতে গাড়ি ছিটকে না যায়, সেজন্য প্রয়োজনীয় কেন্দ্রমুখী বল সৃষ্টির লক্ষ্যে রাস্তার ব্যাংকিং করা হয়।"
+    },
+    {
+        "id": 5,
+        "subject": "Physics",
+        "topic": "Work, Power & Energy",
+        "question": "১ অশ্বক্ষমতা (H.P) সমান কত ওয়াট?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৭৪৬",
+            "b": "৫৫০",
+            "c": "১০০০",
+            "d": "৯৮০"
+        },
+        "correctAnswer": "a",
+        "explanation": "1 Horse Power (HP) = 746 Watt."
+    },
+    {
+        "id": 6,
+        "subject": "Physics",
+        "topic": "Work, Power & Energy",
+        "question": "মুক্তভাবে পড়ন্ত বস্তুর ক্ষেত্রে যান্ত্রিক শক্তির নিত্যতা নীতি কেমন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "পরিবর্তিত হয়",
+            "b": "ধ্রুব থাকে",
+            "c": "শূন্য হয়",
+            "d": "কমতে থাকে"
+        },
+        "correctAnswer": "b",
+        "explanation": "যান্ত্রিক শক্তির নিত্যতা নীতি অনুযায়ী, ঘর্ষণ বা অন্য কোনো অপচয়কারী বল না থাকলে মোট শক্তি সর্বদা ধ্রুব থাকে।"
+    },
+    {
+        "id": 7,
+        "subject": "Physics",
+        "topic": "Structural Properties of Matter",
+        "question": "পীড়ন ও বিকৃতির অনুপাতকে কী বলে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "পয়সনের অনুপাত",
+            "b": "সান্দ্রতা",
+            "c": "স্থিতিস্থাপক গুণাঙ্ক",
+            "d": "পৃষ্ঠটান"
+        },
+        "correctAnswer": "c",
+        "explanation": "হুকের সূত্রানুযায়ী, স্থিতিস্থাপক সীমার মধ্যে পীড়ন ও বিকৃতির অনুপাত একটি ধ্রুব সংখ্যা, যাকে স্থিতিস্থাপক গুণাঙ্ক বলে।"
+    },
+    {
+        "id": 8,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "সেকেন্ড দোলকের কার্যকরী দৈর্ঘ্য কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "০.৯৯৩ মিটার",
+            "b": "১ মিটার",
+            "c": "০.৫ মিটার",
+            "d": "২ মিটার"
+        },
+        "correctAnswer": "a",
+        "explanation": "T = 2 sec, g = 9.8 m/s² ধরলে, L = (gT²)/(4π²) ≈ 0.993 m।"
+    },
+    {
+        "id": 9,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কোন প্রক্রিয়ায় সিস্টেমের এন্ট্রপি স্থির থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সমোষ্ণ প্রক্রিয়া",
+            "b": "রুদ্ধতাপীয় প্রক্রিয়া",
+            "c": "সমচাপ প্রক্রিয়া",
+            "d": "সমআয়তন প্রক্রিয়া"
+        },
+        "correctAnswer": "b",
+        "explanation": "রুদ্ধতাপীয় প্রক্রিয়ায় তাপের আদান-প্রদান হয় না (dQ = 0), তাই এন্ট্রপির পরিবর্তন dS = dQ/T = 0 হয়।"
+    },
+    {
+        "id": 10,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কার্নো ইঞ্জিনের দক্ষতা কিসের ওপর নির্ভর করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কার্যকরী পদার্থ",
+            "b": "জ্বালানি",
+            "c": "তাপ উৎস ও গ্রাহকের তাপমাত্রা",
+            "d": "ইঞ্জিনের আকার"
+        },
+        "correctAnswer": "c",
+        "explanation": "দক্ষতা η = 1 - (T2/T1)। এখানে T1 ও T2 হলো যথাক্রমে উৎস ও গ্রাহকের তাপমাত্রা।"
+    },
+    {
+        "id": 11,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "রোধের এস.আই (SI) একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কুলম্ব",
+            "b": "ওয়াট",
+            "c": "ওহম",
+            "d": "ভোল্ট"
+        },
+        "correctAnswer": "c",
+        "explanation": "রোধের একক ওহম (Ω)।"
+    },
+    {
+        "id": 12,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "গ্যালভানোমিটারকে ভোল্টমিটারে রূপান্তর করতে হলে কী করতে হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সমান্তরালে নিম্ন রোধ যুক্ত করতে হয়",
+            "b": "শ্রেণিতে উচ্চ রোধ যুক্ত করতে হয়",
+            "c": "শ্রেণিতে নিম্ন রোধ যুক্ত করতে হয়",
+            "d": "সমান্তরালে উচ্চ রোধ যুক্ত করতে হয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "ভোল্টমিটারের রোধ অসীম হওয়া বাঞ্ছনীয়, তাই গ্যালভানোমিটারের সাথে শ্রেণিতে উচ্চ মানের রোধ যুক্ত করা হয়।"
+    },
+    {
+        "id": 13,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "হুইটস্টোন ব্রিজ নীতি ব্যবহার করে কোনটি মাপা হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তড়িৎ প্রবাহ",
+            "b": "বিভব পার্থক্য",
+            "c": "অজানা রোধ",
+            "d": "তড়িৎ শক্তি"
+        },
+        "correctAnswer": "c",
+        "explanation": "হুইটস্টোন ব্রিজের সাহায্যে অজানা রোধ নির্ণয় করা হয় (P/Q = R/S)।"
+    },
+    {
+        "id": 14,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "আলোর ব্যতিচার সৃষ্টির জন্য উৎসদ্বয়কে কেমন হতে হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সুসংগত",
+            "b": "তীব্র",
+            "c": "সাদা",
+            "d": "বড়"
+        },
+        "correctAnswer": "a",
+        "explanation": "ব্যতিচারের প্রধান শর্ত হলো উৎসদ্বয়কে অবশ্যই সুসংগত (Coherent) হতে হবে।"
+    },
+    {
+        "id": 15,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "E = mc² সূত্রটির প্রবক্তা কে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নিউটন",
+            "b": "আইনস্টাইন",
+            "c": "রাদারফোর্ড",
+            "d": "ম্যাক্স প্লাঙ্ক"
+        },
+        "correctAnswer": "b",
+        "explanation": "আলবার্ট আইনস্টাইন ভর ও শক্তির তুল্যতা সূত্র E=mc² প্রদান করেন।"
+    },
+    {
+        "id": 16,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "কোনটির ভেদন ক্ষমতা সবচেয়ে বেশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "আলফা রশ্মি",
+            "b": "বিটা রশ্মি",
+            "c": "গামা রশ্মি",
+            "d": "এক্স-রে"
+        },
+        "correctAnswer": "c",
+        "explanation": "গামা রশ্মি হলো তড়িৎচৌম্বক তরঙ্গ, যার ভর ও চার্জ নেই, তাই এর ভেদন ক্ষমতা সর্বাধিক।"
+    },
+    {
+        "id": 17,
+        "subject": "Physics",
+        "topic": "Semiconductor & Electronics",
+        "question": "p-টাইপ অর্ধপরিবাহীতে গরিষ্ঠ আধান বাহক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইলেকট্রন",
+            "b": "হোল",
+            "c": "নিউট্রন",
+            "d": "প্রোটন"
+        },
+        "correctAnswer": "b",
+        "explanation": "p-টাইপ (Positive type) অর্ধপরিবাহীতে হোল (Hole) গরিষ্ঠ এবং ইলেকট্রন লঘিষ্ঠ বাহক।"
+    },
+    {
+        "id": 18,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "বলের ঘাত এর একক কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "N m",
+            "b": "N s",
+            "c": "kg m/s²",
+            "d": "J s"
+        },
+        "correctAnswer": "b",
+        "explanation": "বলের ঘাত (Impulse) = বল × সময় = N s।"
+    },
+    {
+        "id": 19,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "পরম শূন্য তাপমাত্রা হলো—",
+        "hasDiagram": false,
+        "options": {
+            "a": "0°C",
+            "b": "-273°C",
+            "c": "273 K",
+            "d": "100°C"
+        },
+        "correctAnswer": "b",
+        "explanation": "0 Kelvin বা -273.15°C কে পরম শূন্য তাপমাত্রা বলা হয়।"
+    },
+    {
+        "id": 20,
+        "subject": "Physics",
+        "topic": "Physics",
+        "question": "শব্দের বেগ কোথায় সবচেয়ে বেশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শূন্যে",
+            "b": "বায়ুতে",
+            "c": "পানিতে",
+            "d": "লোহায়"
+        },
+        "correctAnswer": "d",
+        "explanation": "কঠিন মাধ্যমে শব্দের বেগ সবচেয়ে বেশি। এখানে লোহা কঠিন পদার্থ।"
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "topic": "Physics",
+        "question": "কোন রঙের আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে কম?",
+        "hasDiagram": false,
+        "options": {
+            "a": "লাল",
+            "b": "সবুজ",
+            "c": "বেগুনি",
+            "d": "হলুদ"
+        },
+        "correctAnswer": "c",
+        "explanation": "দৃশ্যমান আলোর মধ্যে বেগুনি আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে কম এবং লাল আলোর সবচেয়ে বেশি।"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "ফোটনের স্থির ভর কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অসীম",
+            "b": "শূন্য",
+            "c": "১.৬ x ১০^-১৯ কেজি",
+            "d": "৯.১ x ১০^-৩১ কেজি"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফোটন আলোর বেগে চলে, তাই এর স্থির ভর (Rest Mass) শূন্য ধরা হয়।"
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "জড়তার ভ্রামকের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "kg m",
+            "b": "kg m²",
+            "c": "kg/m²",
+            "d": "N m"
+        },
+        "correctAnswer": "b",
+        "explanation": "জড়তার ভ্রামক I = mr², তাই একক kg m²।"
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "রুদ্ধতাপীয় প্রসারণে গ্যাসের তাপমাত্রা—",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাড়ে",
+            "b": "কমে",
+            "c": "স্থির থাকে",
+            "d": "শূন্য হয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "রুদ্ধতাপীয় প্রসারণে সিস্টেম কাজ করে নিজের অন্তঃস্থ শক্তি ব্যয় করে, তাই তাপমাত্রা কমে যায়।"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "নদীতে স্রোত থাকলে সর্বনিম্ন সময়ে নদী পার হতে হলে নৌকাকে স্রোতের সাথে কত কোণে চালাতে হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "০°",
+            "b": "৯০°",
+            "c": "১৮০°",
+            "d": "৪৫°"
+        },
+        "correctAnswer": "b",
+        "explanation": "সর্বনিম্ন সময়ে পার হওয়ার শর্ত হলো t = d / (v sinα)। sinα সর্বোচ্চ (1) হলে সময় সর্বনিম্ন হয়। তাই α = 90°।"
+    },
+    {
+        "id": 26,
+        "subject": "Chemistry",
+        "topic": "Qualitative Chemistry",
+        "question": "কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "HCl",
+            "b": "H2SO4",
+            "c": "Na2CO3",
+            "d": "KMnO4"
+        },
+        "correctAnswer": "c",
+        "explanation": "Na2CO3 (সোডিয়াম কার্বনেট) বাতাসের উপাদানের সাথে সহজে বিক্রিয়া করে না এবং এর ঘনমাত্রা দীর্ঘকাল অপরিবর্তিত থাকে।"
+    },
+    {
+        "id": 27,
+        "subject": "Chemistry",
+        "topic": "Qualitative Chemistry",
+        "question": "সহকারী কোয়ান্টাম সংখ্যা (l) দ্বারা কী নির্দেশ করা হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "প্রধান শক্তিস্তর",
+            "b": "অরবিটালের আকৃতি",
+            "c": "অরবিটালের দিকবিন্যাস",
+            "d": "ইলেকট্রনের ঘূর্ণন"
+        },
+        "correctAnswer": "b",
+        "explanation": "l দ্বারা উপশক্তিস্তর বা অরবিটালের আকৃতি (Shape) নির্দেশিত হয় (s, p, d, f)।"
+    },
+    {
+        "id": 28,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "কোন মৌলটির ইলেকট্রন আসক্তি সবচেয়ে বেশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "F",
+            "b": "Cl",
+            "c": "Br",
+            "d": "I"
+        },
+        "correctAnswer": "b",
+        "explanation": "আকার ছোট হওয়ার কারণে ফ্লোরিনের (F) ইলেকট্রন ঘনত্ব বেশি, তাই বিকর্ষণ হয়। ফলে ক্লোরিনের (Cl) ইলেকট্রন আসক্তি সবচেয়ে বেশি।"
+    },
+    {
+        "id": 29,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "নিচের কোনটি অবস্থান্তর মৌল নয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Fe",
+            "b": "Zn",
+            "c": "Cu",
+            "d": "Ni"
+        },
+        "correctAnswer": "b",
+        "explanation": "Zn এর d-অরবিটাল পূর্ণ (d10) থাকে এবং সুস্থিত আয়নেও d10 বিন্যাস থাকে, তাই এটি অবস্থান্তর মৌল নয়।"
+    },
+    {
+        "id": 30,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "question": "মিথেন (CH4) অণুর আকৃতি কেমন?",
+        "hasDiagram": [
+            ""
+        ],
+        "options": {
+            "a": "সরলরৈখিক",
+            "b": "সমতলীয় ত্রিভুজাকার",
+            "c": "চতুস্তলকীয়",
+            "d": "পিরামিডীয়"
+        },
+        "correctAnswer": "c",
+        "explanation": "CH4 এ sp3 সংকরণ ঘটে, তাই এর আকৃতি সুষম চতুস্তলকীয়।"
+    },
+    {
+        "id": 31,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "question": "পানির অণুতে H-O-H বন্ধন কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১০৯.৫°",
+            "b": "১০৭°",
+            "c": "১০৪.৫°",
+            "d": "১২০°"
+        },
+        "correctAnswer": "c",
+        "explanation": "জলে (H2O) মুক্তজোড় ইলেকট্রনের বিকর্ষণের কারণে বন্ধন কোণ ১০৯.৫° থেকে কমে ১০৪.৫° হয়।"
+    },
+    {
+        "id": 32,
+        "subject": "Chemistry",
+        "topic": "Chemical Change",
+        "question": "রক্তের pH কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৬.৫",
+            "b": "৭.০",
+            "c": "৭.৩৫ - ৭.৪৫",
+            "d": "৮.৫"
+        },
+        "correctAnswer": "c",
+        "explanation": "মানুষের রক্তের স্বাভাবিক pH মান ৭.৩৫ থেকে ৭.৪৫ (সামান্য ক্ষারীয়)।"
+    },
+    {
+        "id": 33,
+        "subject": "Chemistry",
+        "topic": "Chemical Change",
+        "question": "নিচের কোনটি বাফার দ্রবণ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "HCl + NaCl",
+            "b": "CH3COOH + CH3COONa",
+            "c": "NaOH + HCl",
+            "d": "H2SO4 + Na2SO4"
+        },
+        "correctAnswer": "b",
+        "explanation": "দুর্বল এসিড ও তার লবণের মিশ্রণ অম্লীয় বাফার তৈরি করে।"
+    },
+    {
+        "id": 34,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "কাঁদানে গ্যাস (Tear Gas) এর রাসায়নিক নাম কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ক্লোরোপিক্রিন",
+            "b": "ফসজিন",
+            "c": "মাস্টার্ড গ্যাস",
+            "d": "মিথাইল আইসোসায়ানেট"
+        },
+        "correctAnswer": "a",
+        "explanation": "নাইট্রোক্লোরোফর্ম বা ক্লোরোপিক্রিন (CCl3NO2) কে কাঁদানে গ্যাস বলা হয়।"
+    },
+    {
+        "id": 35,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "ফরমালিন হলো ফরমালডিহাইডের কত শতাংশ জলীয় দ্রবণ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৩০-৪০%",
+            "b": "১০-২০%",
+            "c": "৫০-৬০%",
+            "d": "১০০%"
+        },
+        "correctAnswer": "a",
+        "explanation": "সাধারণত ৩৭-৪০% ফরমালডিহাইডের জলীয় দ্রবণকে ফরমালিন বলা হয়।"
+    },
+    {
+        "id": 36,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "বেনজিন বলয়ে সক্রিয়কারী মূলক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "-NO2",
+            "b": "-CHO",
+            "c": "-OH",
+            "d": "-COOH"
+        },
+        "correctAnswer": "c",
+        "explanation": "-OH মূলক বেনজিন বলয়ে ইলেকট্রন ঘনত্ব বৃদ্ধি করে, তাই এটি অর্থো-প্যারা নির্দেশক বা সক্রিয়কারী মূলক।"
+    },
+    {
+        "id": 37,
+        "subject": "Chemistry",
+        "topic": "Environmental Chemistry",
+        "question": "কোন গ্যাসটি গ্রিনহাউজ প্রভাবের জন্য সবচেয়ে বেশি দায়ী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "CO2",
+            "b": "CH4",
+            "c": "N2O",
+            "d": "CFC"
+        },
+        "correctAnswer": "a",
+        "explanation": "পরিমাণ ও প্রভাব বিবেচনায় কার্বন ডাই-অক্সাইড (CO2) গ্রিনহাউজ এফেক্টের জন্য প্রধানত দায়ী।"
+    },
+    {
+        "id": 38,
+        "subject": "Chemistry",
+        "topic": "Quantitative Chemistry",
+        "question": "STP-তে ১ মোল গ্যাসের আয়তন কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২২.৪ L",
+            "b": "২৪.৮ L",
+            "c": "২২.৮ L",
+            "d": "২০.৪ L"
+        },
+        "correctAnswer": "a",
+        "explanation": "Standard Temperature and Pressure (STP) তে ১ মোল আদর্শ গ্যাসের আয়তন ২২.৪ লিটার।"
+    },
+    {
+        "id": 39,
+        "subject": "Chemistry",
+        "topic": "Quantitative Chemistry",
+        "question": "সেমি-মোলার দ্রবণের ঘনমাত্রা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1 M",
+            "b": "0.5 M",
+            "c": "0.1 M",
+            "d": "0.01 M"
+        },
+        "correctAnswer": "b",
+        "explanation": "মোলার = 1 M, সেমি-মোলার = 0.5 M, ডেসি-মোলার = 0.1 M।"
+    },
+    {
+        "id": 40,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "question": "তড়িৎ রাসায়নিক তুল্যাঙ্ক 'Z' এর একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "g/C",
+            "b": "C/g",
+            "c": "g/s",
+            "d": "kg/A"
+        },
+        "correctAnswer": "a",
+        "explanation": "W = ZQ, বা Z = W/Q. তাই একক গ্রাম/কুলম্ব (g/C)।"
+    },
+    {
+        "id": 41,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "অ্যালকিনের সাধারণ সংকেত কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "CnH2n+2",
+            "b": "CnH2n",
+            "c": "CnH2n-2",
+            "d": "CnH2n+1"
+        },
+        "correctAnswer": "b",
+        "explanation": "অ্যালকেন: CnH2n+2, অ্যালকিন: CnH2n, অ্যালকাইন: CnH2n-2।"
+    },
+    {
+        "id": 42,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "পাকা কলায় কোন এস্টার থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অক্টাইল ইথানয়েট",
+            "b": "আইসো এমাইল অ্যাসিটেট",
+            "c": "পেন্টাইল বিউটারেট",
+            "d": "ইথাইল বিউটারেট"
+        },
+        "correctAnswer": "b",
+        "explanation": "পাকা কলার সুগন্ধের জন্য দায়ী আইসো এমাইল অ্যাসিটেট (বা আইসো পেন্টাইল ইথানয়েট)।"
+    },
+    {
+        "id": 43,
+        "subject": "Chemistry",
+        "topic": "Chemistry",
+        "question": "লুইস এসিড কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "NH3",
+            "b": "H2O",
+            "c": "BF3",
+            "d": "Cl-"
+        },
+        "correctAnswer": "c",
+        "explanation": "BF3 অণুতে অষ্টক অপূর্ণ থাকায় এটি ইলেকট্রন জোড় গ্রহণ করতে পারে, তাই এটি লুইস এসিড।"
+    },
+    {
+        "id": 44,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "মৃৎক্ষার ধাতু কোন গ্রুপের অন্তর্ভুক্ত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Group 1",
+            "b": "Group 2",
+            "c": "Group 17",
+            "d": "Group 18"
+        },
+        "correctAnswer": "b",
+        "explanation": "Group 2 এর মৌলগুলোকে মৃৎক্ষার ধাতু (Alkaline Earth Metals) বলা হয়।"
+    },
+    {
+        "id": 45,
+        "subject": "Chemistry",
+        "topic": "Chemistry",
+        "question": "কোনটি শক্তিশালী জারক?",
+        "hasDiagram": false,
+        "options": {
+            "a": "F2",
+            "b": "Cl2",
+            "c": "Br2",
+            "d": "I2"
+        },
+        "correctAnswer": "a",
+        "explanation": "হ্যালোজেনদের মধ্যে ফ্লোরিন (F2) সবচেয়ে শক্তিশালী জারক পদার্থ।"
+    },
+    {
+        "id": 46,
+        "subject": "Chemistry",
+        "topic": "Chemical Change",
+        "question": "Kp ও Kc এর সম্পর্ক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Kp = Kc(RT)^Δn",
+            "b": "Kc = Kp(RT)^Δn",
+            "c": "Kp = Kc / RT",
+            "d": "Kp = Kc"
+        },
+        "correctAnswer": "a",
+        "explanation": "সঠিক সম্পর্কটি হলো Kp = Kc(RT)^Δn, যেখানে Δn হলো উৎপাদ ও বিক্রিয়কের মোল সংখ্যার পার্থক্য।"
+    },
+    {
+        "id": 47,
+        "subject": "Chemistry",
+        "topic": "Chemistry",
+        "question": "ভিনেগার মূলত কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৬-১০% ইথানয়িক এসিড",
+            "b": "১০০% ইথানয়িক এসিড",
+            "c": "৫০% সাইট্রিক এসিড",
+            "d": "টারটারিক এসিড"
+        },
+        "correctAnswer": "a",
+        "explanation": "ইথানয়িক এসিডের ৬-১০% জলীয় দ্রবণকে ভিনেগার বলে।"
+    },
+    {
+        "id": 48,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "লুকাস বিকারক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "গাঢ় HCl + অনার্দ্র ZnCl2",
+            "b": "লঘু HCl + ZnCl2",
+            "c": "H2SO4 + ZnCl2",
+            "d": "HNO3 + ZnCl2"
+        },
+        "correctAnswer": "a",
+        "explanation": "গাঢ় হাইড্রোক্লোরিক এসিড ও অনার্দ্র জিংক ক্লোরাইডের মিশ্রণকে লুকাস বিকারক বলে। এটি অ্যালকোহল শনাক্তকরণে ব্যবহৃত হয়।"
+    },
+    {
+        "id": 49,
+        "subject": "Chemistry",
+        "topic": "Chemistry",
+        "question": "নিচের কোনটি ঊর্ধ্বপাতিত পদার্থ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "লবণ",
+            "b": "চিনি",
+            "c": "ন্যাপথালিন",
+            "d": "বালু"
+        },
+        "correctAnswer": "c",
+        "explanation": "ন্যাপথালিন, কর্পূর, আয়োডিন ইত্যাদি তাপ দিলে সরাসরি বাষ্পে পরিণত হয়।"
+    },
+    {
+        "id": 50,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "পর্যায় সারণির জনক কে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নিউটন",
+            "b": "মেন্ডেলিফ",
+            "c": "মোজলে",
+            "d": "বোর"
+        },
+        "correctAnswer": "b",
+        "explanation": "দিমিত্রি মেন্ডেলিফকে পর্যায় সারণির জনক বলা হয়।"
+    },
+    {
+        "id": 51,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "একটি বর্গ ম্যাট্রিক্সের নির্ণায়কের মান শূন্য হলে তাকে কী বলে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ব্যতিক্রমী ম্যাট্রিক্স",
+            "b": "অব্যতিক্রমী ম্যাট্রিক্স",
+            "c": "একক ম্যাট্রিক্স",
+            "d": "শূন্য ম্যাট্রিক্স"
+        },
+        "correctAnswer": "a",
+        "explanation": "Singular বা ব্যতিক্রমী ম্যাট্রিক্সের নির্ণায়কের মান শূন্য হয়, যার বিপরীত ম্যাট্রিক্স নেই।"
+    },
+    {
+        "id": 52,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "মূলবিন্দু ও (3, 4) বিন্দুগামী সরলরেখার ঢাল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "3/4",
+            "b": "4/3",
+            "c": "-3/4",
+            "d": "-4/3"
+        },
+        "correctAnswer": "b",
+        "explanation": "ঢাল m = (y2-y1)/(x2-x1) = (4-0)/(3-0) = 4/3।"
+    },
+    {
+        "id": 53,
+        "subject": "Math",
+        "topic": "Circle",
+        "question": "x² + y² = 25 বৃত্তের ব্যাসার্ধ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "5",
+            "b": "25",
+            "c": "10",
+            "d": "12.5"
+        },
+        "correctAnswer": "a",
+        "explanation": "বৃত্তের সমীকরণ x² + y² = r² এর সাথে তুলনা করে পাই r² = 25, বা r = 5।"
+    },
+    {
+        "id": 54,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "lim (x→0) (sin x / x) এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "∞",
+            "d": "অনির্ণেয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি একটি আদর্শ লিমিট সূত্র, যার মান ১।"
+    },
+    {
+        "id": 55,
+        "subject": "Math",
+        "topic": "Integration",
+        "question": "∫ (1/x) dx = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ln|x| + c",
+            "b": "-1/x² + c",
+            "c": "e^x + c",
+            "d": "x + c"
+        },
+        "correctAnswer": "a",
+        "explanation": "1/x এর যোগজীকরণ হলো ln|x|।"
+    },
+    {
+        "id": 56,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "y = e²ˣ হলে dy/dx কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "e²ˣ",
+            "b": "2e²ˣ",
+            "c": "eˣ",
+            "d": "2xe²ˣ"
+        },
+        "correctAnswer": "b",
+        "explanation": "d/dx(e^mx) = me^mx. এখানে m=2, তাই উত্তর 2e²ˣ।"
+    },
+    {
+        "id": 57,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "sin⁻¹x + cos⁻¹x = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "π",
+            "b": "π/2",
+            "c": "2π",
+            "d": "0"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি বিপরীত ত্রিকোণমিতিক ফাংশনের একটি সূত্র।"
+    },
+    {
+        "id": 58,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "i³ এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1",
+            "b": "-1",
+            "c": "i",
+            "d": "-i"
+        },
+        "correctAnswer": "d",
+        "explanation": "i³ = i² × i = (-1) × i = -i।"
+    },
+    {
+        "id": 59,
+        "subject": "Math",
+        "topic": "Permutation & Combination",
+        "question": "nC0 এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "n",
+            "d": "অসীম"
+        },
+        "correctAnswer": "b",
+        "explanation": "যেকোনো সংখ্যার সমাবেশ nC0 = 1।"
+    },
+    {
+        "id": 60,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "দুটি রেখা পরস্পর লম্ব হওয়ার শর্ত কী (ঢাল m1 ও m2)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "m1 = m2",
+            "b": "m1 × m2 = 1",
+            "c": "m1 × m2 = -1",
+            "d": "m1 + m2 = 0"
+        },
+        "correctAnswer": "c",
+        "explanation": "দুটি রেখা লম্ব হলে তাদের ঢালদ্বয়ের গুণফল -1 হয়।"
+    },
+    {
+        "id": 61,
+        "subject": "Math",
+        "topic": "Vector",
+        "question": "i . j এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "k",
+            "d": "-1"
+        },
+        "correctAnswer": "a",
+        "explanation": "আয়ত একক ভেক্টরগুলো পরস্পর লম্ব (৯০°), তাই তাদের ডট গুণফল শূন্য।"
+    },
+    {
+        "id": 62,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "cos(90° - θ) = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "cos θ",
+            "b": "sin θ",
+            "c": "-sin θ",
+            "d": "tan θ"
+        },
+        "correctAnswer": "b",
+        "explanation": "প্রথম চতুর্ভাগে সবাই ধনাত্মক এবং ৯০° এর বিজোড় গুণিতক হলে অনুপাত পরিবর্তিত হয়। তাই cos -> sin।"
+    },
+    {
+        "id": 63,
+        "subject": "Math",
+        "topic": "Binomial Expansion",
+        "question": "(a+b)ⁿ এর বিস্তৃতিতে পদসংখ্যা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "n",
+            "b": "n+1",
+            "c": "2n",
+            "d": "n-1"
+        },
+        "correctAnswer": "b",
+        "explanation": "দ্বিপদী বিস্তৃতিতে ঘাত যত থাকে, পদসংখ্যা তার চেয়ে ১ বেশি হয়।"
+    },
+    {
+        "id": 64,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "y = ln x হলে y₂ (দ্বিতীয় অন্তরজ) কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1/x",
+            "b": "-1/x²",
+            "c": "1/x²",
+            "d": "x"
+        },
+        "correctAnswer": "b",
+        "explanation": "y₁ = 1/x, একে আবার অন্তরীকরণ করলে y₂ = -1/x²।"
+    },
+    {
+        "id": 65,
+        "subject": "Math",
+        "topic": "Integration",
+        "question": "∫₀¹ x dx এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1",
+            "b": "0.5",
+            "c": "2",
+            "d": "0"
+        },
+        "correctAnswer": "b",
+        "explanation": "[x²/2]₀¹ = 1/2 - 0 = 0.5।"
+    },
+    {
+        "id": 66,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "3x + 4y - 12 = 0 রেখাটি x-অক্ষকে কোন বিন্দুতে ছেদ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "(0, 3)",
+            "b": "(4, 0)",
+            "c": "(3, 0)",
+            "d": "(0, 4)"
+        },
+        "correctAnswer": "b",
+        "explanation": "x-অক্ষে y=0। তাই 3x = 12 বা x = 4। বিন্দুটি (4, 0)।"
+    },
+    {
+        "id": 67,
+        "subject": "Math",
+        "topic": "Conics",
+        "question": "y² = 4ax পরাবৃত্তের শীর্ষবিন্দু কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "(a, 0)",
+            "b": "(0, 0)",
+            "c": "(-a, 0)",
+            "d": "(0, a)"
+        },
+        "correctAnswer": "b",
+        "explanation": "আদর্শ সমীকরণ y² = 4ax এর শীর্ষবিন্দু মূলবিন্দুতে (0,0) অবস্থিত।"
+    },
+    {
+        "id": 68,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "sec²θ - tan²θ = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "-1",
+            "d": "2"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি ত্রিকোণমিতির মৌলিক অভেদ।"
+    },
+    {
+        "id": 69,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "ম্যাট্রিক্স গুণন সম্ভব হবে যদি ১ম ম্যাট্রিক্সের কলাম সংখ্যা ২য় ম্যাট্রিক্সের ___ সমান হয়।",
+        "hasDiagram": false,
+        "options": {
+            "a": "সারি সংখ্যা",
+            "b": "কলাম সংখ্যা",
+            "c": "ভুক্তি সংখ্যা",
+            "d": "কর্ণ"
+        },
+        "correctAnswer": "a",
+        "explanation": "গুণনের শর্ত: ১ম ম্যাট্রিক্সের কলাম = ২য় ম্যাট্রিক্সের সারি।"
+    },
+    {
+        "id": 70,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "y = x³ বক্ররেখার x=1 বিন্দুতে ঢাল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "0"
+        },
+        "correctAnswer": "c",
+        "explanation": "dy/dx = 3x²। x=1 বসালে ঢাল = 3(1)² = 3।"
+    },
+    {
+        "id": 71,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "এককের কাল্পনিক ঘনমূল ω হলে, 1 + ω + ω² = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "ω",
+            "d": "3"
+        },
+        "correctAnswer": "a",
+        "explanation": "এককের ঘনমূল তিনটির যোগফল শূন্য।"
+    },
+    {
+        "id": 72,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "x = 5 রেখাটি কার সমান্তরাল?",
+        "hasDiagram": false,
+        "options": {
+            "a": "x-অক্ষের",
+            "b": "y-অক্ষের",
+            "c": "মূলবিন্দুগামী",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "x = a আকারের সমীকরণ y-অক্ষের সমান্তরাল সরলরেখা নির্দেশ করে।"
+    },
+    {
+        "id": 73,
+        "subject": "Math",
+        "topic": "Probability",
+        "question": "একটি ছক্কা নিক্ষেপ করলে জোড় সংখ্যা পড়ার সম্ভাবনা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1/2",
+            "b": "1/3",
+            "c": "1/6",
+            "d": "2/3"
+        },
+        "correctAnswer": "a",
+        "explanation": "জোড় সংখ্যা {2, 4, 6} তিনটি। মোট ফলাফল ৬টি। সম্ভাবনা 3/6 = 1/2।"
+    },
+    {
+        "id": 74,
+        "subject": "Math",
+        "topic": "Function",
+        "question": "f(x) = |x| ফাংশনটি x=0 বিন্দুতে—",
+        "hasDiagram": false,
+        "options": {
+            "a": "অবিচ্ছিন্ন কিন্তু অন্তরীকরণযোগ্য নয়",
+            "b": "অবিচ্ছিন্ন ও অন্তরীকরণযোগ্য",
+            "c": "বিচ্ছিন্ন",
+            "d": "অসংজ্ঞায়িত"
+        },
+        "correctAnswer": "a",
+        "explanation": "মডুলাস ফাংশন মূলবিন্দুতে অবিচ্ছিন্ন হলেও সেখানে কোণা সৃষ্টি হয়, তাই অন্তরীকরণযোগ্য নয়।"
+    },
+    {
+        "id": 75,
+        "subject": "Math",
+        "topic": "Math",
+        "question": "বৃত্তের পরিধি ও ব্যাসের অনুপাত কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "π",
+            "b": "2π",
+            "c": "π/2",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "পরিধি (2πr) / ব্যাস (2r) = π।"
+    },
+    {
+        "id": 76,
+        "subject": "English",
+        "topic": "Vocabulary",
+        "question": "The synonym of 'Competent' is—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Capable",
+            "b": "Prudent",
+            "c": "Circumspect",
+            "d": "Discrete"
+        },
+        "correctAnswer": "a",
+        "explanation": "Competent means having the necessary ability, knowledge, or skill to do something successfully. Synonym: Capable."
+    },
+    {
+        "id": 77,
+        "subject": "English",
+        "topic": "Vocabulary",
+        "question": "The antonym of 'Honorary' is—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Literary",
+            "b": "Honorable",
+            "c": "Salaried",
+            "d": "Official"
+        },
+        "correctAnswer": "c",
+        "explanation": "Honorary means conferred as an honor without the usual requirements or functions (often unpaid). Antonym: Salaried (Paid)."
+    },
+    {
+        "id": 78,
+        "subject": "English",
+        "topic": "Spelling",
+        "question": "Which one is the correct spelling?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Accessable",
+            "b": "Accessible",
+            "c": "Accesible",
+            "d": "Accissible"
+        },
+        "correctAnswer": "b",
+        "explanation": "Correct spelling is 'Accessible'."
+    },
+    {
+        "id": 79,
+        "subject": "English",
+        "topic": "Idioms & Phrases",
+        "question": "'Maiden speech' means—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Late speech",
+            "b": "First speech",
+            "c": "Final speech",
+            "d": "Middle speech"
+        },
+        "correctAnswer": "b",
+        "explanation": "Maiden speech refers to the first speech given by a newly elected member of a legislature."
+    },
+    {
+        "id": 80,
+        "subject": "English",
+        "topic": "Preposition",
+        "question": "Identify the correct sentence:",
+        "hasDiagram": false,
+        "options": {
+            "a": "He is angry with me.",
+            "b": "He is angry upon me.",
+            "c": "He is angry at me.",
+            "d": "He is angry to me."
+        },
+        "correctAnswer": "a",
+        "explanation": "Appropriate preposition: Angry 'with' a person, angry 'at' a thing/conduct."
+    },
+    {
+        "id": 81,
+        "subject": "English",
+        "topic": "Idioms & Phrases",
+        "question": "'Die in harness' means—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Die in business",
+            "b": "Die in accident",
+            "c": "Die while working",
+            "d": "Die in war"
+        },
+        "correctAnswer": "c",
+        "explanation": "To die in harness means to die while still actively working or before retirement."
+    },
+    {
+        "id": 82,
+        "subject": "English",
+        "topic": "Vocabulary",
+        "question": "The word 'Lunar' is related to—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Sun",
+            "b": "Moon",
+            "c": "Earth",
+            "d": "Mars"
+        },
+        "correctAnswer": "b",
+        "explanation": "Lunar relates to the Moon (Latin 'Luna'). Solar relates to the Sun."
+    },
+    {
+        "id": 83,
+        "subject": "English",
+        "topic": "Parts of Speech",
+        "question": "What is the verb form of 'Power'?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Empower",
+            "b": "Power",
+            "c": "Powerful",
+            "d": "Powerless"
+        },
+        "correctAnswer": "a",
+        "explanation": "Empower is the verb form meaning to give power or authority."
+    },
+    {
+        "id": 84,
+        "subject": "English",
+        "topic": "Tense & Preposition",
+        "question": "He has been suffering from fever ___ Monday last.",
+        "hasDiagram": false,
+        "options": {
+            "a": "for",
+            "b": "since",
+            "c": "from",
+            "d": "in"
+        },
+        "correctAnswer": "b",
+        "explanation": "We use 'since' with a specific point in time (Monday last) in perfect continuous tenses."
+    },
+    {
+        "id": 85,
+        "subject": "English",
+        "topic": "Preposition",
+        "question": "Water boils ___ 100°C.",
+        "hasDiagram": false,
+        "options": {
+            "a": "on",
+            "b": "at",
+            "c": "in",
+            "d": "by"
+        },
+        "correctAnswer": "b",
+        "explanation": "We use 'at' to indicate specific points on a scale (like temperature)."
+    },
+    {
+        "id": 86,
+        "subject": "English",
+        "topic": "Voice Change",
+        "question": "Choose the correct passive form of 'Who is calling me?'",
+        "hasDiagram": false,
+        "options": {
+            "a": "By whom am I called?",
+            "b": "By whom I am called?",
+            "c": "By whom am I being called?",
+            "d": "Whom is calling me?"
+        },
+        "correctAnswer": "c",
+        "explanation": "Present Continuous Tense Passive: By whom + am/is/are + subject + being + V3?"
+    },
+    {
+        "id": 87,
+        "subject": "English",
+        "topic": "Abbreviation",
+        "question": "'N.B' stands for—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Note Book",
+            "b": "Nota Bene",
+            "c": "No Bar",
+            "d": "Next Brand"
+        },
+        "correctAnswer": "b",
+        "explanation": "N.B. stands for the Latin phrase 'Nota Bene', meaning 'note well' or 'take notice'."
+    },
+    {
+        "id": 88,
+        "subject": "English",
+        "topic": "Number",
+        "question": "The plural form of 'Ox' is—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Oxes",
+            "b": "Oxen",
+            "c": "Oxs",
+            "d": "None"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ox is an irregular noun; its plural is Oxen."
+    },
+    {
+        "id": 89,
+        "subject": "English",
+        "topic": "Gerund & Participle",
+        "question": "'A rolling stone gathers no moss' - what represents 'rolling'?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Gerund",
+            "b": "Participle",
+            "c": "Adjective",
+            "d": "Verb"
+        },
+        "correctAnswer": "b",
+        "explanation": "Here 'rolling' modifies the noun 'stone' and acts as an adjective, so it is a Present Participle."
+    },
+    {
+        "id": 90,
+        "subject": "English",
+        "topic": "Translation",
+        "question": "Translate into English: 'সততাই সর্বোৎকৃষ্ট পন্থা।'",
+        "hasDiagram": false,
+        "options": {
+            "a": "Honesty is the best policy.",
+            "b": "Honesty is best policy.",
+            "c": "The honesty is the best policy.",
+            "d": "Honesty is a best policy."
+        },
+        "correctAnswer": "a",
+        "explanation": "Correct proverb: Honesty is the best policy."
+    },
+    {
+        "id": 91,
+        "subject": "English",
+        "topic": "Noun",
+        "question": "Which one is a compound noun?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Hair-brush",
+            "b": "Boy",
+            "c": "Student",
+            "d": "Class"
+        },
+        "correctAnswer": "a",
+        "explanation": "Hair-brush is formed by joining two words, making it a compound noun."
+    },
+    {
+        "id": 92,
+        "subject": "English",
+        "topic": "Tense",
+        "question": "The train ___ before we reached the station.",
+        "hasDiagram": false,
+        "options": {
+            "a": "left",
+            "b": "had left",
+            "c": "has left",
+            "d": "will leave"
+        },
+        "correctAnswer": "b",
+        "explanation": "Past Perfect Tense: The action completed earlier (train leaving) takes 'had + V3'."
+    },
+    {
+        "id": 93,
+        "subject": "English",
+        "topic": "Preposition",
+        "question": "He is good ___ English.",
+        "hasDiagram": false,
+        "options": {
+            "a": "in",
+            "b": "at",
+            "c": "on",
+            "d": "for"
+        },
+        "correctAnswer": "b",
+        "explanation": "Phrase: 'Good at' means skilled or competent in a subject."
+    },
+    {
+        "id": 94,
+        "subject": "English",
+        "topic": "Phrasal Verb",
+        "question": "'Look after' means—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Search",
+            "b": "Take care of",
+            "c": "Ignore",
+            "d": "Follow"
+        },
+        "correctAnswer": "b",
+        "explanation": "Look after means to take care of someone or something."
+    },
+    {
+        "id": 95,
+        "subject": "English",
+        "topic": "Noun",
+        "question": "What kind of noun is 'Dhaka'?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Common",
+            "b": "Proper",
+            "c": "Collective",
+            "d": "Material"
+        },
+        "correctAnswer": "b",
+        "explanation": "Dhaka is the specific name of a place, so it is a Proper Noun."
+    },
+    {
+        "id": 96,
+        "subject": "English",
+        "topic": "Preposition",
+        "question": "Choose the correct preposition: He died ___ cholera.",
+        "hasDiagram": false,
+        "options": {
+            "a": "by",
+            "b": "from",
+            "c": "of",
+            "d": "for"
+        },
+        "correctAnswer": "c",
+        "explanation": "Died 'of' a disease."
+    },
+    {
+        "id": 97,
+        "subject": "English",
+        "topic": "Right Form of Verbs",
+        "question": "The man is too weak ___ walk.",
+        "hasDiagram": false,
+        "options": {
+            "a": "to",
+            "b": "for",
+            "c": "in",
+            "d": "by"
+        },
+        "correctAnswer": "a",
+        "explanation": "Structure: Too ... to (এতই যে ... না)."
+    },
+    {
+        "id": 98,
+        "subject": "English",
+        "topic": "Gender",
+        "question": "Which one is the masculine gender?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Ewe",
+            "b": "Drone",
+            "c": "Mare",
+            "d": "Sow"
+        },
+        "correctAnswer": "b",
+        "explanation": "Drone is the male bee. Ewe, Mare, Sow are females."
+    },
+    {
+        "id": 99,
+        "subject": "English",
+        "topic": "Number",
+        "question": "Which one is a singular number?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Data",
+            "b": "Agenda",
+            "c": "Radius",
+            "d": "Media"
+        },
+        "correctAnswer": "c",
+        "explanation": "Radius is singular; its plural is Radii. Data, Agenda, Media are plural forms."
+    },
+    {
+        "id": 100,
+        "subject": "English",
+        "topic": "Vocabulary",
+        "question": "Synonym of 'Abolish' is—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Create",
+            "b": "Cancel",
+            "c": "Perform",
+            "d": "Generate"
+        },
+        "correctAnswer": "b",
+        "explanation": "Abolish means to formally put an end to something. Synonym: Cancel or Annul."
+    }
+]
