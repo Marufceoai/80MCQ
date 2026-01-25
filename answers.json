@@ -302,19 +302,5 @@
     "wrong": 26,
     "pass": true,
     "questionFile": "mode_test1.json"
-  },
-  {
-    "studentName": "fdasfasd",
-    "answers": {
-      "100": "d"
-    },
-    "score": 0,
-    "totalMarks": 100,
-    "timestamp": "2026-01-25T09:08:40.578Z",
-    "attempted": 1,
-    "correct": 0,
-    "wrong": 1,
-    "pass": false,
-    "questionFile": "model_test1.json"
   }
 ]
