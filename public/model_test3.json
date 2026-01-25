@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 1,
+        "subject": "Physics",
+        "topic": "Work, Power & Energy",
+        "question": "কোনো বস্তুর ভরবেগ দ্বিগুণ করা হলে তার গতিশক্তি কত গুণ হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দ্বিগুণ",
+            "b": "চারগুণ",
+            "c": "অর্ধেক",
+            "d": "আটগুণ"
+        },
+        "correctAnswer": "b",
+        "explanation": "গতিশক্তি Ek = p²/2m। ভরবেগ (p) দ্বিগুণ করলে p² বা (2)² = 4 গুণ হবে।"
+    },
+    {
+        "id": 2,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "দুটি সমান মানের ভেক্টরের লব্ধির মান তাদের যেকোনো একটির মানের সমান হলে, ভেক্টরদ্বয়ের মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৯০°",
+            "b": "৬০°",
+            "c": "১২০°",
+            "d": "১৮০°"
+        },
+        "correctAnswer": "c",
+        "explanation": "R = P হলে, P² = P² + P² + 2P²cosθ সূত্র থেকে cosθ = -1/2, তাই θ = 120°।"
+    },
+    {
+        "id": 3,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কোন তাপমাত্রায় সেলসিয়াস ও ফারেনহাইট স্কেলের পাঠ সমান হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৪০°",
+            "b": "-৪০°",
+            "c": "১৬০°",
+            "d": "-১৬০°"
+        },
+        "correctAnswer": "b",
+        "explanation": "C/5 = (F-32)/9 সমীকরণে C=F=x বসালে x = -40 পাওয়া যায়।"
+    },
+    {
+        "id": 4,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "100W ও 220V চিহ্নিত একটি বৈদ্যুতিক বাতির রোধ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "484 Ω",
+            "b": "220 Ω",
+            "c": "440 Ω",
+            "d": "100 Ω"
+        },
+        "correctAnswer": "a",
+        "explanation": "R = V²/P = (220 × 220) / 100 = 484 Ω।"
+    },
+    {
+        "id": 5,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "1 amu ভরের সমতুল্য শক্তি কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "931.5 J",
+            "b": "931.5 MeV",
+            "c": "931.5 eV",
+            "d": "1.6 × 10^-19 J"
+        },
+        "correctAnswer": "b",
+        "explanation": "1 amu ভর শক্তিতে রূপান্তরিত হলে প্রায় 931.5 MeV শক্তি উৎপন্ন হয়।"
+    },
+    {
+        "id": 6,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "বাইনারি সংখ্যা (1011)₂ এর দশমিক মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১০",
+            "b": "১১",
+            "c": "১৩",
+            "d": "১৫"
+        },
+        "correctAnswer": "b",
+        "explanation": "1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11।"
+    },
+    {
+        "id": 7,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "রকেটের গতি কোন সূত্রের ওপর ভিত্তি করে কাজ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শক্তির নিত্যতা",
+            "b": "ভরবেগের নিত্যতা",
+            "c": "ভরের নিত্যতা",
+            "d": "নিউটনের ১ম সূত্র"
+        },
+        "correctAnswer": "b",
+        "explanation": "রকেটের উড্ডয়ন ভরবেগের সংরক্ষণশীলতা নীতির ওপর প্রতিষ্ঠিত।"
+    },
+    {
+        "id": 8,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "সরল দোলকের কার্যকর দৈর্ঘ্য ৪ গুণ করলে দোলনকাল কত গুণ হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২ গুণ",
+            "b": "৪ গুণ",
+            "c": "অর্ধেক",
+            "d": "৮ গুণ"
+        },
+        "correctAnswer": "a",
+        "explanation": "T ∝ √L। তাই L চারগুণ (4L) করলে T দ্বিগুণ (√4 = 2) হবে।"
+    },
+    {
+        "id": 9,
+        "subject": "Physics",
+        "topic": "Gravitation",
+        "question": "মুক্তিবেগের মান বস্তুর ভরের ওপর—",
+        "hasDiagram": false,
+        "options": {
+            "a": "সমানুপাতিক",
+            "b": "ব্যস্তানুপাতিক",
+            "c": "নির্ভর করে না",
+            "d": "বর্গের সমানুপাতিক"
+        },
+        "correctAnswer": "c",
+        "explanation": "মুক্তিবেগ Ve = √(2gR)। এখানে বস্তুর ভর (m) অনুপস্থিত, তাই বস্তুর ভরের ওপর নির্ভর করে না।"
+    },
+    {
+        "id": 10,
+        "subject": "Physics",
+        "topic": "Properties of Matter",
+        "question": "ইয়ং এর গুণাঙ্কের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Nm",
+            "b": "Nm⁻¹",
+            "c": "Nm⁻²",
+            "d": "Ns"
+        },
+        "correctAnswer": "c",
+        "explanation": "ইয়ং গুণাঙ্ক Y = পীড়ন/বিকৃতি। বিকৃতির একক নেই, তাই পীড়নের এককই (N/m² বা Pa) ইয়ং গুণাঙ্কের একক।"
+    },
+    {
+        "id": 11,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "গামা (γ) এর মান একপারমাণবিক গ্যাসের জন্য কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1.40",
+            "b": "1.33",
+            "c": "1.67",
+            "d": "1.20"
+        },
+        "correctAnswer": "c",
+        "explanation": "একপারমাণবিক (Monatomic) গ্যাসের জন্য γ = 1.67, দ্বিপারমাণবিক 1.40, বহুপারমাণবিক 1.33।"
+    },
+    {
+        "id": 12,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "বৃষ্টি উলম্বভাবে 6 km/h বেগে পড়ছে। 8 km/h বেগে দৌড়ালে বৃষ্টি হতে রক্ষা পেতে ছাতা কত কোণে ধরতে হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "tan⁻¹(3/4)",
+            "b": "tan⁻¹(4/3)",
+            "c": "tan⁻¹(1/2)",
+            "d": "tan⁻¹(1)"
+        },
+        "correctAnswer": "b",
+        "explanation": "tanθ = মানুষের বেগ / বৃষ্টির বেগ = 8/6 = 4/3। θ = tan⁻¹(4/3) উলম্বের সাথে।"
+    },
+    {
+        "id": 13,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "ব্রুস্টারের সূত্র (Brewster's Law) কোনটির সাথে সম্পর্কিত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ব্যতিচার",
+            "b": "অপবর্তন",
+            "c": "সমবর্তন",
+            "d": "বিচ্ছুরণ"
+        },
+        "correctAnswer": "c",
+        "explanation": "ব্রুস্টারের সূত্র আলোর সমবর্তন (Polarization) কোণ নির্ণয়ে ব্যবহৃত হয় (μ = tanθp)।"
+    },
+    {
+        "id": 14,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "তাপগতিবিদ্যার ১ম সূত্র মূলত কোন নিত্যতা সূত্র?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ভর",
+            "b": "শক্তি",
+            "c": "ভরবেগ",
+            "d": "চার্জ"
+        },
+        "correctAnswer": "b",
+        "explanation": "তাপগতিবিদ্যার ১ম সূত্র শক্তির নিত্যতা সূত্রের একটি বিশেষ রূপ (dQ = dU + dW)।"
+    },
+    {
+        "id": 15,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "তড়িৎ প্রাবল্য (E) ও বিভব (V) এর সম্পর্ক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "E = dV/dx",
+            "b": "E = -dV/dx",
+            "c": "V = dE/dx",
+            "d": "E = V.d"
+        },
+        "correctAnswer": "b",
+        "explanation": "তড়িৎ প্রাবল্য হলো বিভবের নতিমাত্রা বা গ্রেডিয়েন্টের ঋণাত্মক মান (E = -dV/dr)।"
+    },
+    {
+        "id": 16,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "জড়তার ভ্রামক (Moment of Inertia) কিসের ওপর নির্ভর করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কৌণিক বেগ",
+            "b": "টর্ক",
+            "c": "ঘূর্ণন অক্ষ ও ভরের বিন্যাস",
+            "d": "কৌণিক ভরবেগ"
+        },
+        "correctAnswer": "c",
+        "explanation": "জড়তার ভ্রামক বস্তুর ভর এবং ঘূর্ণন অক্ষ থেকে ভরের দূরত্বের (বিন্যাসের) ওপর নির্ভর করে।"
+    },
+    {
+        "id": 17,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "কোন পদার্থের রোধ তাপমাত্রা বাড়লে কমে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তামা",
+            "b": "লোহা",
+            "c": "সিলিকন",
+            "d": "অ্যালুমিনিয়াম"
+        },
+        "correctAnswer": "c",
+        "explanation": "অর্ধপরিবাহী (যেমন: সিলিকন, জার্মেনিয়াম) এর তাপমাত্রা বাড়লে রোধ কমে।"
+    },
+    {
+        "id": 18,
+        "subject": "Physics",
+        "topic": "Work, Power & Energy",
+        "question": "কেন্দ্রমুখী বল দ্বারা কৃতকাজ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সর্বোচ্চ",
+            "b": "ধনাত্মক",
+            "c": "ঋণাত্মক",
+            "d": "শূন্য"
+        },
+        "correctAnswer": "d",
+        "explanation": "কেন্দ্রমুখী বল সরণের সাথে লম্বভাবে (৯০°) ক্রিয়া করে, তাই কৃতকাজ শূন্য (W = Fs cos90° = 0)।"
+    },
+    {
+        "id": 19,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "ফটোইলেকট্রিক ক্রিয়ায় নিবৃতি বিভব (Stopping Potential) কিসের ওপর নির্ভর করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "আলোর তীব্রতা",
+            "b": "আলোর কম্পাঙ্ক",
+            "c": "সময়ের উপর",
+            "d": "দূরত্বের উপর"
+        },
+        "correctAnswer": "b",
+        "explanation": "নিবৃতি বিভব আপতিত আলোর কম্পাঙ্কের ওপর নির্ভর করে, তীব্রতার ওপর নয়।"
+    },
+    {
+        "id": 20,
+        "subject": "Physics",
+        "topic": "Wave",
+        "question": "শব্দ তরঙ্গ বাতাসে কোন প্রকৃতির?",
+        "hasDiagram": false,
+        "options": {
+            "a": "আড় তরঙ্গ",
+            "b": "অণুদৈর্ঘ্য তরঙ্গ",
+            "c": "স্থির তরঙ্গ",
+            "d": "তড়িৎচৌম্বক তরঙ্গ"
+        },
+        "correctAnswer": "b",
+        "explanation": "শব্দ তরঙ্গ বাতাসের মাধ্যমে সংকোচ ও প্রসারণের মাধ্যমে চলে, তাই এটি অণুদৈর্ঘ্য (Longitudinal) তরঙ্গ।"
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "topic": "Gravitation",
+        "question": "পৃথিবীর ঘূর্ণন হঠাৎ বন্ধ হলে মেরু অঞ্চলে g এর মানের কী পরিবর্তন হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাড়বে",
+            "b": "কমবে",
+            "c": "অপরিবর্তিত থাকবে",
+            "d": "শূন্য হবে"
+        },
+        "correctAnswer": "c",
+        "explanation": "মেরু অঞ্চলে ঘূর্ণনের প্রভাব নেই (ব্যাসার্ধ ভেক্টর অক্ষের সমান্তরাল), তাই g এর মান অপরিবর্তিত থাকবে।"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "গঠনমূলক ব্যতিচারের (Constructive Interference) ক্ষেত্রে পথ পার্থক্য কত হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "λ/2 এর বিজোড় গুণিতক",
+            "b": "λ এর পূর্ণ গুণিতক",
+            "c": "λ/4 এর গুণিতক",
+            "d": "শূন্য হতে পারবে না"
+        },
+        "correctAnswer": "b",
+        "explanation": "গঠনমূলক ব্যতিচারের শর্ত: পথ পার্থক্য = nλ (যেখানে n=0,1,2...), অর্থাৎ λ এর পূর্ণ গুণিতক।"
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "রেকটিফায়ার (Rectifier) এর কাজ কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "AC কে DC করা",
+            "b": "DC কে AC করা",
+            "c": "ভোল্টেজ বাড়ানো",
+            "d": "ভোল্টেজ কমানো"
+        },
+        "correctAnswer": "a",
+        "explanation": "রেকটিফায়ার (যেমন: ডায়োড) দিক পরিবর্তী প্রবাহকে (AC) একমুখী প্রবাহে (DC) রূপান্তর করে।"
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "এনট্রপি (Entropy) পরিমাপ করে—",
+        "hasDiagram": false,
+        "options": {
+            "a": "সিস্টেমের শক্তি",
+            "b": "সিস্টেমের বিশৃঙ্খলা",
+            "c": "তাপমাত্রা",
+            "d": "চাপ"
+        },
+        "correctAnswer": "b",
+        "explanation": "এনট্রপি হলো সিস্টেমের বিশৃঙ্খলা বা অনিয়মের পরিমাপ।"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "শিশিরাঙ্ক (Dew Point) কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "একটি তাপমাত্রা",
+            "b": "একটি চাপ",
+            "c": "বাতাসের আর্দ্রতা",
+            "d": "পানির পরিমাণ"
+        },
+        "correctAnswer": "a",
+        "explanation": "শিশিরাঙ্ক হলো সেই তাপমাত্রা, যে তাপমাত্রায় বাতাস জলীয় বাষ্প দ্বারা সম্পৃক্ত হয়।"
+    },
+    {
+        "id": 26,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "question": "H2S এর বন্ধন কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "104.5°",
+            "b": "107°",
+            "c": "92.1°",
+            "d": "109.5°"
+        },
+        "correctAnswer": "c",
+        "explanation": "H2S এ সালফারের আকার বড় এবং তড়িৎ ঋণাত্মকতা কম হওয়ায় বিকর্ষণ কম হয়, তাই কোণ ১০৪.৫° থেকে কমে ৯২.১° হয়।"
+    },
+    {
+        "id": 27,
+        "subject": "Chemistry",
+        "topic": "Qualitative Chemistry",
+        "question": "আইসোটোনের ক্ষেত্রে কোনটি সমান থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "প্রোটন সংখ্যা",
+            "b": "ভর সংখ্যা",
+            "c": "নিউট্রন সংখ্যা",
+            "d": "ইলেকট্রন সংখ্যা"
+        },
+        "correctAnswer": "c",
+        "explanation": "আইসোটোন (Isotone) হলো যাদের নিউট্রন সংখ্যা (n) সমান।"
+    },
+    {
+        "id": 28,
+        "subject": "Chemistry",
+        "topic": "Chemical Equilibrium",
+        "question": "বিক্রিয়ার হার (Rate of reaction) তাপমাত্রার সাথে কীভাবে পরিবর্তিত হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সমানুপাতিক",
+            "b": "ব্যস্তানুপাতিক",
+            "c": "সূচকীয়ভাবে বাড়ে",
+            "d": "রৈখিকভাবে বাড়ে"
+        },
+        "correctAnswer": "c",
+        "explanation": "আরহেনিয়াস সমীকরণ (k = Ae^-Ea/RT) অনুযায়ী তাপমাত্রা বাড়লে বিক্রিয়ার হার সূচকীয়ভাবে (Exponentially) বৃদ্ধি পায়।"
+    },
+    {
+        "id": 29,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "কোন মৌলটির ইলেকট্রন আসক্তি (Electron Affinity) সবচেয়ে বেশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "F",
+            "b": "Cl",
+            "c": "Br",
+            "d": "I"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফ্লোরিনের আকার খুব ছোট হওয়ায় ইলেকট্রন বিকর্ষণ বেশি হয়, তাই ক্লোরিনের (Cl) ইলেকট্রন আসক্তি ফ্লোরিন অপেক্ষা বেশি।"
+    },
+    {
+        "id": 30,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "ওজোনোলাইসিস বিক্রিয়ায় ইথিন (CH2=CH2) থেকে কী উৎপন্ন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "মিথান্যাল (HCHO)",
+            "b": "ইথান্যাল (CH3CHO)",
+            "c": "প্রোপানোন",
+            "d": "মিথানল"
+        },
+        "correctAnswer": "a",
+        "explanation": "ইথিনকে ওজোনোলাইসিস করলে ২ অণু ফরমালডিহাইড বা মিথান্যাল (HCHO) উৎপন্ন হয়।"
+    },
+    {
+        "id": 31,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "question": "কোষ বিক্রিয়া স্বতঃস্ফূর্ত হবে যদি E_cell এর মান—",
+        "hasDiagram": false,
+        "options": {
+            "a": "ধনাত্মক হয়",
+            "b": "ঋণাত্মক হয়",
+            "c": "শূন্য হয়",
+            "d": "অসীম হয়"
+        },
+        "correctAnswer": "a",
+        "explanation": "E_cell ধনাত্মক হলে ΔG ঋণাত্মক হয়, ফলে বিক্রিয়া স্বতঃস্ফূর্ত হয়।"
+    },
+    {
+        "id": 32,
+        "subject": "Chemistry",
+        "topic": "Quantitative Chemistry",
+        "question": "সেমি-মোলার দ্রবণের ঘনমাত্রা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1 M",
+            "b": "0.5 M",
+            "c": "0.1 M",
+            "d": "0.01 M"
+        },
+        "correctAnswer": "b",
+        "explanation": "সেমি (Semi) অর্থ অর্ধেক, তাই ঘনমাত্রা 0.5 M।"
+    },
+    {
+        "id": 33,
+        "subject": "Chemistry",
+        "topic": "Qualitative Chemistry",
+        "question": "দ্রাব্যতা গুণফল (Ksp) নীতিটি প্রযোজ্য—",
+        "hasDiagram": false,
+        "options": {
+            "a": "যেকোনো দ্রবণে",
+            "b": "স্বল্প দ্রবণীয় লবণের সম্পৃক্ত দ্রবণে",
+            "c": "অতিপৃক্ত দ্রবণে",
+            "d": "গ্যাসিয় মিশ্রণে"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ksp শুধুমাত্র নির্দিষ্ট তাপমাত্রায় স্বল্প দ্রবণীয় লবণের সম্পৃক্ত দ্রবণের ক্ষেত্রে প্রযোজ্য।"
+    },
+    {
+        "id": 34,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "question": "ইথাইন (Acetylene) অণুর আকৃতি কেমন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "চতুস্তলকীয়",
+            "b": "সরলরৈখিক",
+            "c": "সমতলীয়",
+            "d": " পিরামিডীয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "ইথাইনে (HC≡CH) sp সংকরায়ন ঘটে, তাই এর আকৃতি সরলরৈখিক (Bond angle 180°)।"
+    },
+    {
+        "id": 35,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "ক্যালসিয়াম কার্বাইডের (CaC2) আর্দ্রবিশ্লেষণে কোনটি উৎপন্ন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "মিথেন",
+            "b": "ইথিন",
+            "c": "ইথাইন",
+            "d": "বেনজিন"
+        },
+        "correctAnswer": "c",
+        "explanation": "CaC2 + 2H2O -> C2H2 (ইথাইন) + Ca(OH)2।"
+    },
+    {
+        "id": 36,
+        "subject": "Chemistry",
+        "topic": "Chemical Changes",
+        "question": "নিচের কোনটি লুইস এসিড?",
+        "hasDiagram": false,
+        "options": {
+            "a": "NH3",
+            "b": "H2O",
+            "c": "BF3",
+            "d": "Cl-"
+        },
+        "correctAnswer": "c",
+        "explanation": "BF3 এর অষ্টক অপূর্ণ থাকায় এটি ইলেকট্রন জোড় গ্রহণ করতে পারে, তাই এটি লুইস এসিড।"
+    },
+    {
+        "id": 37,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "কোন মৌলের জারণ মান সর্বদা -1 হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অক্সিজেন",
+            "b": "ফ্লোরিন",
+            "c": "ক্লোরিন",
+            "d": "হাইড্রোজেন"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফ্লোরিন (F) সর্বাধিক তড়িৎ ঋণাত্মক মৌল, তাই এর জারণ মান যৌগে সর্বদা -1।"
+    },
+    {
+        "id": 38,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "question": "লবণ সেতুর (Salt Bridge) কাজ কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইলেকট্রন প্রবাহ করা",
+            "b": "বর্তনী পূর্ণ করা ও তড়িৎ নিরপেক্ষতা বজায় রাখা",
+            "c": "বিভব বৃদ্ধি করা",
+            "d": "আয়ন সৃষ্টি করা"
+        },
+        "correctAnswer": "b",
+        "explanation": "লবণ সেতু দুটি অর্ধকোষের মধ্যে সংযোগ স্থাপন করে বর্তনী পূর্ণ করে এবং আয়ন বিনিময়ের মাধ্যমে নিরপেক্ষতা বজায় রাখে।"
+    },
+    {
+        "id": 39,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "অ্যালকোহল ও কার্বোক্সিলিক এসিডের বিক্রিয়ায় কী উৎপন্ন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইথার",
+            "b": "এস্টার",
+            "c": "কিটোন",
+            "d": "অ্যালডিহাইড"
+        },
+        "correctAnswer": "b",
+        "explanation": "এসিড + অ্যালকোহল -> এস্টার + পানি (এস্টারিফিকেশন বিক্রিয়া)।"
+    },
+    {
+        "id": 40,
+        "subject": "Chemistry",
+        "topic": "Qualitative Chemistry",
+        "question": "f-অরবিটালে সর্বোচ্চ কয়টি ইলেকট্রন থাকতে পারে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১০টি",
+            "b": "৬টি",
+            "c": "১৪টি",
+            "d": "১৮টি"
+        },
+        "correctAnswer": "c",
+        "explanation": "f-অরবিটালের জন্য l=3, তাই ইলেকট্রন ধারণক্ষমতা 2(2l+1) = 2(6+1) = 14।"
+    },
+    {
+        "id": 41,
+        "subject": "Chemistry",
+        "topic": "Chemical Equilibrium",
+        "question": "Kp ও Kc এর সম্পর্ক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Kp = Kc(RT)^Δn",
+            "b": "Kc = Kp(RT)^Δn",
+            "c": "Kp = Kc(RT)^-Δn",
+            "d": "Kp = Kc"
+        },
+        "correctAnswer": "a",
+        "explanation": "সঠিক সম্পর্ক: Kp = Kc(RT)^Δn।"
+    },
+    {
+        "id": 42,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "PVC এর মনোমার কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইথিন",
+            "b": "ক্লোরোইথিন (ভিনাইল ক্লোরাইড)",
+            "c": "প্রোপিন",
+            "d": "স্টাইরিন"
+        },
+        "correctAnswer": "b",
+        "explanation": "PVC (Poly Vinyl Chloride) তৈরি হয় ভিনাইল ক্লোরাইড বা ক্লোরোইথিন থেকে।"
+    },
+    {
+        "id": 43,
+        "subject": "Chemistry",
+        "topic": "Quantitative Chemistry",
+        "question": "PPM এককে কোনটি প্রকাশ করা হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "mg/L",
+            "b": "g/L",
+            "c": "mol/L",
+            "d": "kg/L"
+        },
+        "correctAnswer": "a",
+        "explanation": "Parts Per Million (PPM) পানির ক্ষেত্রে mg/L এর সমতুল্য।"
+    },
+    {
+        "id": 44,
+        "subject": "Chemistry",
+        "topic": "Periodic Properties",
+        "question": "নিচের কোনটি প্যারাম্যাগনেটিক?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Zn2+",
+            "b": "Cu+",
+            "c": "Sc3+",
+            "d": "Fe2+"
+        },
+        "correctAnswer": "d",
+        "explanation": "Fe2+ (3d6) এ বিজোড় ইলেকট্রন থাকে, তাই এটি প্যারাম্যাগনেটিক। বাকিগুলোর d-অরবিটাল পূর্ণ বা খালি।"
+    },
+    {
+        "id": 45,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "question": "গ্রাফাইট বিদ্যুৎ পরিবহন করে কেন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "মুক্ত আয়ন থাকার কারণে",
+            "b": "সঞ্চারণশীল π-ইলেকট্রন থাকার কারণে",
+            "c": "sp3 সংকরায়নের কারণে",
+            "d": "কঠিন গঠনের জন্য"
+        },
+        "correctAnswer": "b",
+        "explanation": "গ্রাফাইটে sp2 সংকরায়ন হয় এবং একটি p-ইলেকট্রন মুক্ত অবস্থায় স্তরগুলোর মধ্যে চলাচল করতে পারে।"
+    },
+    {
+        "id": 46,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "ক্লোরোফর্মের সংকেত কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "CH3Cl",
+            "b": "CH2Cl2",
+            "c": "CHCl3",
+            "d": "CCl4"
+        },
+        "correctAnswer": "c",
+        "explanation": "ট্রাইক্লোরোমিথেন বা ক্লোরোফর্মের সংকেত CHCl3।"
+    },
+    {
+        "id": 47,
+        "subject": "Chemistry",
+        "topic": "Electrochemistry",
+        "question": "কোনটি গৌণ নির্দেশক তড়িৎদ্বার (Secondary Reference Electrode)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "হাইড্রোজেন তড়িৎদ্বার",
+            "b": "ক্যালোমেল তড়িৎদ্বার",
+            "c": "গ্লাস ইলেকট্রোড",
+            "d": "Pt ইলেকট্রোড"
+        },
+        "correctAnswer": "b",
+        "explanation": "ক্যালোমেল ও সিলভার-সিলভার ক্লোরাইড তড়িৎদ্বারকে গৌণ নির্দেশক তড়িৎদ্বার হিসেবে ব্যবহার করা হয়।"
+    },
+    {
+        "id": 48,
+        "subject": "Chemistry",
+        "topic": "Chemical Changes",
+        "question": "এসিড বৃষ্টির প্রধান কারণ কোন গ্যাসটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "CO",
+            "b": "SO2",
+            "c": "NH3",
+            "d": "O3"
+        },
+        "correctAnswer": "b",
+        "explanation": "SO2 এবং NOx এসিড বৃষ্টির প্রধান উপাদান।"
+    },
+    {
+        "id": 49,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "জৈব এসিড শনাক্তকরণে কোনটি ব্যবহৃত হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "NaHCO3 দ্রবণ",
+            "b": "Br2 দ্রবণ",
+            "c": "লুকাস বিকারক",
+            "d": "2,4-DNP"
+        },
+        "correctAnswer": "a",
+        "explanation": "জৈব এসিড সোডিয়াম বাইকার্বনেট (NaHCO3) এর সাথে বিক্রিয়া করে CO2 এর বুদবুদ সৃষ্টি করে।"
+    },
+    {
+        "id": 50,
+        "subject": "Chemistry",
+        "topic": "Qualitative Chemistry",
+        "question": "কপার (Cu-29) এর সঠিক ইলেকট্রন বিন্যাস কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "[Ar] 3d9 4s2",
+            "b": "[Ar] 3d10 4s1",
+            "c": "[Ar] 3d8 4s2",
+            "d": "[Ar] 4s2 3d9"
+        },
+        "correctAnswer": "b",
+        "explanation": "অর্ধপূর্ণ ও পূর্ণ অরবিটালের স্থিতিশীলতার জন্য Cu এর বিন্যাস [Ar] 3d10 4s1 হয় (ব্যতিক্রম)।"
+    },
+    {
+        "id": 51,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "-i এর বর্গমূল কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "±(1-i)/√2",
+            "b": "±(1+i)/√2",
+            "c": "±(1-i)",
+            "d": "±i"
+        },
+        "correctAnswer": "a",
+        "explanation": "√(-i) = √(-2i/2) = (1/√2)√(1 - 2i + i²) = ±(1-i)/√2।"
+    },
+    {
+        "id": 52,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "y = log10(x) হলে dy/dx = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1/x",
+            "b": "1/(x ln 10)",
+            "c": "(ln 10)/x",
+            "d": "x ln 10"
+        },
+        "correctAnswer": "b",
+        "explanation": "log_a(x) এর অন্তরজ 1/(x ln a)। এখানে a=10।"
+    },
+    {
+        "id": 53,
+        "subject": "Math",
+        "topic": "Integration",
+        "question": "∫ ln x dx = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1/x + c",
+            "b": "x ln x - x + c",
+            "c": "x ln x + x + c",
+            "d": "ln x + c"
+        },
+        "correctAnswer": "b",
+        "explanation": "UV মেথড প্রয়োগ করে: ∫ ln x dx = x ln x - ∫ x(1/x) dx = x ln x - x + c।"
+    },
+    {
+        "id": 54,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "দুটি বিন্দুর স্থানাঙ্ক (2, 3) এবং (5, 7)। বিন্দুদ্বয়ের মধ্যবর্তী দূরত্ব কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "4",
+            "b": "5",
+            "c": "3",
+            "d": "7"
+        },
+        "correctAnswer": "b",
+        "explanation": "দূরত্ব = √((5-2)² + (7-3)²) = √(3² + 4²) = √(9+16) = 5।"
+    },
+    {
+        "id": 55,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "A = [[3, 1], [2, 4]] হলে, Adj(A) কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "[[4, -1], [-2, 3]]",
+            "b": "[[4, 1], [2, 3]]",
+            "c": "[[3, 2], [1, 4]]",
+            "d": "[[-3, -1], [-2, -4]]"
+        },
+        "correctAnswer": "a",
+        "explanation": "2x2 ম্যাট্রিক্সের Adjoint বের করতে মুখ্য কর্ণের স্থান বিনিময় এবং গৌণ কর্ণের চিহ্ন পরিবর্তন করতে হয়।"
+    },
+    {
+        "id": 56,
+        "subject": "Math",
+        "topic": "Circle",
+        "question": "x² + y² - 4x - 6y = 0 বৃত্তটি y-অক্ষ থেকে কী পরিমাণ অংশ ছেদ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "4",
+            "b": "6",
+            "c": "2√5",
+            "d": "3"
+        },
+        "correctAnswer": "b",
+        "explanation": "y-অক্ষের ছেদক = 2√(f² - c)। এখানে f = -3, c = 0। ছেদক = 2√(9-0) = 6।"
+    },
+    {
+        "id": 57,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "tan⁻¹(1/2) + tan⁻¹(1/3) = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "30°",
+            "b": "45°",
+            "c": "60°",
+            "d": "90°"
+        },
+        "correctAnswer": "b",
+        "explanation": "tan⁻¹((1/2 + 1/3) / (1 - 1/6)) = tan⁻¹((5/6)/(5/6)) = tan⁻¹(1) = 45°।"
+    },
+    {
+        "id": 58,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "x এর সাপেক্ষে √x এর অন্তরজ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1/2√x",
+            "b": "1/√x",
+            "c": "2√x",
+            "d": "x^(-1/2)"
+        },
+        "correctAnswer": "a",
+        "explanation": "d/dx (x^0.5) = 0.5 x^(-0.5) = 1/(2√x)।"
+    },
+    {
+        "id": 59,
+        "subject": "Math",
+        "topic": "Conics",
+        "question": "x²/9 - y²/16 = 1 অধিবৃত্তের অসীমটোট (Asymptote) এর সমীকরণ কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "y = ±(3/4)x",
+            "b": "y = ±(4/3)x",
+            "c": "y = ±x",
+            "d": "x = ±y"
+        },
+        "correctAnswer": "b",
+        "explanation": "অধিবৃত্তের অসীমটোট y = ±(b/a)x। এখানে a=3, b=4। তাই y = ±(4/3)x।"
+    },
+    {
+        "id": 60,
+        "subject": "Math",
+        "topic": "Integration",
+        "question": "∫₀^(π/2) cos²x dx এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "π/2",
+            "b": "π/4",
+            "c": "π",
+            "d": "1"
+        },
+        "correctAnswer": "b",
+        "explanation": "∫cos²x dx = 1/2 ∫(1+cos2x)dx = 1/2 [x + sin2x/2]. লিমিট বসালে (1/2)(π/2 + 0) = π/4।"
+    },
+    {
+        "id": 61,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "3x - 4y + 5 = 0 এবং 3x - 4y + 15 = 0 সমান্তরাল রেখাদ্বয়ের মধ্যবর্তী দূরত্ব কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "5",
+            "d": "10"
+        },
+        "correctAnswer": "a",
+        "explanation": "দূরত্ব = |c1 - c2| / √(a² + b²) = |15 - 5| / √(9+16) = 10/5 = 2।"
+    },
+    {
+        "id": 62,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "z = x + iy হলে |z-1| = |z+1| কিসের সমীকরণ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "x-অক্ষ",
+            "b": "y-অক্ষ",
+            "c": "বৃত্ত",
+            "d": "সরলরেখা x=1"
+        },
+        "correctAnswer": "b",
+        "explanation": "(1,0) এবং (-1,0) বিন্দু থেকে সমদূরবর্তী বিন্দুর সেট হলো তাদের লম্ব দ্বিখণ্ডক, যা y-অক্ষ (x=0)।"
+    },
+    {
+        "id": 63,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "নিচের কোনটি প্রতিসম (Symmetric) ম্যাট্রিক্স?",
+        "hasDiagram": false,
+        "options": {
+            "a": "[[1, 2], [2, 1]]",
+            "b": "[[1, 2], [-2, 1]]",
+            "c": "[[1, 0], [1, 1]]",
+            "d": "[[0, 1], [0, 0]]"
+        },
+        "correctAnswer": "a",
+        "explanation": "A = Aᵀ হলে প্রতিসম। [[1, 2], [2, 1]] কে ট্রান্সপোজ করলে একই থাকে।"
+    },
+    {
+        "id": 64,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "y = tan⁻¹x + cot⁻¹x হলে dy/dx = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1",
+            "b": "0",
+            "c": "2/(1+x²)",
+            "d": "-1"
+        },
+        "correctAnswer": "b",
+        "explanation": "বিপরীত ত্রিকোণমিতিক সূত্র: tan⁻¹x + cot⁻¹x = π/2 (ধ্রুবক)। ধ্রুবকের অন্তরজ শূন্য।"
+    },
+    {
+        "id": 65,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "sin 2A / (1 + cos 2A) = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "sin A",
+            "b": "cos A",
+            "c": "tan A",
+            "d": "cot A"
+        },
+        "correctAnswer": "c",
+        "explanation": "(2sinAcosA) / (2cos²A) = sinA/cosA = tanA।"
+    },
+    {
+        "id": 66,
+        "subject": "Math",
+        "topic": "Integration",
+        "question": "y² = 4ax পরাবৃত্ত ও এর উপকেন্দ্রিক লম্ব দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "8a²/3",
+            "b": "4a²/3",
+            "c": "a²",
+            "d": "2a²"
+        },
+        "correctAnswer": "a",
+        "explanation": "সূত্র: ক্ষেত্রফল = 8a²/3।"
+    },
+    {
+        "id": 67,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "একটি সরলরেখা অক্ষদ্বয় থেকে সমান অংশ কর্তন করে এবং (-2, 3) বিন্দুগামী। রেখাটির সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "x + y = 1",
+            "b": "x + y = -1",
+            "c": "x - y = -5",
+            "d": "x + y = 5"
+        },
+        "correctAnswer": "a",
+        "explanation": "সমান অংশ কর্তনকারী রেখার সমীকরণ x+y=a। (-2, 3) বসালে -2+3=a => a=1। সুতরাং x+y=1।"
+    },
+    {
+        "id": 68,
+        "subject": "Math",
+        "topic": "Circle",
+        "question": "মূলবিন্দুগামী এবং অক্ষদ্বয় থেকে 3 ও 4 একক দৈর্ঘ্য কর্তনকারী বৃত্তের সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "x² + y² - 3x - 4y = 0",
+            "b": "x² + y² + 3x + 4y = 0",
+            "c": "x² + y² - 4x - 3y = 0",
+            "d": "x² + y² = 25"
+        },
+        "correctAnswer": "a",
+        "explanation": "মূলবিন্দুগামী বৃত্তের c=0। x ও y অক্ষের ছেদক 3 ও 4 হলে বৃত্তটি (3,0) ও (0,4) বিন্দুগামী। সমীকরণ: x² + y² - 3x - 4y = 0।"
+    },
+    {
+        "id": 69,
+        "subject": "Math",
+        "topic": "Differentiation",
+        "question": "e^x এর n-তম অন্তরজ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "e^x",
+            "b": "n e^x",
+            "c": "e^(nx)",
+            "d": "x^n"
+        },
+        "correctAnswer": "a",
+        "explanation": "e^x কে যতবারই অন্তরীকরণ করা হোক না কেন, তা e^x ই থাকে।"
+    },
+    {
+        "id": 70,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "1, ω, ω² দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "√3/4",
+            "b": "√3/2",
+            "c": "3√3/4",
+            "d": "0"
+        },
+        "correctAnswer": "c",
+        "explanation": "জটিল তলে 1, ω, ω² একটি সমবাহু ত্রিভুজ গঠন করে যার বাহুর দৈর্ঘ্য √3। ক্ষেত্রফল (√3/4)(√3)² = 3√3/4।"
+    },
+    {
+        "id": 71,
+        "subject": "Math",
+        "topic": "Integration",
+        "question": "∫ (e^x / x) (1 + x ln x) dx = ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "e^x ln x + c",
+            "b": "e^x / x + c",
+            "c": "x e^x + c",
+            "d": "e^x + c"
+        },
+        "correctAnswer": "a",
+        "explanation": "∫ e^x [f(x) + f'(x)] dx = e^x f(x)। এখানে f(x) = ln x ধরলে f'(x) = 1/x। উত্তর e^x ln x।"
+    },
+    {
+        "id": 72,
+        "subject": "Math",
+        "topic": "Conics",
+        "question": "পরাবৃত্তের শীর্ষবিন্দুতে স্পর্শকের সমীকরণ কী হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দ্বিকাক্ষের সমান্তরাল",
+            "b": "অক্ষরেখার সমান্তরাল",
+            "c": "দ্বিকাক্ষের ওপর লম্ব",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "a",
+        "explanation": "পরাবৃত্তের শীর্ষবিন্দুতে অঙ্কিত স্পর্শক সর্বদা দ্বিকাক্ষের (Directrix) সমান্তরাল হয়।"
+    },
+    {
+        "id": 73,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "sec(-1500°) এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "2",
+            "b": "-2",
+            "c": "√3",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "sec(-θ) = sec θ। 1500 = 4×360 + 60। sec(60°) = 2।"
+    },
+    {
+        "id": 74,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "কোন ম্যাট্রিক্সের ইনভার্স ম্যাট্রিক্স ওই ম্যাট্রিক্সের সমান হলে তাকে কী বলে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অভেদঘাতী (Involuntary)",
+            "b": "শূণ্যঘাতী (Nilpotent)",
+            "c": "সমঘাতী (Idempotent)",
+            "d": "প্রতিসম (Symmetric)"
+        },
+        "correctAnswer": "a",
+        "explanation": "A² = I বা A = A⁻¹ হলে তাকে অভেদঘাতী (Involuntary) ম্যাট্রিক্স বলে।"
+    },
+    {
+        "id": 75,
+        "subject": "Math",
+        "topic": "Straight Lines",
+        "question": "একটি রেখার ঢাল অসংজ্ঞায়িত হলে রেখাটি—",
+        "hasDiagram": false,
+        "options": {
+            "a": "x-অক্ষের সমান্তরাল",
+            "b": "y-অক্ষের সমান্তরাল",
+            "c": "মূলবিন্দুগামী",
+            "d": "উভয় অক্ষের সাথে ৪৫° কোণ করে"
+        },
+        "correctAnswer": "b",
+        "explanation": "ঢাল = tan 90° = অসংজ্ঞায়িত। অর্থাৎ রেখাটি x-অক্ষের সাথে ৯০° কোণে আছে, যা y-অক্ষের সমান্তরাল।"
+    },
+    {
+        "id": 76,
+        "subject": "English",
+        "topic": "Grammar - Causative Verb",
+        "question": "He made me ___ the car.",
+        "hasDiagram": false,
+        "options": {
+            "a": "to drive",
+            "b": "drive",
+            "c": "driving",
+            "d": "driven"
+        },
+        "correctAnswer": "b",
+        "explanation": "After 'make' (causative), we use the base form of the verb (drive)."
+    },
+    {
+        "id": 77,
+        "subject": "English",
+        "topic": "Vocabulary - Spelling",
+        "question": "Which spelling is correct?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Bureaucracy",
+            "b": "Burocracy",
+            "c": "Bereaucracy",
+            "d": "Buraucracy"
+        },
+        "correctAnswer": "a",
+        "explanation": "Bureaucracy (আমলাতন্ত্র) - EAU is the key combination."
+    },
+    {
+        "id": 78,
+        "subject": "English",
+        "topic": "Grammar - Preposition",
+        "question": "We should abide ___ the rules.",
+        "hasDiagram": false,
+        "options": {
+            "a": "with",
+            "b": "by",
+            "c": "in",
+            "d": "to"
+        },
+        "correctAnswer": "b",
+        "explanation": "Abide by means to follow or obey (মেনে চলা)."
+    },
+    {
+        "id": 79,
+        "subject": "English",
+        "topic": "Grammar - Transformation",
+        "question": "Who did it? (Passive)",
+        "hasDiagram": false,
+        "options": {
+            "a": "By whom was it done?",
+            "b": "Who was it done by?",
+            "c": "By whom it was done?",
+            "d": "By who was it done?"
+        },
+        "correctAnswer": "a",
+        "explanation": "'Who' changes to 'By whom' + auxiliary + subject + V3."
+    },
+    {
+        "id": 80,
+        "subject": "English",
+        "topic": "Vocabulary - Phrase",
+        "question": "'Look down upon' means—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Respect",
+            "b": "Hate/Despise",
+            "c": "Ignore",
+            "d": "Search"
+        },
+        "correctAnswer": "b",
+        "explanation": "Look down upon means to consider someone inferior or to hate (ঘৃণা করা)."
+    },
+    {
+        "id": 81,
+        "subject": "English",
+        "topic": "Grammar - Conditional",
+        "question": "If I were you, I ___ accept the offer.",
+        "hasDiagram": false,
+        "options": {
+            "a": "will",
+            "b": "would",
+            "c": "shall",
+            "d": "had"
+        },
+        "correctAnswer": "b",
+        "explanation": "Second conditional (Unreal present): If + Past Simple + Would + V1."
+    },
+    {
+        "id": 82,
+        "subject": "English",
+        "topic": "Grammar - Correction",
+        "question": "Which sentence is correct?",
+        "hasDiagram": false,
+        "options": {
+            "a": "One of my friend is a doctor.",
+            "b": "One of my friends are a doctor.",
+            "c": "One of my friends is a doctor.",
+            "d": "One of my friend are a doctor."
+        },
+        "correctAnswer": "c",
+        "explanation": "'One of' is followed by a plural noun but a singular verb."
+    },
+    {
+        "id": 83,
+        "subject": "English",
+        "topic": "Vocabulary - Synonym",
+        "question": "Synonym of 'Fragile' is—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Strong",
+            "b": "Brittle",
+            "c": "Hard",
+            "d": "Durable"
+        },
+        "correctAnswer": "b",
+        "explanation": "Fragile means easily broken, which is synonymous with Brittle (ভঙ্গুর)."
+    },
+    {
+        "id": 84,
+        "subject": "English",
+        "topic": "Grammar - Tense",
+        "question": "I saw him ___ to the market.",
+        "hasDiagram": false,
+        "options": {
+            "a": "go",
+            "b": "going",
+            "c": "gone",
+            "d": "to go"
+        },
+        "correctAnswer": "b",
+        "explanation": "Verbs of perception (see, hear) take Present Participle (V+ing) for ongoing actions."
+    },
+    {
+        "id": 85,
+        "subject": "English",
+        "topic": "Translation",
+        "question": "Translate: 'সে খুব দ্রুত দৌড়ায়।'",
+        "hasDiagram": false,
+        "options": {
+            "a": "He runs very fastly.",
+            "b": "He runs very fast.",
+            "c": "He runs fast very.",
+            "d": "He fast runs."
+        },
+        "correctAnswer": "b",
+        "explanation": "Fast acts as both adjective and adverb. There is no word 'fastly'."
+    },
+    {
+        "id": 86,
+        "subject": "English",
+        "topic": "Grammar - Subjunctive",
+        "question": "I suggest that he ___ there.",
+        "hasDiagram": false,
+        "options": {
+            "a": "goes",
+            "b": "go",
+            "c": "went",
+            "d": "has gone"
+        },
+        "correctAnswer": "b",
+        "explanation": "Subjunctive mood: After suggest/propose/insist, the verb is always in base form."
+    },
+    {
+        "id": 87,
+        "subject": "English",
+        "topic": "Vocabulary - Antonym",
+        "question": "Antonym of 'Benevolent' is—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Generous",
+            "b": "Cruel/Malevolent",
+            "c": "Kind",
+            "d": "Helpful"
+        },
+        "correctAnswer": "b",
+        "explanation": "Benevolent means kind; Malevolent/Cruel means unkind or harmful."
+    },
+    {
+        "id": 88,
+        "subject": "English",
+        "topic": "Grammar - Degree",
+        "question": "Very few metals are as precious as gold. (Comparative)",
+        "hasDiagram": false,
+        "options": {
+            "a": "Gold is more precious than any other metal.",
+            "b": "Gold is more precious than most other metals.",
+            "c": "Gold is the most precious metal.",
+            "d": "Gold is precious than most other metals."
+        },
+        "correctAnswer": "b",
+        "explanation": "'Very few' changes to 'than most other' in comparative degree."
+    },
+    {
+        "id": 89,
+        "subject": "English",
+        "topic": "Grammar - Voice",
+        "question": "He killed himself. (Passive)",
+        "hasDiagram": false,
+        "options": {
+            "a": "He was killed by himself.",
+            "b": "Himself was killed by him.",
+            "c": "He was killed himself.",
+            "d": "By himself he was killed."
+        },
+        "correctAnswer": "a",
+        "explanation": "Reflexive object becomes subject + was/were + V3 + by + reflexive pronoun."
+    },
+    {
+        "id": 90,
+        "subject": "English",
+        "topic": "Vocabulary - One word substitution",
+        "question": "A speech delivered without preparation—",
+        "hasDiagram": false,
+        "options": {
+            "a": "Maiden speech",
+            "b": "Extempore",
+            "c": "Debate",
+            "d": "Elocution"
+        },
+        "correctAnswer": "b",
+        "explanation": "Extempore means spoken or done without preparation (উপস্থিত বক্তৃতা)."
+    },
+    {
+        "id": 91,
+        "subject": "English",
+        "topic": "Grammar - Article",
+        "question": "I saw ___ one-eyed man.",
+        "hasDiagram": false,
+        "options": {
+            "a": "an",
+            "b": "a",
+            "c": "the",
+            "d": "no article"
+        },
+        "correctAnswer": "b",
+        "explanation": "Before 'One', we use 'a' (sound 'wa')."
+    },
+    {
+        "id": 92,
+        "subject": "English",
+        "topic": "Grammar - Preposition",
+        "question": "He deals ___ rice.",
+        "hasDiagram": false,
+        "options": {
+            "a": "with",
+            "b": "in",
+            "c": "at",
+            "d": "for"
+        },
+        "correctAnswer": "b",
+        "explanation": "Deal in means to do business (ব্যবসা করা). Deal with means behave/handle."
+    },
+    {
+        "id": 93,
+        "subject": "English",
+        "topic": "Grammar - Narration",
+        "question": "He said to me, 'Thank you.'",
+        "hasDiagram": false,
+        "options": {
+            "a": "He told me thank you.",
+            "b": "He thanked me.",
+            "c": "He said that he thanked me.",
+            "d": "He thanks me."
+        },
+        "correctAnswer": "b",
+        "explanation": "Direct speech with 'Thank you' becomes 'Subject + thanked + object'."
+    },
+    {
+        "id": 94,
+        "subject": "English",
+        "topic": "Vocabulary - Idiom",
+        "question": "'At sixes and sevens' means—",
+        "hasDiagram": false,
+        "options": {
+            "a": "In order",
+            "b": "Disorganized/Confused",
+            "c": "Happy",
+            "d": "Counting"
+        },
+        "correctAnswer": "b",
+        "explanation": "At sixes and sevens means in a state of confusion or disorder (বিশৃঙ্খলা)."
+    },
+    {
+        "id": 95,
+        "subject": "English",
+        "topic": "Grammar - Embedded Question",
+        "question": "Do you know ___?",
+        "hasDiagram": false,
+        "options": {
+            "a": "where does he live",
+            "b": "where he lives",
+            "c": "where he live",
+            "d": "where does he lives"
+        },
+        "correctAnswer": "b",
+        "explanation": "In an embedded question, the word order is Subject + Verb (Statement form), not Question form."
+    },
+    {
+        "id": 96,
+        "subject": "English",
+        "topic": "Translation",
+        "question": "Translate: 'নাচতে না জানলে উঠান বাঁকা।'",
+        "hasDiagram": false,
+        "options": {
+            "a": "A bad workman quarrels with his tools.",
+            "b": "To err is human.",
+            "c": "Empty vessels sound much.",
+            "d": "Barking dogs seldom bite."
+        },
+        "correctAnswer": "a",
+        "explanation": "প্রবাদ বাক্য: A bad workman quarrels with his tools."
+    },
+    {
+        "id": 97,
+        "subject": "English",
+        "topic": "Grammar - Number",
+        "question": "Which one is singular?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Agenda",
+            "b": "Media",
+            "c": "Radius",
+            "d": "Bacteria"
+        },
+        "correctAnswer": "c",
+        "explanation": "Radius is singular; its plural is Radii. Others are plural forms."
+    },
+    {
+        "id": 98,
+        "subject": "English",
+        "topic": "Grammar - Modifier",
+        "question": "The girl ___ in the front row is my sister.",
+        "hasDiagram": false,
+        "options": {
+            "a": "sit",
+            "b": "sat",
+            "c": "sitting",
+            "d": "is sitting"
+        },
+        "correctAnswer": "c",
+        "explanation": "Participle phrase acting as adjective: 'The girl (who is) sitting...'."
+    },
+    {
+        "id": 99,
+        "subject": "English",
+        "topic": "Vocabulary - Analogy",
+        "question": "Good : Bad :: White : ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Bright",
+            "b": "Black",
+            "c": "Red",
+            "d": "Color"
+        },
+        "correctAnswer": "b",
+        "explanation": "Relationship is Antonym. Opposite of White is Black."
+    },
+    {
+        "id": 100,
+        "subject": "English",
+        "topic": "Grammar - Gender",
+        "question": "What is the masculine gender of 'Bee'?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Drone",
+            "b": "Bull",
+            "c": "Gander",
+            "d": "Dog"
+        },
+        "correctAnswer": "a",
+        "explanation": "Bee (Female) -> Drone (Male)."
+    }
+]
