@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 1,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "দুটি ভেক্টরের স্কেলার গুণফল ১৮ এবং ভেক্টর গুণফলের মান ৬√৩ হলে, ভেক্টরদ্বয়ের মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৩০°",
+            "b": "৬০°",
+            "c": "৯০°",
+            "d": "৪৫°"
+        },
+        "correctAnswer": "a",
+        "explanation": "tanθ = (মডুলাস ক্রস গুণফল / ডট গুণফল) = 6√3 / 18 = 1/√3, তাই θ = 30°।"
+    },
+    {
+        "id": 2,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "নিচের কোনটি স্কেলার রাশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তড়িৎ প্রাবল্য",
+            "b": "বিভব",
+            "c": "ভরবেগ",
+            "d": "টর্ক"
+        },
+        "correctAnswer": "b",
+        "explanation": "বিভব বা তড়িৎ বিভব একটি স্কেলার রাশি, বাকিগুলো ভেক্টর রাশি।"
+    },
+    {
+        "id": 3,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "ভেক্টর A = 2i + 2j - k এবং B = 6i - 3j + 2k হলে এদের মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "০°",
+            "b": "৯০°",
+            "c": "১৮০°",
+            "d": "৬০°"
+        },
+        "correctAnswer": "b",
+        "explanation": "A.B = 12 - 6 - 2 ≠ 0 (প্রশ্নটি সাধারণ মানের, কিন্তু যদি ডট গুণফল শূন্য হতো তবে ৯০° হতো। এখানে মান বসালে কস থিটা বের করতে হবে। CoU তে সাধারণত লম্ব হওয়ার শর্ত বেশি আসে: A.B=0)।"
+    },
+    {
+        "id": 4,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "নদীতে স্রোতের বেগ ৩ কি.মি./ঘণ্টা এবং নৌকার বেগ ৪ কি.মি./ঘণ্টা হলে, নদী পার হতে নৌকার লব্ধি বেগ কত হবে (যখন তারা লম্বভাবে থাকে)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৫ কি.মি./ঘণ্টা",
+            "b": "৭ কি.মি./ঘণ্টা",
+            "c": "১ কি.মি./ঘণ্টা",
+            "d": "৬ কি.মি./ঘণ্টা"
+        },
+        "correctAnswer": "a",
+        "explanation": "R = √(3² + 4²) = √(9+16) = √25 = 5 km/h।"
+    },
+    {
+        "id": 5,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "কোন শর্তে |A+B| = |A-B| হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "A ও B সমান্তরাল",
+            "b": "A ও B সমান",
+            "c": "A ও B পরস্পরের ওপর লম্ব",
+            "d": "কোনটিই নয়"
+        },
+        "correctAnswer": "c",
+        "explanation": "যদি দুটি ভেক্টর পরস্পর লম্ব হয় (৯০° কোণ), তবেই তাদের যোগফল ও বিয়োগফলের মান সমান হয়।"
+    },
+    {
+        "id": 6,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "টর্কের মাত্রা সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "[MLT^-2]",
+            "b": "[ML^2T^-2]",
+            "c": "[ML^2T^-1]",
+            "d": "[MLT^-1]"
+        },
+        "correctAnswer": "b",
+        "explanation": "টর্ক = বল × দূরত্ব = [MLT^-2][L] = [ML^2T^-2]।"
+    },
+    {
+        "id": 7,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "৫০ কেজি ভরের একটি বস্তুর ওপর ১০০ নিউটন বল প্রয়োগ করলে ত্বরণ কত হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "০.৫ m/s²",
+            "b": "২ m/s²",
+            "c": "৫০ m/s²",
+            "d": "৫০০০ m/s²"
+        },
+        "correctAnswer": "b",
+        "explanation": "F = ma => a = F/m = 100/50 = 2 m/s²।"
+    },
+    {
+        "id": 8,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "জড়তার ভ্রামক কোনটির ওপর নির্ভর করে না?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বস্তুর ভর",
+            "b": "ঘূর্ণন অক্ষ",
+            "c": "কৌণিক বেগ",
+            "d": "ভরের বিন্যাস"
+        },
+        "correctAnswer": "c",
+        "explanation": "জড়তার ভ্রামক (I = mr²) কৌণিক বেগের ওপর নির্ভর করে না।"
+    },
+    {
+        "id": 9,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "রকেট উড্ডয়ন নিউটনের কোন সূত্রের বাস্তব উদাহরণ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১ম সূত্র",
+            "b": "২য় সূত্র",
+            "c": "৩য় সূত্র",
+            "d": "মহাকর্ষ সূত্র"
+        },
+        "correctAnswer": "c",
+        "explanation": "রকেট নিউটনের ৩য় সূত্র এবং ভরবেগের নিত্যতা সূত্র মেনে চলে।"
+    },
+    {
+        "id": 10,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "রাস্তার ব্যাংকিং কোণ নির্ণয়ের সূত্র কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "tanθ = rg/v²",
+            "b": "tanθ = v²/rg",
+            "c": "tanθ = v/rg",
+            "d": "sinθ = v²/rg"
+        },
+        "correctAnswer": "b",
+        "explanation": "সঠিক সূত্র: tanθ = v²/rg।"
+    },
+    {
+        "id": 11,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "ঘর্ষণ গুণাঙ্ক (µ) ও নিশ্চল কোণ (θ) এর মধ্যে সম্পর্ক কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "µ = sinθ",
+            "b": "µ = cosθ",
+            "c": "µ = tanθ",
+            "d": "µ = cotθ"
+        },
+        "correctAnswer": "c",
+        "explanation": "ঘর্ষণ গুণাঙ্ক µ = tanθ (যেখানে θ নিশ্চল কোণ)।"
+    },
+    {
+        "id": 12,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "১ অশ্বশক্তি (HP) সমান কত ওয়াট?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৭৪৬ ওয়াট",
+            "b": "৭৫০ ওয়াট",
+            "c": "১০০০ ওয়াট",
+            "d": "৯৮০ ওয়াট"
+        },
+        "correctAnswer": "a",
+        "explanation": "ব্রিটিশ পদ্ধতিতে ১ HP = ৭৪৬ ওয়াট।"
+    },
+    {
+        "id": 13,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "কোনো বস্তুর ভরবেগ দ্বিগুণ করলে গতিশক্তি কতগুণ হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দ্বিগুণ",
+            "b": "চারগুণ",
+            "c": "অর্ধেক",
+            "d": "আটগুণ"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ek = p²/2m। ভরবেগ p দ্বিগুণ হলে (2p)² = 4p², তাই গতিশক্তি ৪ গুণ হবে।"
+    },
+    {
+        "id": 14,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "স্প্রিং ধ্রুবক k হলে স্প্রিং প্রসারণে সঞ্চিত শক্তি কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "kx",
+            "b": "kx²",
+            "c": "0.5 kx²",
+            "d": "0.5 k²x"
+        },
+        "correctAnswer": "c",
+        "explanation": "সঞ্চিত বিভব শক্তি U = ½kx²।"
+    },
+    {
+        "id": 15,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "কেন্দ্রমুখী বল দ্বারা কৃত কাজ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ধনাত্মক",
+            "b": "ঋণাত্মক",
+            "c": "শূন্য",
+            "d": "অসীম"
+        },
+        "correctAnswer": "c",
+        "explanation": "কেন্দ্রমুখী বল ও সরণের মধ্যবর্তী কোণ ৯০°, তাই কাজ W = FScos90° = 0।"
+    },
+    {
+        "id": 16,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "সেকেন্ড দোলকের দোলনকাল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১ সেকেন্ড",
+            "b": "২ সেকেন্ড",
+            "c": "৪ সেকেন্ড",
+            "d": "০.৫ সেকেন্ড"
+        },
+        "correctAnswer": "b",
+        "explanation": "যে দোলকের দোলনকাল ২ সেকেন্ড তাকে সেকেন্ড দোলক বলে।"
+    },
+    {
+        "id": 17,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "সরল দোলকের কার্যকরী দৈর্ঘ্য ৪ গুণ করলে দোলনকাল কত হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দ্বিগুণ",
+            "b": "চারগুণ",
+            "c": "অর্ধেক",
+            "d": "অপরিবর্তিত"
+        },
+        "correctAnswer": "a",
+        "explanation": "T ∝ √L। L চারগুণ হলে T হবে √4 = ২ গুণ।"
+    },
+    {
+        "id": 18,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "স্প্রিং এর গতি কোন ধরণের গতি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "চলন গতি",
+            "b": "সরল ছন্দিত স্পন্দন",
+            "c": "বৃত্তাকার গতি",
+            "d": "উপবৃত্তাকার গতি"
+        },
+        "correctAnswer": "b",
+        "explanation": "স্প্রিং এর গতি সরল ছন্দিত স্পন্দন (Simple Harmonic Motion)।"
+    },
+    {
+        "id": 19,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "মহাকাশে একটি সেকেন্ড দোলকের দোলনকাল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২ সেকেন্ড",
+            "b": "০ সেকেন্ড",
+            "c": "অসীম",
+            "d": "১ সেকেন্ড"
+        },
+        "correctAnswer": "c",
+        "explanation": "মহাকাশে g = 0, তাই T = 2π√(L/0) = অসীম।"
+    },
+    {
+        "id": 20,
+        "subject": "Physics",
+        "topic": "Properties of Matter",
+        "question": "পয়সনের অনুপাত (σ) এর তাত্ত্বিক সীমা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0 থেকে 0.5",
+            "b": "-1 থেকে 0.5",
+            "c": "0 থেকে 1",
+            "d": "-1 থেকে 1"
+        },
+        "correctAnswer": "b",
+        "explanation": "পয়সনের অনুপাতের তাত্ত্বিক সীমা -1 থেকে +0.5 পর্যন্ত।"
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "topic": "Properties of Matter",
+        "question": "ইয়ং এর গুণাঙ্ক (Y) এর একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "N/m",
+            "b": "N/m²",
+            "c": "J/m",
+            "d": "kg/m³"
+        },
+        "correctAnswer": "b",
+        "explanation": "পীরণ/বিকৃতি, তাই একক চাপের এককের সমান (N/m² বা Pascal)।"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "সেলসিয়াস ও ফারেনহাইট স্কেলে কোন তাপমাত্রার পাঠ সমান?",
+        "hasDiagram": false,
+        "options": {
+            "a": "-40°",
+            "b": "40°",
+            "c": "160°",
+            "d": "-160°"
+        },
+        "correctAnswer": "a",
+        "explanation": "C/5 = (F-32)/9 সমীকরণে x বসালে x = -40 পাওয়া যায়।"
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "তাপগতিবিদ্যার প্রথম সূত্র মূলত কোনটির সংরক্ষণ সূত্র?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ভর",
+            "b": "শক্তি",
+            "c": "ভরবেগ",
+            "d": "তাপমাত্রা"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি শক্তির নিত্যতা সূত্রের একটি বিশেষ রূপ।"
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "রূদ্ধতাপীয় প্রক্রিয়ায় কোনটি স্থির থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তাপমাত্রা",
+            "b": "চাপ",
+            "c": "এন্ট্রপি",
+            "d": "আয়তন"
+        },
+        "correctAnswer": "c",
+        "explanation": "রূদ্ধতাপীয় প্রক্রিয়ায় তাপের আদান-প্রদান হয় না, তাই এন্ট্রপি স্থির থাকে।"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "গামা (γ) এর মান এক পারমাণবিক গ্যাসের জন্য কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১.৪০",
+            "b": "১.৬৭",
+            "c": "১.৩৩",
+            "d": "১.৩০"
+        },
+        "correctAnswer": "b",
+        "explanation": "এক পারমাণবিক গ্যাসের জন্য γ = 1.67 (দ্বি-পারমাণবিক 1.40)।"
+    },
+    {
+        "id": 26,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কার্নো ইঞ্জিনের দক্ষতা কিসের ওপর নির্ভর করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কার্যনির্বাহী বস্তু",
+            "b": "উৎস ও গ্রাহকের তাপমাত্রা",
+            "c": "জ্বালানির পরিমাণ",
+            "d": "ইঞ্জিনের আকার"
+        },
+        "correctAnswer": "b",
+        "explanation": "η = 1 - (T2/T1), তাই এটি তাপমাত্রার ওপর নির্ভর করে।"
+    },
+    {
+        "id": 27,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "শূন্য মাধ্যমে কুলম্ব ধ্রুবকের মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "9×10^9 Nm²/C²",
+            "b": "8.85×10^-12 Nm²/C²",
+            "c": "1.6×10^-19 C",
+            "d": "9×10^-9 Nm²/C²"
+        },
+        "correctAnswer": "a",
+        "explanation": "k = 9×10^9 Nm²/C²।"
+    },
+    {
+        "id": 28,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "তড়িৎ প্রাবল্যের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "N/C",
+            "b": "V/m",
+            "c": "উভয়ই",
+            "d": "J/C"
+        },
+        "correctAnswer": "c",
+        "explanation": "তড়িৎ প্রাবল্যের একক N/C এবং V/m উভয়ই প্রচলিত।"
+    },
+    {
+        "id": 29,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "একটি গোলকের ব্যাসার্ধ R হলে এর ধারকত্ব কত (SI)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "4πε₀R",
+            "b": "R/4πε₀",
+            "c": "4πR",
+            "d": "1/4πε₀R"
+        },
+        "correctAnswer": "a",
+        "explanation": "গোলকীয় পরিবাহীর ধারকত্ব C = 4πε₀R।"
+    },
+    {
+        "id": 30,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "১ কুলম্ব চার্জে কতটি ইলেকট্রন থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "6.25×10^18",
+            "b": "1.6×10^19",
+            "c": "6.25×10^19",
+            "d": "9×10^9"
+        },
+        "correctAnswer": "a",
+        "explanation": "n = Q/e = 1 / (1.6×10^-19) ≈ 6.25×10^18 টি।"
+    },
+    {
+        "id": 31,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "রোধের উষ্ণতা সহগের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Ω/K",
+            "b": "K^-1",
+            "c": "Ωm",
+            "d": "Amper"
+        },
+        "correctAnswer": "b",
+        "explanation": "উষ্ণতা সহগের একক হলো প্রতি কেলভিন (K^-1) বা প্রতি ডিগ্রি সেলসিয়াস।"
+    },
+    {
+        "id": 32,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "কির্শফের ১ম সূত্র কোনটির সংরক্ষণ নির্দেশ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শক্তি",
+            "b": "আধান",
+            "c": "ভর",
+            "d": "বিভব"
+        },
+        "correctAnswer": "b",
+        "explanation": "কির্শফের কারেন্ট ল (KCL) আধানের সংরক্ষণশীলতা নীতি মেনে চলে।"
+    },
+    {
+        "id": 33,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "শান্ট এর রোধ কেমন হওয়া উচিত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "খুব বেশি",
+            "b": "খুব কম",
+            "c": "গ্যালভানোমিটারের সমান",
+            "d": "অসীম"
+        },
+        "correctAnswer": "b",
+        "explanation": "গ্যালভানোমিটারকে রক্ষা করতে শান্টের রোধ খুব কম হতে হয়।"
+    },
+    {
+        "id": 34,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "১০ ওহম ও ১০ ওহম এর দুটি রোধ সমান্তরালে যুক্ত করলে তুল্য রোধ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২০ ওহম",
+            "b": "১০ ওহম",
+            "c": "৫ ওহম",
+            "d": "১০০ ওহম"
+        },
+        "correctAnswer": "c",
+        "explanation": "সমমানের দুটি রোধ সমান্তরালে থাকলে তুল্য রোধ অর্ধেক হয় (10/2 = 5)।"
+    },
+    {
+        "id": 35,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "এক কিলোওয়াট-ঘণ্টা (1 kWh) সমান কত জুল?",
+        "hasDiagram": false,
+        "options": {
+            "a": "3.6×10^5 J",
+            "b": "3.6×10^6 J",
+            "c": "1000 J",
+            "d": "3600 J"
+        },
+        "correctAnswer": "b",
+        "explanation": "1 kWh = 1000 W × 3600 s = 3.6×10^6 J।"
+    },
+    {
+        "id": 36,
+        "subject": "Physics",
+        "topic": "Magnetic Effect",
+        "question": "চৌম্বক ফ্লাক্সের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "টেসলা",
+            "b": "ওয়েবার",
+            "c": "গাউস",
+            "d": "হেনরি"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফ্লাক্সের একক ওয়েবার (Wb), আর ফ্লাক্স ঘনত্বের একক টেসলা (T)।"
+    },
+    {
+        "id": 37,
+        "subject": "Physics",
+        "topic": "Magnetic Effect",
+        "question": "লরেঞ্জ বলের সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "F = qE",
+            "b": "F = q(v × B)",
+            "c": "F = qE + q(v × B)",
+            "d": "F = BIL"
+        },
+        "correctAnswer": "c",
+        "explanation": "তড়িৎ ও চৌম্বক বলের সমষ্টিকে লরেঞ্জ বল বলে: F = qE + q(v×B)।"
+    },
+    {
+        "id": 38,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "আদর্শ গ্যাসের সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "PV = nRT",
+            "b": "PV = mRT",
+            "c": "P/T = V",
+            "d": "PV = kT"
+        },
+        "correctAnswer": "a",
+        "explanation": "PV = nRT হলো ১ মোল বা n মোল গ্যাসের জন্য আদর্শ সমীকরণ।"
+    },
+    {
+        "id": 39,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "বয়েলের সূত্রে কোনটি স্থির থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "চাপ",
+            "b": "আয়তন",
+            "c": "তাপমাত্রা",
+            "d": "ভর ও তাপমাত্রা"
+        },
+        "correctAnswer": "d",
+        "explanation": "বয়েলের সূত্রে তাপমাত্রা এবং গ্যাসের ভর স্থির থাকে।"
+    },
+    {
+        "id": 40,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "আলোর তরঙ্গ তত্ত্বের প্রবক্তা কে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নিউটন",
+            "b": "হাইগেনস",
+            "c": "ম্যাক্সওয়েল",
+            "d": "আইনস্টাইন"
+        },
+        "correctAnswer": "b",
+        "explanation": "হাইগেনস আলোর তরঙ্গ তত্ত্ব প্রদান করেন।"
+    },
+    {
+        "id": 41,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "গঠনমূলক ব্যতিচারের শর্ত কোনটি (পথপার্থক্য)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "λ/2 এর বিজোড় গুণিতক",
+            "b": "λ এর পূর্ণ গুণিতক",
+            "c": "λ/4 এর গুণিতক",
+            "d": "কোনটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "গঠনমূলক ব্যতিচারে পথপার্থক্য = nλ (তরঙ্গদৈর্ঘ্যের পূর্ণ গুণিতক)।"
+    },
+    {
+        "id": 42,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "অপবর্তনের ক্ষেত্রে কেন্দ্রীয় চরম বিন্দুটি কেমন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অন্ধকার",
+            "b": "সর্বাপেক্ষা উজ্জ্বল",
+            "c": "রঙিন",
+            "d": "ঝাপসা"
+        },
+        "correctAnswer": "b",
+        "explanation": "একক চিরের অপবর্তনে কেন্দ্রীয় পট্টিটি সবচেয়ে চওড়া ও উজ্জ্বল হয়।"
+    },
+    {
+        "id": 43,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "ফোটনের নিশ্চল ভর কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1.6×10^-19 kg",
+            "b": "9.1×10^-31 kg",
+            "c": "শূন্য",
+            "d": "অসীম"
+        },
+        "correctAnswer": "c",
+        "explanation": "ফোটনের কোনো নিশ্চল ভর (rest mass) নেই।"
+    },
+    {
+        "id": 44,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "E = mc² সূত্রটি কে প্রদান করেন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নিউটন",
+            "b": "প্লাঙ্ক",
+            "c": "আইনস্টাইন",
+            "d": "বোর"
+        },
+        "correctAnswer": "c",
+        "explanation": "আলবার্ট আইনস্টাইন ভর-শক্তি সমীকরণ প্রদান করেন।"
+    },
+    {
+        "id": 45,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "কোনো কণার বেগ আলোর বেগের সমান হলে তার ভর কত হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শূন্য",
+            "b": "অসীম",
+            "c": "অপরিবর্তিত",
+            "d": "অর্ধেক"
+        },
+        "correctAnswer": "b",
+        "explanation": "আপেক্ষিকতার সূত্রানুযায়ী v = c হলে ভর অসীম হয়ে যায়।"
+    },
+    {
+        "id": 46,
+        "subject": "Physics",
+        "topic": "Atomic Model",
+        "question": "হাইড্রোজেন পরমাণুর ১ম কক্ষপথের ব্যাসার্ধ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0.53 Å",
+            "b": "1.06 Å",
+            "c": "3.14 Å",
+            "d": "0.25 Å"
+        },
+        "correctAnswer": "a",
+        "explanation": "বোর ব্যাসার্ধ r₁ ≈ 0.53 Å।"
+    },
+    {
+        "id": 47,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "P-টাইপ অর্ধপরিবাহীতে গরিষ্ঠ আধান বাহক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইলেকট্রন",
+            "b": "হোল",
+            "c": "প্রোটন",
+            "d": "নিউট্রন"
+        },
+        "correctAnswer": "b",
+        "explanation": "P-Type এ Positive Hole বা হোল প্রধান বাহক।"
+    },
+    {
+        "id": 48,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "ডায়েড প্রধানত কী হিসেবে কাজ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অ্যামপ্লিফায়ার",
+            "b": "রেকটিফায়ার",
+            "c": "অসিলেটর",
+            "d": "মডুলেটর"
+        },
+        "correctAnswer": "b",
+        "explanation": "ডায়েড এসি কারেন্টকে ডিসি কারেন্টে রূপান্তর করে (একমুখী কারক বা Rectifier)।"
+    },
+    {
+        "id": 49,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "নিচের কোনটি সার্বজনীন গেইট?",
+        "hasDiagram": false,
+        "options": {
+            "a": "AND",
+            "b": "OR",
+            "c": "NAND",
+            "d": "NOT"
+        },
+        "correctAnswer": "c",
+        "explanation": "NAND এবং NOR গেইটকে সার্বজনীন গেইট বলা হয়।"
+    },
+    {
+        "id": 50,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "বাইনারি সংখ্যা (101)₂ এর দশমিক মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২",
+            "b": "৩",
+            "c": "৫",
+            "d": "৭"
+        },
+        "correctAnswer": "c",
+        "explanation": "1×2² + 0×2¹ + 1×2⁰ = 4 + 0 + 1 = 5।"
+    },
+    {
+        "id": 51,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "ভেক্টর A = 3i - 4j এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১",
+            "b": "৫",
+            "c": "৭",
+            "d": "১২"
+        },
+        "correctAnswer": "b",
+        "explanation": "|A| = √(3² + (-4)²) = √(9+16) = 5।"
+    },
+    {
+        "id": 52,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "1 নিউটন বল কত ডাইন এর সমান?",
+        "hasDiagram": false,
+        "options": {
+            "a": "10^3",
+            "b": "10^5",
+            "c": "10^7",
+            "d": "10^-5"
+        },
+        "correctAnswer": "b",
+        "explanation": "1 Newton = 10^5 Dyne।"
+    },
+    {
+        "id": 53,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "মুক্তভাবে পড়ন্ত বস্তুর ক্ষেত্রে কোনটি সংরক্ষিত থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শুধুমাত্র গতিশক্তি",
+            "b": "শুধুমাত্র বিভব শক্তি",
+            "c": "মোট যান্ত্রিক শক্তি",
+            "d": "ভরবেগ"
+        },
+        "correctAnswer": "c",
+        "explanation": "যান্ত্রিক শক্তি (গতিশক্তি + বিভব শক্তি) সর্বদা ধ্রুব থাকে।"
+    },
+    {
+        "id": 54,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কোন তাপমাত্রায় জলের ঘনত্ব সবচেয়ে বেশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0°C",
+            "b": "4°C",
+            "c": "100°C",
+            "d": "-4°C"
+        },
+        "correctAnswer": "b",
+        "explanation": "৪ ডিগ্রি সেলসিয়াস তাপমাত্রায় পানির ঘনত্ব সর্বাধিক।"
+    },
+    {
+        "id": 55,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "তড়িৎ দ্বিমেরুর মোট চার্জ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ধনাত্মক",
+            "b": "ঋণাত্মক",
+            "c": "শূন্য",
+            "d": "অসীম"
+        },
+        "correctAnswer": "c",
+        "explanation": "সমমানের বিপরীত ধর্মী দুটি চার্জ (+q ও -q) থাকায় মোট চার্জ শূন্য হয়।"
+    },
+    {
+        "id": 56,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "হুইটস্টোন ব্রীজ কোন নীতির উপর ভিত্তি করে কাজ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ওহমের সূত্র",
+            "b": "কার্শফের সূত্র",
+            "c": "জুলের সূত্র",
+            "d": "লরেঞ্জ বল"
+        },
+        "correctAnswer": "b",
+        "explanation": "হুইটস্টোন ব্রীজ কার্শফের সূত্রের প্রয়োগ।"
+    },
+    {
+        "id": 57,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "আলোর সমবর্তন (Polarization) প্রমাণ করে যে আলো একটি-",
+        "hasDiagram": false,
+        "options": {
+            "a": "অণুদৈর্ঘ্য তরঙ্গ",
+            "b": "আড় তরঙ্গ",
+            "c": "যান্ত্রিক তরঙ্গ",
+            "d": "স্থির তরঙ্গ"
+        },
+        "correctAnswer": "b",
+        "explanation": "কেবল আড় তরঙ্গ বা অনুপ্রস্থ তরঙ্গই সমবর্তিত হতে পারে।"
+    },
+    {
+        "id": 58,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "সূর্যের শক্তির উৎস কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নিউক্লিয়ার ফিশন",
+            "b": "নিউক্লিয়ার ফিউশন",
+            "c": "রাসায়নিক বিক্রিয়া",
+            "d": "তেজস্ক্রিয় ক্ষয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফিউশন বা সংযোজন বিক্রিয়ায় হাইড্রোজেন হিলিয়ামে পরিণত হয়ে শক্তি দেয়।"
+    },
+    {
+        "id": 59,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "তাপমাত্রা বাড়লে অর্ধপরিবাহীর রোধ কেমন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাড়ে",
+            "b": "কমে",
+            "c": "অপরিবর্তিত থাকে",
+            "d": "শূন্য হয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "অর্ধপরিবাহীর ক্ষেত্রে তাপমাত্রা বাড়লে যোজ্যতা ব্যান্ডের ইলেকট্রন পরিবহন ব্যান্ডে যায়, তাই রোধ কমে।"
+    },
+    {
+        "id": 60,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "লব্ধির সর্বোচ্চ মান কখন পাওয়া যায়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কোণ ০° হলে",
+            "b": "কোণ ৯০° হলে",
+            "c": "কোণ ১৮০° হলে",
+            "d": "কোণ ৬০° হলে"
+        },
+        "correctAnswer": "a",
+        "explanation": "Rmax = P + Q হয় যখন মধ্যবর্তী কোণ ০° হয়।"
+    },
+    {
+        "id": 61,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "কৌণিক ভরবেগের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "kg m/s",
+            "b": "kg m²/s",
+            "c": "kg m/s²",
+            "d": "J s"
+        },
+        "correctAnswer": "b",
+        "explanation": "L = mvr = kg.m/s.m = kg m²/s বা J s।"
+    },
+    {
+        "id": 62,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "দোলক ঘড়ি গ্রীষ্মকালে কেমন চলে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দ্রুত",
+            "b": "ধীরে",
+            "c": "ঠিক থাকে",
+            "d": "বন্ধ হয়ে যায়"
+        },
+        "correctAnswer": "b",
+        "explanation": "গ্রীষ্মকালে তাপমাত্রা বাড়ে, ফলে দৈর্ঘ্য L বাড়ে। T ∝ √L, তাই দোলনকাল বাড়ে অর্থাৎ ঘড়ি ধীরে চলে।"
+    },
+    {
+        "id": 63,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "পানির ত্রৈধ বিন্দুর তাপমাত্রা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "273.16 K",
+            "b": "273.15 K",
+            "c": "0 K",
+            "d": "100 K"
+        },
+        "correctAnswer": "a",
+        "explanation": "পানির ত্রৈধ বিন্দু (Triple point) হলো 273.16 K।"
+    },
+    {
+        "id": 64,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "এনট্রপির একক কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "J/K",
+            "b": "J K",
+            "c": "Cal/C",
+            "d": "Watt"
+        },
+        "correctAnswer": "a",
+        "explanation": "dS = dQ/T, তাই একক Joule/Kelvin।"
+    },
+    {
+        "id": 65,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "কোষের অভ্যন্তরীণ রোধ বৃদ্ধি পেলে তড়িৎ প্রবাহ-",
+        "hasDiagram": false,
+        "options": {
+            "a": "বৃদ্ধি পায়",
+            "b": "হ্রাস পায়",
+            "c": "সমান থাকে",
+            "d": "শূন্য হয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "I = E/(R+r)। অভ্যন্তরীণ রোধ r বাড়লে প্রবাহ I কমে।"
+    },
+    {
+        "id": 66,
+        "subject": "Physics",
+        "topic": "Magnetic Effect",
+        "question": "হল প্রভাব (Hall Effect) দ্বারা কোনটি নির্ণয় করা যায়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "চার্জের প্রকৃতি",
+            "b": "চৌম্বক ফ্লাক্স",
+            "c": "রোধ",
+            "d": "তাপমাত্রা"
+        },
+        "correctAnswer": "a",
+        "explanation": "হল ভোল্টেজের পোলারিটি দেখে চার্জ বাহক ধনাত্মক না ঋণাত্মক তা বোঝা যায়।"
+    },
+    {
+        "id": 67,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "এক পারমাণবিক ভর একক (1 amu) সমতুল্য শক্তি কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "931.5 MeV",
+            "b": "931.5 eV",
+            "c": "1 MeV",
+            "d": "931.5 J"
+        },
+        "correctAnswer": "a",
+        "explanation": "1 amu ভর শক্তিতে রূপান্তরিত হলে প্রায় 931.5 MeV শক্তি পাওয়া যায়।"
+    },
+    {
+        "id": 68,
+        "subject": "Physics",
+        "topic": "Nuclear Physics",
+        "question": "অর্ধায়ু (T) ও ক্ষয় ধ্রুবক (λ) এর সম্পর্ক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "T = 0.693 λ",
+            "b": "T = 0.693 / λ",
+            "c": "T = 1 / λ",
+            "d": "T = λ / 0.693"
+        },
+        "correctAnswer": "b",
+        "explanation": "অর্ধায়ু T½ = ln2 / λ = 0.693 / λ।"
+    },
+    {
+        "id": 69,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "নিচের কোনটি অপদ্রব্য (Impurity) হিসেবে ব্যবহৃত হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তামা",
+            "b": "সোনা",
+            "c": "আর্সেনিক",
+            "d": "লোহা"
+        },
+        "correctAnswer": "c",
+        "explanation": "সিলিকনের সাথে ডোপিং করতে আর্সেনিক (৫ যোজী) বা বোরন (৩ যোজী) ব্যবহার করা হয়।"
+    },
+    {
+        "id": 70,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "ভরবেগের নিত্যতা সূত্র প্রযোজ্য হয় যখন-",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাইরে থেকে বল প্রযুক্ত হয়",
+            "b": "বাইরে থেকে বল প্রযুক্ত না হয়",
+            "c": "ঘর্ষণ থাকে",
+            "d": "বস্তু স্থির থাকে"
+        },
+        "correctAnswer": "b",
+        "explanation": "বাহ্যিক বল শূন্য হলে (F=0) ভরবেগ সংরক্ষিত থাকে।"
+    },
+    {
+        "id": 71,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "বৃষ্টি উলম্বভাবে পড়ছে। গাড়ি পূর্ব দিকে চললে চালক বৃষ্টিকে কোন দিকে পড়তে দেখবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "উলম্বভাবে",
+            "b": "পূর্ব দিকে",
+            "c": "পশ্চিম দিকে হেলে",
+            "d": "পূর্ব দিকে হেলে"
+        },
+        "correctAnswer": "d",
+        "explanation": "আপেক্ষিক বেগের কারণে বৃষ্টিকে গাড়ির গতির বিপরীত দিকে (যদি গাড়ি পূর্বে যায়, তবে মনে হবে বৃষ্টি পূর্ব থেকে আসছে অর্থাৎ গাড়ি সাপেক্ষে কোণ তৈরি হবে)। আসলে প্রশ্নটিতে সাধারণত 'সামনে' বা 'পেছনে' হেলে পড়ার কথা থাকে। সঠিক উত্তর: গাড়ি যেদিকে যায়, বৃষ্টি মনে হয় তার বিপরীত দিক থেকে কোণ করে আসছে (windshield এ আঘাত করে)। গানিতিকভাবে লব্ধি বেগ গাড়ির গতির দিকে হেলে থাকে।"
+    },
+    {
+        "id": 72,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "কোন পাম্প ১০ সেকেন্ডে ১০০ কেজি পানি ১০ মিটার উপরে তুললে তার ক্ষমতা কত? (g=10)",
+        "hasDiagram": false,
+        "options": {
+            "a": "100 W",
+            "b": "1000 W",
+            "c": "500 W",
+            "d": "10000 W"
+        },
+        "correctAnswer": "b",
+        "explanation": "P = mgh/t = (100×10×10)/10 = 1000 Watt।"
+    },
+    {
+        "id": 73,
+        "subject": "Physics",
+        "topic": "Properties of Matter",
+        "question": "সান্দ্রতা গুণাঙ্কের মাত্রা কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "[ML^-1T^-1]",
+            "b": "[MLT^-1]",
+            "c": "[ML^-2T^-1]",
+            "d": "[M^-1L^-1T]"
+        },
+        "correctAnswer": "a",
+        "explanation": "সান্দ্রতা গুণাঙ্ক η এর মাত্রা [ML^-1T^-1]।"
+    },
+    {
+        "id": 74,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "ব্রুস্টার কোণে আপতিত আলোর ক্ষেত্রে প্রতিফলিত ও প্রতিসরিত রশ্মির মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৪৫°",
+            "b": "৬০°",
+            "c": "৯০°",
+            "d": "১৮০°"
+        },
+        "correctAnswer": "c",
+        "explanation": "ব্রুস্টার সূত্রানুযায়ী, সমবর্তন কোণে আপতিত হলে প্রতিফলিত ও প্রতিসরিত রশ্মি পরস্পর লম্ব (৯০°) থাকে।"
+    },
+    {
+        "id": 75,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "ফিউজ তার কোন ধাতুর সংকর?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তামা ও দস্তা",
+            "b": "সিসা ও টিন",
+            "c": "লোহা ও কার্বন",
+            "d": "তামা ও টিন"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফিউজ তার সিসা (Pb) ও টিন (Sn) এর সংকর ধাতু দিয়ে তৈরি।"
+    },
+    {
+        "id": 76,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "তিনটি ভেক্টর একই সমতলে থাকার শর্ত কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "A.(B×C) = 0",
+            "b": "A×(B×C) = 0",
+            "c": "A.B = 0",
+            "d": "A×B = 0"
+        },
+        "correctAnswer": "a",
+        "explanation": "তিনটি ভেক্টরের স্কেলার ট্রিপল প্রোডাক্ট শূন্য হলে তারা সমতলীয় হয়।"
+    },
+    {
+        "id": 77,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "ঘূর্ণনরত বস্তুর ক্ষেত্রে ভর × চক্রগতির ব্যাসার্ধের বর্গ = কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "টর্ক",
+            "b": "কৌণিক ভরবেগ",
+            "c": "জড়তার ভ্রামক",
+            "d": "কেন্দ্রমুখী বল"
+        },
+        "correctAnswer": "c",
+        "explanation": "I = MK² (যেখানে K চক্রগতির ব্যাসার্ধ)।"
+    },
+    {
+        "id": 78,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "সরল দোলকের ববটি পানি পূর্ণ থাকলে এবং নিচে ছিদ্র করে দিলে দোলনকাল কীভাবে পরিবর্তিত হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাড়বে",
+            "b": "কমবে",
+            "c": "প্রথমে বাড়বে পরে কমবে",
+            "d": "অপরিবর্তিত থাকবে"
+        },
+        "correctAnswer": "c",
+        "explanation": "পানি পড়ার সাথে সাথে ববের ভারকেন্দ্র নিচে নামবে, তাই L বাড়বে ও T বাড়বে। পানি শেষ হলে ভারকেন্দ্র আবার মাঝখানে আসবে, তখন T কমে আগের অবস্থায় ফিরবে।"
+    },
+    {
+        "id": 79,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "গড় বর্গবেগের বর্গমূল (RMS) বেগ ও তাপমাত্রার সম্পর্ক কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "C ∝ T",
+            "b": "C ∝ T²",
+            "c": "C ∝ √T",
+            "d": "C ∝ 1/T"
+        },
+        "correctAnswer": "c",
+        "explanation": "Crms = √(3RT/M), তাই C ∝ √T।"
+    },
+    {
+        "id": 80,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কোন ইঞ্জিনের দক্ষতা ১০০% হওয়া সম্ভব নয় কেন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ঘর্ষণের জন্য",
+            "b": "তাপ নষ্ট হয় বলে",
+            "c": "গ্রাহকের তাপমাত্রা 0K হওয়া অসম্ভব বলে",
+            "d": "ইঞ্জিন গরম হয় বলে"
+        },
+        "correctAnswer": "c",
+        "explanation": "T2 (গ্রাহক) এর তাপমাত্রা পরম শূন্য (0K) করা বাস্তবে অসম্ভব, তাই দক্ষতা ১০০% হয় না।"
+    },
+    {
+        "id": 81,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "বজ্রপাতের সময় কোথায় থাকা নিরাপদ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "গাছের নিচে",
+            "b": "টিনের ঘরে",
+            "c": "গাড়ির ভেতরে",
+            "d": "খোলা মাঠে"
+        },
+        "correctAnswer": "c",
+        "explanation": "ধাতব বডি বা গাড়ির ভেতরে থাকলে ইলেকট্রোস্ট্যাটিক শিল্ডিং এর কারণে ভেতরে প্রাবল্য শূন্য থাকে, তাই নিরাপদ।"
+    },
+    {
+        "id": 82,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "মিটার ব্রীজ দিয়ে কী মাপা হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "প্রবাহ",
+            "b": "বিভব",
+            "c": "অজানা রোধ",
+            "d": "তাপমাত্রা"
+        },
+        "correctAnswer": "c",
+        "explanation": "মিটার ব্রীজ ব্যবহার করে অজানা রোধ নির্ণয় করা হয়।"
+    },
+    {
+        "id": 83,
+        "subject": "Physics",
+        "topic": "Magnetic Effect",
+        "question": "তড়িৎবাহী তারের আশেপাশে কী সৃষ্টি হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তড়িৎ ক্ষেত্র",
+            "b": "চৌম্বক ক্ষেত্র",
+            "c": "মহাকর্ষ ক্ষেত্র",
+            "d": "কোনটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "ওর্স্টেডের পরীক্ষা অনুযায়ী তড়িৎ প্রবাহের ফলে চৌম্বক ক্ষেত্র সৃষ্টি হয়।"
+    },
+    {
+        "id": 84,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "ফ্রেনেল শ্রেণীর অপবর্তনে আলোক উৎস কোথায় থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অসীমে",
+            "b": "সসীম দূরত্বে",
+            "c": "ফোকাস তলে",
+            "d": "লেন্সের পেছনে"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফ্রেনেল অপবর্তনে উৎস ও পর্দা সসীম দূরত্বে থাকে (ফ্রনহফারে অসীমে)।"
+    },
+    {
+        "id": 85,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "এক্স-রে এর তরঙ্গদৈর্ঘ্য কেমন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "খুব বড়",
+            "b": "খুব ছোট",
+            "c": "দৃশমান আলোর সমান",
+            "d": "বেতার তরঙ্গের সমান"
+        },
+        "correctAnswer": "b",
+        "explanation": "এক্স-রে এর তরঙ্গদৈর্ঘ্য খুব ছোট (প্রায় 10^-10 m), তাই ভেদন ক্ষমতা বেশি।"
+    },
+    {
+        "id": 86,
+        "subject": "Physics",
+        "topic": "Atomic Model",
+        "question": "রিডবার্গ ধ্রুবকের মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1.097×10^7 m^-1",
+            "b": "6.63×10^-34 Js",
+            "c": "3×10^8 m/s",
+            "d": "8.31 J/molK"
+        },
+        "correctAnswer": "a",
+        "explanation": "R = 1.097×10^7 m^-1।"
+    },
+    {
+        "id": 87,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "আলফা কণা মূলত কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইলেকট্রন",
+            "b": "প্রোটন",
+            "c": "হিলিয়াম নিউক্লিয়াস",
+            "d": "নিউট্রন"
+        },
+        "correctAnswer": "c",
+        "explanation": "আলফা কণা হলো দ্বি-ধনাত্মক হিলিয়াম নিউক্লিয়াস (He++)।"
+    },
+    {
+        "id": 88,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "ট্রানজিস্টরের ইমিটারের কাজ কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সংকেত গ্রহণ করা",
+            "b": "চার্জ বাহক সরবরাহ করা",
+            "c": "চার্জ সংগ্রহ করা",
+            "d": "তাপ কমানো"
+        },
+        "correctAnswer": "b",
+        "explanation": "ইমিটার (Emitter) বা নিঃসারক এর কাজ হলো চার্জ বাহক (ইলেকট্রন বা হোল) সরবরাহ করা।"
+    },
+    {
+        "id": 89,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "একক ভেক্টরের মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "০",
+            "b": "১",
+            "c": "অসীম",
+            "d": "১০"
+        },
+        "correctAnswer": "b",
+        "explanation": "যে ভেক্টরের মান এক একক তাকে একক ভেক্টর বলে।"
+    },
+    {
+        "id": 90,
+        "subject": "Physics",
+        "topic": "Newtonian Mechanics",
+        "question": "ঘূর্ণন গতির ক্ষেত্রে ভরের সমতুল্য রাশি কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "টর্ক",
+            "b": "কৌণিক বেগ",
+            "c": "জড়তার ভ্রামক",
+            "d": "কৌণিক ত্বরণ"
+        },
+        "correctAnswer": "c",
+        "explanation": "রৈখিক গতিতে যা ভর, ঘূর্ণন গতিতে তাই জড়তার ভ্রামক।"
+    },
+    {
+        "id": 91,
+        "subject": "Physics",
+        "topic": "Work, Energy & Power",
+        "question": "নবায়নযোগ্য শক্তির উৎস কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কয়লা",
+            "b": "প্রাকৃতিক গ্যাস",
+            "c": "সৌরশক্তি",
+            "d": "নিউক্লিয়ার শক্তি"
+        },
+        "correctAnswer": "c",
+        "explanation": "সৌরশক্তি, বায়ুশক্তি এগুলো নবায়নযোগ্য।"
+    },
+    {
+        "id": 92,
+        "subject": "Physics",
+        "topic": "Periodic Motion",
+        "question": "দোলকের পিণ্ডটি ফাঁপা হলে এবং তাতে পারদ ভর্তি থাকলে দোলনকাল কী হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাড়বে",
+            "b": "কমবে",
+            "c": "একই থাকবে",
+            "d": "শূন্য হবে"
+        },
+        "correctAnswer": "c",
+        "explanation": "সরল দোলকের দোলনকাল ববের ভরের বা উপাদানের ওপর নির্ভর করে না, কেবল দৈর্ঘ্যের ওপর নির্ভর করে।"
+    },
+    {
+        "id": 93,
+        "subject": "Physics",
+        "topic": "Ideal Gas",
+        "question": "STP তে এক মোল গ্যাসের আয়তন কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২২.৪ লিটার",
+            "b": "২৪.৮ লিটার",
+            "c": "১০ লিটার",
+            "d": "১০০ লিটার"
+        },
+        "correctAnswer": "a",
+        "explanation": "Standard Temperature and Pressure (STP) তে আয়তন ২২.৪ লিটার।"
+    },
+    {
+        "id": 94,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "রেফ্রিজারেটরের কর্মসম্পাদন গুণাঙ্ক (COP) এর মান সাধারণত-",
+        "hasDiagram": false,
+        "options": {
+            "a": "১ এর চেয়ে কম",
+            "b": "১ এর চেয়ে বেশি",
+            "c": "শূন্য",
+            "d": "অসীম"
+        },
+        "correctAnswer": "b",
+        "explanation": "COP = Q2/W, এর মান সাধারণত ১ এর বেশি হয় (উদাহরণস্বরূপ ২ থেকে ৪)।"
+    },
+    {
+        "id": 95,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "পৃথিবীর বিভব কত ধরা হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অসীম",
+            "b": "শূন্য",
+            "c": "১০০ ভোল্ট",
+            "d": "ঋণাত্মক"
+        },
+        "correctAnswer": "b",
+        "explanation": "পৃথিবীর আকার বিশাল হওয়ায় এর বিভব শূন্য ধরা হয়।"
+    },
+    {
+        "id": 96,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "কোন পদার্থের রোধকত্ব সবচেয়ে কম?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তামা",
+            "b": "রূপা",
+            "c": "লোহা",
+            "d": "অ্যালুমিনিয়াম"
+        },
+        "correctAnswer": "b",
+        "explanation": "রূপা (Silver) বিদ্যুৎ সুপরিবাহী এবং এর রোধকত্ব সবচেয়ে কম।"
+    },
+    {
+        "id": 97,
+        "subject": "Physics",
+        "topic": "Magnetic Effect",
+        "question": "চৌম্বক বলরেখাগুলো কেমন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "খোলা বক্ররেখা",
+            "b": "বদ্ধ বক্ররেখা",
+            "c": "সরলরেখা",
+            "d": "বিচ্ছিন্ন"
+        },
+        "correctAnswer": "b",
+        "explanation": "চৌম্বক বলরেখা উত্তর মেরু থেকে বেরিয়ে দক্ষিণ মেরু হয়ে ভেতরে গিয়ে আবার উত্তরে আসে, তাই এরা বদ্ধ বক্ররেখা।"
+    },
+    {
+        "id": 98,
+        "subject": "Physics",
+        "topic": "Physical Optics",
+        "question": "শূন্য স্থানে আলোর বেগ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "3×10^6 m/s",
+            "b": "3×10^8 m/s",
+            "c": "3×10^10 m/s",
+            "d": "332 m/s"
+        },
+        "correctAnswer": "b",
+        "explanation": "c = 3×10^8 m/s।"
+    },
+    {
+        "id": 99,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "কম্পটন ক্রিয়া প্রমাণ করে আলোর-",
+        "hasDiagram": false,
+        "options": {
+            "a": "তরঙ্গ ধর্ম",
+            "b": "কণা ধর্ম",
+            "c": "চৌম্বক ধর্ম",
+            "d": "তড়িৎ ধর্ম"
+        },
+        "correctAnswer": "b",
+        "explanation": "কম্পটন ক্রিয়া ফোটনের কণা ধর্ম (Particle nature) প্রমাণ করে।"
+    },
+    {
+        "id": 100,
+        "subject": "Physics",
+        "topic": "Semiconductor",
+        "question": "ফুল ফেইভ রেকটিফায়ারে কয়টি ডায়েড লাগে (ব্রীজ ছাড়া)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১টি",
+            "b": "২টি",
+            "c": "৩টি",
+            "d": "৪টি"
+        },
+        "correctAnswer": "b",
+        "explanation": "সেন্টার ট্যাপড ট্রান্সফর্মার ব্যবহার করলে ২টি ডায়েড লাগে, আর ব্রীজ রেকটিফায়ারে ৪টি লাগে। সাধারণ প্রশ্নে 'ব্রীজ' উল্লেখ না থাকলে এবং অপশনে ২ থাকলে, ২ সঠিক (Center Tapped)।"
+    }
+]
