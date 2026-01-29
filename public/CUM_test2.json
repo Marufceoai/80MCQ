@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 1,
+        "subject": "Physics",
+        "topic": "Physical Quantities",
+        "question": "নিচের কোনটি স্কেলার রাশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তড়িৎ প্রাবল্য",
+            "b": "চৌম্বক ভ্রামক",
+            "c": "বিভব",
+            "d": "টর্ক"
+        },
+        "correctAnswer": "c",
+        "explanation": "তড়িৎ বিভব হলো কাজ ও আধানের অনুপাত ($V=W/q$)। কাজ ও আধান উভয়ই স্কেলার রাশি, তাই বিভবও স্কেলার। বাকি সবগুলোর নির্দিষ্ট দিক আছে।"
+    },
+    {
+        "id": 2,
+        "subject": "Physics",
+        "topic": "Vector",
+        "question": "$\\vec{A} = 2\\hat{i} + \\hat{j} - \\hat{k}$ এবং $\\vec{B} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$ হলে $\\vec{A} \\cdot \\vec{B}$ এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "-3",
+            "b": "3",
+            "c": "0",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "$\\vec{A} \\cdot \\vec{B} = (2)(1) + (1)(-2) + (-1)(3) = 2 - 2 - 3 = -3$।"
+    },
+    {
+        "id": 3,
+        "subject": "Physics",
+        "topic": "Work, Power, Energy",
+        "question": "একটি বস্তুর ভরবেগ ৫০% বৃদ্ধি করলে গতিশক্তি কত শতাংশ বৃদ্ধি পাবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৫০%",
+            "b": "১০০%",
+            "c": "১২৫%",
+            "d": "১৫০%"
+        },
+        "correctAnswer": "c",
+        "explanation": "গতিশক্তি $E_k \\propto p^2$। ধরি আদি ভরবেগ $p$, আদি শক্তি $E$। নতুন ভরবেগ $1.5p$। নতুন শক্তি $E' \\propto (1.5p)^2 = 2.25 E$। বৃদ্ধি = $(2.25-1) \\times 100\\% = 125\\%$।"
+    },
+    {
+        "id": 4,
+        "subject": "Physics",
+        "topic": "Gravity",
+        "question": "পৃথিবীর কেন্দ্রে 'g' এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "9.8 $ms^{-2}$",
+            "b": "শূন্য",
+            "c": "অসীম",
+            "d": "মেরু অঞ্চলের সমান"
+        },
+        "correctAnswer": "b",
+        "explanation": "পৃথিবীর কেন্দ্রে বস্তুর ওপর কার্যকর মহাকর্ষ বল শূন্য হয়, কারণ চারপাশ থেকে আকর্ষণ বল কাটাকাটি হয়ে যায়। তাই $g=0$।"
+    },
+    {
+        "id": 5,
+        "subject": "Physics",
+        "topic": "Properties of Matter",
+        "question": "ইয়ং-এর গুণাঙ্ক Y এর মাত্রা কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$ML^{-1}T^{-2}$",
+            "b": "$MLT^{-2}$",
+            "c": "$ML^{-2}T^{-2}$",
+            "d": "$L^2$"
+        },
+        "correctAnswer": "a",
+        "explanation": "$Y = \\text{পীড়ন} / \\text{বিকৃতি}$। বিকৃতির মাত্রা নেই। পীড়ন = বল/ক্ষেত্রফল = $MLT^{-2}/L^2 = ML^{-1}T^{-2}$। এটি চাপের মাত্রার সমান।"
+    },
+    {
+        "id": 6,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কোনটি রুদ্ধতাপীয় প্রক্রিয়ার বৈশিষ্ট্য?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$PV = \\text{ধ্রুবক}$",
+            "b": "$PV^\\gamma = \\text{ধ্রুবক}$",
+            "c": "$V/T = \\text{ধ্রুবক}$",
+            "d": "$P/T = \\text{ধ্রুবক}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "রুদ্ধতাপীয় প্রক্রিয়ায় তাপের আদান-প্রদান হয় না, এবং এটি পয়সনের সমীকরণ $PV^\\gamma = \\text{ধ্রুবক}$ মেনে চলে।"
+    },
+    {
+        "id": 7,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "question": "কার্নো ইঞ্জিনের উৎসের তাপমাত্রা গ্রাহকের তাপমাত্রার দ্বিগুণ হলে দক্ষতা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২৫%",
+            "b": "৫০%",
+            "c": "৭৫%",
+            "d": "১০০%"
+        },
+        "correctAnswer": "b",
+        "explanation": "$T_1 = 2T_2$। দক্ষতা $\\eta = (1 - T_2/T_1) \\times 100\\% = (1 - 1/2) \\times 100\\% = 50\\%$।"
+    },
+    {
+        "id": 8,
+        "subject": "Physics",
+        "topic": "Wave & Sound",
+        "question": "শব্দের তীব্রতা লেভেল পরিমাপের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ওয়াট",
+            "b": "হার্জ",
+            "c": "বেল (Bell)",
+            "d": "জুল"
+        },
+        "correctAnswer": "c",
+        "explanation": "শব্দের তীব্রতা লেভেল লগারিদমিক স্কেলে মাপা হয়, যার একক বেল বা ডেসিবেল (dB)। তীব্রতার একক ওয়াট/$মি^২$।"
+    },
+    {
+        "id": 9,
+        "subject": "Physics",
+        "topic": "Oscillation",
+        "question": "সরল দোলকের দোলনকাল ২য় বার হতে ৩য় বারে পরিবর্তন করলে দৈর্ঘ্য কত গুণ করতে হবে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "১.৫ গুণ",
+            "b": "২.২৫ গুণ",
+            "c": "৪ গুণ",
+            "d": "৯ গুণ"
+        },
+        "correctAnswer": "b",
+        "explanation": "$T_1 = 2, T_2 = 3$। আমরা জানি $L \\propto T^2$। তাই $L_2/L_1 = (3/2)^2 = 9/4 = 2.25$ গুণ।"
+    },
+    {
+        "id": 10,
+        "subject": "Physics",
+        "topic": "Electricity",
+        "question": "১ কুলম্ব আধানে কতটি ইলেকট্রন থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$1.6 \\times 10^{-19}$",
+            "b": "$6.25 \\times 10^{18}$",
+            "c": "$9.1 \\times 10^{-31}$",
+            "d": "$6.02 \\times 10^{23}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "$q = ne \\Rightarrow n = q/e = 1 / (1.6 \\times 10^{-19}) = 6.25 \\times 10^{18}$।"
+    },
+    {
+        "id": 11,
+        "subject": "Physics",
+        "topic": "Static Electricity",
+        "question": "ধারকের সঞ্চিত শক্তির রাশিমালা কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$CV^2$",
+            "b": "$\\frac{1}{2} CV^2$",
+            "c": "$QV$",
+            "d": "$Q/V$"
+        },
+        "correctAnswer": "b",
+        "explanation": "ধারক চার্জিত করতে যে কাজ করতে হয় তা বিভব শক্তি হিসেবে জমা থাকে। $W = \\int V dq = \\frac{1}{2}CV^2$।"
+    },
+    {
+        "id": 12,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "শান্টের রোধ গ্যালভানোমিটারের রোধের তুলনায় কেমন হওয়া উচিত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "খুব বেশি",
+            "b": "সমান",
+            "c": "খুব কম",
+            "d": "অসীম"
+        },
+        "correctAnswer": "c",
+        "explanation": "শান্ট হলো একটি নিম্নমানের রোধ যা গ্যালভানোমিটারের সাথে সমান্তরালে যুক্ত থাকে, যাতে অতিরিক্ত প্রবাহ শান্টের মধ্য দিয়ে গিয়ে যন্ত্রটিকে রক্ষা করে।"
+    },
+    {
+        "id": 13,
+        "subject": "Physics",
+        "topic": "Magnetism",
+        "question": "চৌম্বক ফ্লাক্স ঘনত্বের একক কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ওয়েবার",
+            "b": "টেসলা",
+            "c": "হেনরি",
+            "d": "ফ্যারাড"
+        },
+        "correctAnswer": "b",
+        "explanation": "চৌম্বক ফ্লাক্সের একক ওয়েবার, কিন্তু ফ্লাক্স ঘনত্ব (প্রতি একক ক্ষেত্রফলে ফ্লাক্স) এর একক টেসলা বা ওয়েবার/$মি^২$।"
+    },
+    {
+        "id": 14,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "question": "দিক পরিবর্তী প্রবাহের (AC) গড় মান পূর্ণ চক্রে কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$I_0 / \\sqrt{2}$",
+            "b": "$2I_0 / \\pi$",
+            "c": "শূন্য",
+            "d": "$I_0$"
+        },
+        "correctAnswer": "c",
+        "explanation": "এসি প্রবাহের প্রথমার্ধ ধনাত্মক এবং শেষার্ধ ঋণাত্মক। পূর্ণ চক্রে এদের যোগফল শূন্য হয়।"
+    },
+    {
+        "id": 15,
+        "subject": "Physics",
+        "topic": "Light (Optics)",
+        "question": "আলোর ব্যতিচারের ক্ষেত্রে গঠনমূলক ব্যতিচারের শর্ত কী? (পথ পার্থক্য)",
+        "hasDiagram": false,
+        "options": {
+            "a": "$\\lambda / 2$ এর বিজোড় গুণিতক",
+            "b": "$\\lambda$ এর পূর্ণ গুণিতক",
+            "c": "$\\lambda / 4$ এর গুণিতক",
+            "d": "শূন্য"
+        },
+        "correctAnswer": "b",
+        "explanation": "গঠনমূলক ব্যতিচারে তরঙ্গদ্বয় সমদশার মিলিত হয়। পথ পার্থক্য $\\Delta x = n\\lambda$, যেখানে $n = 0, 1, 2...$"
+    },
+    {
+        "id": 16,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "কোনটি ফোটনের বৈশিষ্ট্য নয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ভরহীন",
+            "b": "আধানহীন",
+            "c": "আলোর বেগে চলে",
+            "d": "তড়িৎ ক্ষেত্র দ্বারা বিচ্যুত হয়"
+        },
+        "correctAnswer": "d",
+        "explanation": "ফোটন আধানহীন কণা, তাই এটি তড়িৎ বা চৌম্বক ক্ষেত্র দ্বারা প্রভাবিত বা বিচ্যুত হয় না।"
+    },
+    {
+        "id": 17,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "question": "$E = mc^2$ সমীকরণটি কার?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নিউটন",
+            "b": "গ্যালিলিও",
+            "c": "আইনস্টাইন",
+            "d": "বোর"
+        },
+        "correctAnswer": "c",
+        "explanation": "এটি আইনস্টাইনের বিশেষ আপেক্ষিকতা তত্ত্বের ভর-শক্তি সমতুল্যতা সমীকরণ।"
+    },
+    {
+        "id": 18,
+        "subject": "Physics",
+        "topic": "Nuclear Physics",
+        "question": "তেজস্ক্রিয় মৌলের অর্ধায়ু কিসের ওপর নির্ভর করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "তাপমাত্রা",
+            "b": "চাপ",
+            "c": "রাসায়নিক অবস্থা",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "d",
+        "explanation": "তেজস্ক্রিয়তা একটি নিউক্লীয় ঘটনা। এটি বাহ্যিক ভৌত বা রাসায়নিক অবস্থার (তাপ, চাপ) ওপর নির্ভর করে না, এটি মৌলের নিজস্ব বৈশিষ্ট্য।"
+    },
+    {
+        "id": 19,
+        "subject": "Physics",
+        "topic": "Electronics",
+        "question": "সেমিকন্ডাক্টরের তাপমাত্রা বাড়লে রোধ কী হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বাড়ে",
+            "b": "কমে",
+            "c": "অপরিবর্তিত থাকে",
+            "d": "প্রথমে বাড়ে পরে কমে"
+        },
+        "correctAnswer": "b",
+        "explanation": "তাপমাত্রা বাড়লে সেমিকন্ডাক্টরের সমযোজী বন্ধন ভেঙে মুক্ত ইলেকট্রন ও হোলের সংখ্যা বাড়ে, ফলে পরিবাহিতা বাড়ে এবং রোধ কমে।"
+    },
+    {
+        "id": 20,
+        "subject": "Physics",
+        "topic": "Electronics",
+        "question": "ট্রানজিস্টরের নিঃসারক (Emitter) এর ডোপিং কেমন হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সবচেয়ে কম",
+            "b": "সবচেয়ে বেশি",
+            "c": "মাঝারী",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "নিঃসারকের কাজ হলো আধান বাহক সরবরাহ করা, তাই এতে ডোপিং ঘনত্ব সবচেয়ে বেশি রাখা হয়।"
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "topic": "Astronomy/Optics",
+        "question": "সূর্য থেকে পৃথিবীতে আলো আসতে কত সময় লাগে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৮ মি ১৯ সেকেন্ড",
+            "b": "৮ মি ৩০ সেকেন্ড",
+            "c": "৫০০ সেকেন্ড",
+            "d": "ক ও গ উভয়ই"
+        },
+        "correctAnswer": "d",
+        "explanation": "সঠিক সময় প্রায় ৮ মিনিট ২০ সেকেন্ড বা ৫০০ সেকেন্ড। অপশন অনুযায়ী ক ও গ উভয়ই গ্রহণযোগ্য।"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "topic": "Physical Quantities",
+        "question": "কোনটি লব্ধ রাশি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দৈর্ঘ্য",
+            "b": "ভর",
+            "c": "সময়",
+            "d": "বল"
+        },
+        "correctAnswer": "d",
+        "explanation": "বল ($F=ma$) মৌলিক রাশি ভর, দৈর্ঘ্য ও সময়ের ওপর নির্ভরশীল। বাকি তিনটি মৌলিক রাশি।"
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "topic": "Motion",
+        "question": "স্থির অবস্থান থেকে সুষম ত্বরণে চলমান বস্তুর অতিক্রান্ত দূরত্ব সময়ের—",
+        "hasDiagram": false,
+        "options": {
+            "a": "সমানুপাতিক",
+            "b": "বর্গের সমানুপাতিক",
+            "c": "ব্যস্তানুপাতিক",
+            "d": "বর্গের ব্যস্তানুপাতিক"
+        },
+        "correctAnswer": "b",
+        "explanation": "$s = ut + \\frac{1}{2}at^2$। স্থির অবস্থান ($u=0$) হলে $s = \\frac{1}{2}at^2$, অর্থাৎ $s \\propto t^2$।"
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "topic": "Motion",
+        "question": "কৌণিক ভরবেগের একক কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$kg m s^{-1}$",
+            "b": "$kg m^2 s^{-1}$",
+            "c": "$kg m s^{-2}$",
+            "d": "$J s^{-1}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "কৌণিক ভরবেগ $L = r \\times p = mvr$। একক $kg \\cdot (m/s) \\cdot m = kg m^2 s^{-1}$। এটি $J \\cdot s$ এরও সমতুল্য।"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "topic": "Work, Power, Energy",
+        "question": "১ অশ্বক্ষমতা (HP) = কত ওয়াট?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৭৪৬",
+            "b": "৫৫০",
+            "c": "১০০০",
+            "d": "৭৬০"
+        },
+        "correctAnswer": "a",
+        "explanation": "ব্রিটিশ পদ্ধতিতে ১ হর্সপাওয়ার সমান ৭৪৬ ওয়াট।"
+    },
+    {
+        "id": 26,
+        "subject": "Chemistry",
+        "topic": "Quantitative Chemistry",
+        "question": "কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$HCl$",
+            "b": "$H_2SO_4$",
+            "c": "$K_2Cr_2O_7$",
+            "d": "$KMnO_4$"
+        },
+        "correctAnswer": "c",
+        "explanation": "পটাশিয়াম ডাইক্রোমেট বায়ুর উপাদান দ্বারা আক্রান্ত হয় না এবং এর ঘনমাত্রা দীর্ঘকাল অপরিবর্তিত থাকে। বাকিগুলো সেকেন্ডারি স্ট্যান্ডার্ড।"
+    },
+    {
+        "id": 27,
+        "subject": "Chemistry",
+        "topic": "Atomic Structure",
+        "question": "নিচের কোন অরবিটালটি সম্ভব নয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "2d",
+            "b": "3f",
+            "c": "1p",
+            "d": "সবকটি"
+        },
+        "correctAnswer": "d",
+        "explanation": "২য় শক্তিস্তরে d অরবিটাল নেই ($n=2, l=0,1$), ৩য় শক্তিস্তরে f নেই ($n=3, l=0,1,2$), ১ম স্তরে p নেই ($n=1, l=0$)।"
+    },
+    {
+        "id": 28,
+        "subject": "Chemistry",
+        "topic": "Acid-Base",
+        "question": "রক্তের বাফার কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অ্যাসিটেট বাফার",
+            "b": "বাইকার্বনেট বাফার",
+            "c": "ফসফেট বাফার",
+            "d": "অ্যামোনিয়া বাফার"
+        },
+        "correctAnswer": "b",
+        "explanation": "রক্তে কার্বনিক এসিড ($H_2CO_3$) এবং সোডিয়াম বাইকার্বনেট ($NaHCO_3$) এর মিশ্রণ প্রধান বাফার হিসেবে কাজ করে pH নিয়ন্ত্রণ করে।"
+    },
+    {
+        "id": 29,
+        "subject": "Chemistry",
+        "topic": "Chemical Bonding",
+        "question": "$sp^2$ সংকরায়িত যৌগের আকৃতি কেমন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সরলরৈখিক",
+            "b": "চতুস্তলকীয়",
+            "c": "সমতলীয় ত্রিভুজাকার",
+            "d": "অষ্টতলকীয়"
+        },
+        "correctAnswer": "c",
+        "explanation": "$BF_3$ বা ইথিন ($C_2H_4$) এর মতো $sp^2$ সংকরিত অণুর আকৃতি সমতলীয় ত্রিভুজাকার এবং বন্ধন কোণ $120^\\circ$।"
+    },
+    {
+        "id": 30,
+        "subject": "Chemistry",
+        "topic": "Acid-Base",
+        "question": "কোনটি সবচেয়ে শক্তিশালী এসিড?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$HClO$",
+            "b": "$HClO_2$",
+            "c": "$HClO_3$",
+            "d": "$HClO_4$"
+        },
+        "correctAnswer": "d",
+        "explanation": "অক্সিএসিডের ক্ষেত্রে কেন্দ্রীয় পরমাণুর জারণ মান যত বেশি, এসিড তত শক্তিশালী। $HClO_4$ এ ক্লোরিনের জারণ মান +৭, যা সর্বোচ্চ।"
+    },
+    {
+        "id": 31,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "নিচের কোনটি ফেলিং দ্রবণের সাথে বিক্রিয়া দেয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইথানল",
+            "b": "প্রোপানোন",
+            "c": "ইথান্যাল",
+            "d": "ইথানয়িক এসিড"
+        },
+        "correctAnswer": "c",
+        "explanation": "অ্যালডিহাইড (বিশেষ করে অ্যালিফ্যাটিক) ফেলিং দ্রবণকে বিজারিত করে লালচে অধঃক্ষেপ দেয়। কিটোন (প্রোপানোন) এ বিক্রিয়া দেয় না।"
+    },
+    {
+        "id": 32,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "বেনজিনের নাইট্রেশনে কোনটি আক্রমণকারী বিকারক?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$NO_2^-$",
+            "b": "$NO_2^+$",
+            "c": "$NO^+$",
+            "d": "$NO_3^-$"
+        },
+        "correctAnswer": "b",
+        "explanation": "নাইট্রেশন বিক্রিয়ায় নাইট্রোনিয়াম আয়ন ($NO_2^+$) ইলেকট্রোফাইল হিসেবে বেনজিন বলয়ে আক্রমণ করে।"
+    },
+    {
+        "id": 33,
+        "subject": "Chemistry",
+        "topic": "Quantitative Chemistry",
+        "question": "STP-তে 22.4 L গ্যাসের ভর 44g হলে গ্যাসটি কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$O_2$",
+            "b": "$N_2$",
+            "c": "$CO_2$",
+            "d": "$CH_4$"
+        },
+        "correctAnswer": "c",
+        "explanation": "STP-তে 22.4 L গ্যাসের ভর তার আণবিক ভরের সমান। এখানে 44g হলো $CO_2$ এর আণবিক ভর ($12 + 16 \\times 2 = 44$)।"
+    },
+    {
+        "id": 34,
+        "subject": "Chemistry",
+        "topic": "Redox",
+        "question": "কোনটি বিজারক পদার্থ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$KMnO_4$",
+            "b": "$K_2Cr_2O_7$",
+            "c": "$H_2S$",
+            "d": "$Cl_2$"
+        },
+        "correctAnswer": "c",
+        "explanation": "$H_2S$ এ সালফারের জারণ মান -2 (সর্বনিম্ন), তাই এটি ইলেকট্রন ত্যাগ করে জারিত হতে পারে, অর্থাৎ এটি একটি বিজারক। বাকিরা জারক।"
+    },
+    {
+        "id": 35,
+        "subject": "Chemistry",
+        "topic": "Surface Chemistry",
+        "question": "দুধ কোন ধরনের কলয়েড?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সল",
+            "b": "জেল",
+            "c": "ইমালশন",
+            "d": "অ্যারোসল"
+        },
+        "correctAnswer": "c",
+        "explanation": "দুধ হলো তরলের মধ্যে তরল বিস্তর মাধ্যম (চর্বি ও পানির মিশ্রণ), যাকে ইমালশন বলা হয়।"
+    },
+    {
+        "id": 36,
+        "subject": "Chemistry",
+        "topic": "Environmental Chemistry",
+        "question": "কোনটি গ্রিনহাউজ গ্যাস নয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "মিথেন",
+            "b": "কার্বন ডাইঅক্সাইড",
+            "c": "নাইট্রোজেন",
+            "d": "নাইট্রাস অক্সাইড"
+        },
+        "correctAnswer": "c",
+        "explanation": "বায়ুমণ্ডলের প্রধান উপাদান নাইট্রোজেন ($N_2$) তাপ শোষণ করে না, তাই এটি গ্রিনহাউজ গ্যাস নয়।"
+    },
+    {
+        "id": 37,
+        "subject": "Chemistry",
+        "topic": "States of Matter",
+        "question": "শুষ্ক বরফ (Dry Ice) কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "কঠিন $H_2O$",
+            "b": "কঠিন $CO_2$",
+            "c": "কঠিন $N_2$",
+            "d": "কঠিন $O_2$"
+        },
+        "correctAnswer": "b",
+        "explanation": "কঠিন কার্বন ডাইঅক্সাইডকে শুষ্ক বরফ বলা হয় কারণ এটি গলে তরল না হয়ে সরাসরি বাষ্পে পরিণত হয় (ঊর্ধ্বপাতন)।"
+    },
+    {
+        "id": 38,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "ফরমালিনের উপাদান কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৪০% মিথান্যাল",
+            "b": "৪০% ইথান্যাল",
+            "c": "১০% অ্যাসিটিক এসিড",
+            "d": "১০০% ইথানল"
+        },
+        "correctAnswer": "a",
+        "explanation": "মিথান্যাল বা ফরমালডিহাইডের ৪০% জলীয় দ্রবণকে ফরমালিন বলে।"
+    },
+    {
+        "id": 39,
+        "subject": "Chemistry",
+        "topic": "Periodic Table",
+        "question": "কোন আয়নের আকার সবচেয়ে ছোট?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$Na^+$",
+            "b": "$Mg^{2+}$",
+            "c": "$Al^{3+}$",
+            "d": "$Si^{4+}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "আইসো-ইলেকট্রনিক সিরিজের ক্ষেত্রে নিউক্লিয়াসের প্রোটন সংখ্যা (চার্জ) যত বাড়ে, আকর্ষণ তত বাড়ে এবং আকার তত ছোট হয়।"
+    },
+    {
+        "id": 40,
+        "subject": "Chemistry",
+        "topic": "Acid-Base",
+        "question": "কোনটি লুইস ক্ষারক?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$AlCl_3$",
+            "b": "$BF_3$",
+            "c": "$NH_3$",
+            "d": "$H^+$"
+        },
+        "correctAnswer": "c",
+        "explanation": "অ্যামোনিয়া অণুতে নাইট্রোজেনের এক জোড়া মুক্তজোড় ইলেকট্রন থাকে যা সে দান করতে পারে, তাই এটি লুইস ক্ষারক।"
+    },
+    {
+        "id": 41,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "question": "ক্যালমেল এর সংকেত কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$HgCl_2$",
+            "b": "$Hg_2Cl_2$",
+            "c": "$HgS$",
+            "d": "$HgO$"
+        },
+        "correctAnswer": "b",
+        "explanation": "মারকিউরাস ক্লোরাইড ($Hg_2Cl_2$) কে বাণিজ্যিক বা সাধারণ নামে ক্যালমেল বলা হয়। $HgCl_2$ হলো করোসিস সাবলিমেট।"
+    },
+    {
+        "id": 42,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "নিচের কোনটি জ্যামিতিক সমানুতা প্রদর্শন করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বিউটিন-১",
+            "b": "প্রোপিন",
+            "c": "বিউটিন-২",
+            "d": "ইথিন"
+        },
+        "correctAnswer": "c",
+        "explanation": "বিউটিন-২ ($CH_3-CH=CH-CH_3$) এ দ্বিবন্ধনযুক্ত কার্বনের সাথে দুটি ভিন্ন মূলক যুক্ত আছে, তাই এটি সিস-ট্রান্স সমানুতা দেখায়।"
+    },
+    {
+        "id": 43,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "লুকাস বিকারক দ্বারা কোনটির পার্থক্য নির্ণয় করা হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অ্যালডিহাইড",
+            "b": "কিটোন",
+            "c": "অ্যালকোহল",
+            "d": "এসিড"
+        },
+        "correctAnswer": "c",
+        "explanation": "১°, ২° ও ৩° অ্যালকোহল শনাক্ত করতে লুকাস বিকারক ($GaR HCl + ZnCl_2$) ব্যবহৃত হয়।"
+    },
+    {
+        "id": 44,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "কোনটি পানিতে দ্রবণীয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইথেন",
+            "b": "বেনজিন",
+            "c": "ইথানল",
+            "d": "টলুইন"
+        },
+        "correctAnswer": "c",
+        "explanation": "ইথানল পোলার এবং পানির সাথে হাইড্রোজেন বন্ড গঠন করতে পারে, তাই এটি পানিতে দ্রবণীয়। হাইড্রোকার্বনগুলো অপোলার হওয়ায় অদ্রবণীয়।"
+    },
+    {
+        "id": 45,
+        "subject": "Chemistry",
+        "topic": "Acid-Base",
+        "question": "pH + pOH =?",
+        "hasDiagram": false,
+        "options": {
+            "a": "7",
+            "b": "14",
+            "c": "0",
+            "d": "1"
+        },
+        "correctAnswer": "b",
+        "explanation": "$25^\\circ C$ তাপমাত্রায় পানির আয়নিক গুণফল $K_w = 10^{-14}$। সেখান থেকে প্রাপ্ত সূত্র $pH + pOH = 14$।"
+    },
+    {
+        "id": 46,
+        "subject": "Chemistry",
+        "topic": "Redox",
+        "question": "কোনটি জারক পদার্থ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$H_2$",
+            "b": "$C$",
+            "c": "$Cl_2$",
+            "d": "$Na$"
+        },
+        "correctAnswer": "c",
+        "explanation": "ক্লোরিন উচ্চ তড়িৎ ঋণাত্মক মৌল, তাই এটি ইলেকট্রন গ্রহণ করে বিজারিত হয় এবং অন্যকে জারিত করে।"
+    },
+    {
+        "id": 47,
+        "subject": "Chemistry",
+        "topic": "Periodic Table",
+        "question": "ইলেকট্রন আসক্তি সর্বোচ্চ কোন মৌলের?",
+        "hasDiagram": false,
+        "options": {
+            "a": "F",
+            "b": "Cl",
+            "c": "Br",
+            "d": "I"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফ্লোরিনের আকার খুব ছোট হওয়ায় ইলেকট্রন মেঘের বিকর্ষণের কারণে এর ইলেকট্রন আসক্তি ক্লোরিনের চেয়ে কম হয়। তাই ক্লোরিনের আসক্তি সর্বোচ্চ।"
+    },
+    {
+        "id": 48,
+        "subject": "Chemistry",
+        "topic": "Periodic Table",
+        "question": "কোনটি উভধর্মী অক্সাইড?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$CO_2$",
+            "b": "$ZnO$",
+            "c": "$CaO$",
+            "d": "$SO_2$"
+        },
+        "correctAnswer": "b",
+        "explanation": "জিংক অক্সাইড এসিড ও ক্ষার উভয়ের সাথে বিক্রিয়া করে লবণ ও পানি তৈরি করে।"
+    },
+    {
+        "id": 49,
+        "subject": "Chemistry",
+        "topic": "Environmental Chemistry",
+        "question": "প্রাকৃতিক গ্যাসের প্রধান উপাদান কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "মিথেন",
+            "b": "ইথেন",
+            "c": "প্রোপেন",
+            "d": "বিউটেন"
+        },
+        "correctAnswer": "a",
+        "explanation": "বাংলাদেশের প্রাকৃতিক গ্যাসে মিথেনের পরিমাণ প্রায় ৯৫-৯৯%।"
+    },
+    {
+        "id": 50,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "question": "ভিনেগারে কোন এসিড থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সাইট্রিক এসিড",
+            "b": "অ্যাসিটিক এসিড",
+            "c": "ল্যাকটিক এসিড",
+            "d": "ফরমিক এসিড"
+        },
+        "correctAnswer": "b",
+        "explanation": "ইথানয়িক এসিড বা অ্যাসিটিক এসিডের ৬-১০% জলীয় দ্রবণই ভিনেগার।"
+    },
+    {
+        "id": 51,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "$ \\begin{bmatrix} 2 & x \\\\ 5 & 3 \\end{bmatrix} $ ম্যাট্রিক্সটি ব্যতিক্রমী হলে x এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "6/5",
+            "b": "5/6",
+            "c": "1.2",
+            "d": "6"
+        },
+        "correctAnswer": "c",
+        "explanation": "ব্যতিক্রমী (Singular) ম্যাট্রিক্সের নির্ণায়ক শূন্য। $2(3) - 5x = 0 \\Rightarrow 6 = 5x \\Rightarrow x = 6/5 = 1.2$।"
+    },
+    {
+        "id": 52,
+        "subject": "Math",
+        "topic": "Geometry",
+        "question": "$3x + 4y - 12 = 0$ সরলরেখাটি অক্ষদ্বয়ের সাথে যে ত্রিভুজ গঠন করে তার ক্ষেত্রফল কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "6",
+            "b": "12",
+            "c": "3",
+            "d": "4"
+        },
+        "correctAnswer": "a",
+        "explanation": "সমীকরণকে ছেদক আকৃতিতে নিলে $x/4 + y/3 = 1$। এখানে $a=4, b=3$। ক্ষেত্রফল = $\\frac{1}{2}ab = \\frac{1}{2} \\times 4 \\times 3 = 6$ বর্গ একক।"
+    },
+    {
+        "id": 53,
+        "subject": "Math",
+        "topic": "Calculus",
+        "question": "$\\lim_{x \\to 0} \\frac{e^x - 1}{x}$ এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "$e$",
+            "d": "অসীম"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি একটি আদর্শ লিমিট সূত্র। L'Hopital's rule ব্যবহার করলেও পাই, $e^x/1$ এ $x=0$ বসালে $e^0 = 1$।"
+    },
+    {
+        "id": 54,
+        "subject": "Math",
+        "topic": "Calculus",
+        "question": "$y = \\sin(2x)$ হলে $y_2$ বা $\\frac{d^2y}{dx^2}$ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$2\\cos(2x)$",
+            "b": "$-4\\sin(2x)$",
+            "c": "$4\\sin(2x)$",
+            "d": "$-2\\sin(2x)$"
+        },
+        "correctAnswer": "b",
+        "explanation": "$y_1 = 2\\cos(2x)$। $y_2 = 2(-\\sin(2x)) \\cdot 2 = -4\\sin(2x)$।"
+    },
+    {
+        "id": 55,
+        "subject": "Math",
+        "topic": "Calculus",
+        "question": "$\\int \\frac{dx}{x}$ এর মান কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$x^2/2$",
+            "b": "$\\ln|x| + c$",
+            "c": "$-1/x^2$",
+            "d": "$e^x$"
+        },
+        "correctAnswer": "b",
+        "explanation": "$1/x$ এর যোগজীকরণ হলো $\\ln|x|$।"
+    },
+    {
+        "id": 56,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "$z = 3 + 4i$ হলে $|z|$ এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "7"
+        },
+        "correctAnswer": "c",
+        "explanation": "মডুলাস $|z| = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5$।"
+    },
+    {
+        "id": 57,
+        "subject": "Math",
+        "topic": "Conics",
+        "question": "পরাবৃত্তের উৎকেন্দ্রিকতা (e) কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$e = 0$",
+            "b": "$e = 1$",
+            "c": "$e < 1$",
+            "d": "$e > 1$"
+        },
+        "correctAnswer": "b",
+        "explanation": "সংজ্ঞানুসারে পরাবৃত্তের উৎকেন্দ্রিকতা ১।"
+    },
+    {
+        "id": 58,
+        "subject": "Math",
+        "topic": "Geometry",
+        "question": "$x^2 + y^2 = 25$ বৃত্তের ব্যাসার্ধ কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "25",
+            "b": "5",
+            "c": "$\\pm 5$",
+            "d": "10"
+        },
+        "correctAnswer": "b",
+        "explanation": "$x^2 + y^2 = r^2$ এর সাথে তুলনা করলে $r^2 = 25 \\Rightarrow r = 5$। ব্যাসার্ধ ঋণাত্মক হতে পারে না।"
+    },
+    {
+        "id": 59,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "$\\sin^{-1}x + \\cos^{-1}x =?$",
+        "hasDiagram": false,
+        "options": {
+            "a": "$\\pi$",
+            "b": "$\\pi/2$",
+            "c": "$2\\pi$",
+            "d": "0"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি বিপরীত ত্রিকোণমিতিক ফাংশনের একটি মৌলিক সূত্র।"
+    },
+    {
+        "id": 60,
+        "subject": "Math",
+        "topic": "Vector",
+        "question": "বল ও সরণের স্কেলার গুণফল কী নির্দেশ করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ক্ষমতা",
+            "b": "কাজ",
+            "c": "টর্ক",
+            "d": "ভরবেগ"
+        },
+        "correctAnswer": "b",
+        "explanation": "কাজ $W = \\vec{F} \\cdot \\vec{s}$।"
+    },
+    {
+        "id": 61,
+        "subject": "Math",
+        "topic": "Conics",
+        "question": "$4x^2 + 9y^2 = 36$ সমীকরণটি কিসের?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বৃত্ত",
+            "b": "পরাবৃত্ত",
+            "c": "উপবৃত্ত",
+            "d": "অধিবৃত্ত"
+        },
+        "correctAnswer": "c",
+        "explanation": "উভয় চলকের দ্বিঘাত আছে এবং মাঝখানে প্লাস চিহ্ন, সহগ ভিন্ন। $x^2/9 + y^2/4 = 1$ আকারে লেখা যায়।"
+    },
+    {
+        "id": 62,
+        "subject": "Math",
+        "topic": "Calculus",
+        "question": "$\\int_0^1 x^2 dx$ এর মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1",
+            "b": "1/2",
+            "c": "1/3",
+            "d": "0"
+        },
+        "correctAnswer": "c",
+        "explanation": "$[x^3/3]_0^1 = 1/3 - 0 = 1/3$।"
+    },
+    {
+        "id": 63,
+        "subject": "Math",
+        "topic": "Matrix",
+        "question": "ম্যাট্রিক্স গুণন $AB$ সম্ভব হলে $A$ এর অর্ডার $m \\times n$ এবং $B$ এর অর্ডার $n \\times p$ হলে, $AB$ এর অর্ডার কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$m \\times p$",
+            "b": "$n \\times n$",
+            "c": "$p \\times m$",
+            "d": "$m \\times n$"
+        },
+        "correctAnswer": "a",
+        "explanation": "গুণফলের সারি সংখ্যা ১ম টির সারি এবং কলাম সংখ্যা ২য় টির কলামের সমান হয়।"
+    },
+    {
+        "id": 64,
+        "subject": "Math",
+        "topic": "Conics",
+        "question": "$y = mx$ রেখাটি $y^2 = 4ax$ পরাবৃত্তকে স্পর্শ করার শর্ত কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$c = a/m$",
+            "b": "মূলবিন্দুগামী রেখা সর্বদা ছেদ করে বা স্পর্শ করে (এখানে c নেই)",
+            "c": "$a = m$",
+            "d": "স্পর্শ করবে না"
+        },
+        "correctAnswer": "a",
+        "explanation": "স্ট্যান্ডার্ড প্রশ্নে $y=mx+c$ থাকলে শর্ত $c=a/m$। যেহেতু প্রশ্নে $c$ নেই, এবং অপশনগুলো স্ট্যান্ডার্ড শর্তের মতো, তাই এটি সম্ভবত $y=mx+c$ বোঝাতে চেয়েছে। সঠিক উত্তর অপশন ক-এর প্রেক্ষাপটে $c=a/m$।"
+    },
+    {
+        "id": 65,
+        "subject": "Math",
+        "topic": "Vector",
+        "question": "দুটি ভেক্টরের ক্রস গুণফলের মান কখন শূন্য হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "লম্ব হলে",
+            "b": "সমান্তরাল হলে",
+            "c": "$45^\\circ$ কোণে থাকলে",
+            "d": "সমান হলে"
+        },
+        "correctAnswer": "b",
+        "explanation": "$|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$। সমান্তরাল হলে $\\theta=0^\\circ$ বা $180^\\circ$, তাই $\\sin\\theta=0$।"
+    },
+    {
+        "id": 66,
+        "subject": "Math",
+        "topic": "Calculus",
+        "question": "$\\frac{d}{dx}(\\ln(\\sin x))$ =?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$\\tan x$",
+            "b": "$\\cot x$",
+            "c": "$\\sec x$",
+            "d": "$\\cos x$"
+        },
+        "correctAnswer": "b",
+        "explanation": "চেইন রুল: $\\frac{1}{\\sin x} \\times \\frac{d}{dx}(\\sin x) = \\frac{\\cos x}{\\sin x} = \\cot x$।"
+    },
+    {
+        "id": 67,
+        "subject": "Math",
+        "topic": "Complex Numbers",
+        "question": "কোনটি এককের ঘনমূল নয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "1",
+            "b": "$\\omega$",
+            "c": "$\\omega^2$",
+            "d": "-1"
+        },
+        "correctAnswer": "d",
+        "explanation": "এককের ঘনমূল তিনটি: $1, \\omega, \\omega^2$।"
+    },
+    {
+        "id": 68,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "$\\cos 2A$ এর সূত্র কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$\\cos^2 A + \\sin^2 A$",
+            "b": "$2\\cos^2 A - 1$",
+            "c": "$2\\sin^2 A - 1$",
+            "d": "$2\\sin A \\cos A$"
+        },
+        "correctAnswer": "b",
+        "explanation": "এটি গুণিতক কোণের স্ট্যান্ডার্ড সূত্র।"
+    },
+    {
+        "id": 69,
+        "subject": "Math",
+        "topic": "Algebra",
+        "question": "$(1+x)^n$ এর বিস্তৃতিতে মোট পদসংখ্যা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$n$",
+            "b": "$n+1$",
+            "c": "$2n$",
+            "d": "$n-1$"
+        },
+        "correctAnswer": "b",
+        "explanation": "দ্বিপদী উপপাদ্য অনুসারে ঘাত $n$ হলে পদসংখ্যা সর্বদা একটি বেশি হয়।"
+    },
+    {
+        "id": 70,
+        "subject": "Math",
+        "topic": "Functions",
+        "question": "$f(x) = \\sqrt{x-1}$ ফাংশনের ডোমেন কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$x > 1$",
+            "b": "$x \\ge 1$",
+            "c": "$x \\le 1$",
+            "d": "সকল বাস্তব সংখ্যা"
+        },
+        "correctAnswer": "b",
+        "explanation": "রুটের ভেতর ঋণাত্মক হতে পারে না, তাই $x-1 \\ge 0 \\Rightarrow x \\ge 1$।"
+    },
+    {
+        "id": 71,
+        "subject": "Math",
+        "topic": "Calculus",
+        "question": "$\\int e^x \\sin x dx$ এর সমাধান পদ্ধতিতে কোনটি ব্যবহৃত হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "আংশিক ভগ্নাংশ",
+            "b": "প্রতিস্থাপন",
+            "c": "ইউ-ভি (Integration by parts)",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "c",
+        "explanation": "দুটি ফাংশনের গুণফল থাকায় এটি $\\int u v dx$ সূত্র বা Integration by parts দিয়ে সমাধান করতে হয়।"
+    },
+    {
+        "id": 72,
+        "subject": "Math",
+        "topic": "Vector",
+        "question": "$\\vec{i} \\times \\vec{j} =?$",
+        "hasDiagram": false,
+        "options": {
+            "a": "$\\vec{k}$",
+            "b": "$-\\vec{k}$",
+            "c": "0",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "ডানহাতি নিয়ম অনুসারে ঘড়ির কাঁটার বিপরীতে $\\vec{i} \\to \\vec{j} \\to \\vec{k}$।"
+    },
+    {
+        "id": 73,
+        "subject": "Math",
+        "topic": "Algebra",
+        "question": "$x^2 - 5x + 6 = 0$ সমীকরণের মূলদ্বয় কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "2, 3",
+            "b": "-2, -3",
+            "c": "1, 6",
+            "d": "2, -3"
+        },
+        "correctAnswer": "a",
+        "explanation": "উৎপাদকে বিশ্লেষণ: $(x-2)(x-3)=0$।"
+    },
+    {
+        "id": 74,
+        "subject": "Math",
+        "topic": "Probability",
+        "question": "একটি মুদ্রাকে তিনবার নিক্ষেপ করলে মোট নমুনা বিন্দু কয়টি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৩",
+            "b": "৬",
+            "c": "৮",
+            "d": "৯"
+        },
+        "correctAnswer": "c",
+        "explanation": "$2^n = 2^3 = 8$ টি।"
+    },
+    {
+        "id": 75,
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "question": "$\\tan \\theta = \\sqrt{3}$ হলে $\\theta$ এর মুখ্য মান কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "$30^\\circ$",
+            "b": "$45^\\circ$",
+            "c": "$60^\\circ$",
+            "d": "$90^\\circ$"
+        },
+        "correctAnswer": "c",
+        "explanation": "$\\tan 60^\\circ = \\sqrt{3}$।"
+    },
+    {
+        "id": 76,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "কোনটি আদিকোষের উদাহরণ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শৈবাল",
+            "b": "ছত্রাক",
+            "c": "ব্যাকটেরিয়া",
+            "d": "লাইকেন"
+        },
+        "correctAnswer": "c",
+        "explanation": "ব্যাকটেরিয়ার নিউক্লিয়াস সুগঠিত নয় এবং পর্দাবৃত অঙ্গাণু নেই, তাই এটি প্রোক্যারিওট বা আদিকোষী।"
+    },
+    {
+        "id": 77,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "রাইবোসোমের প্রধান কাজ কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "শক্তি উৎপাদন",
+            "b": "প্রোটিন সংশ্লেষণ",
+            "c": "লিপিড তৈরি",
+            "d": "কোষ বিভাজন"
+        },
+        "correctAnswer": "b",
+        "explanation": "রাইবোসোমে এমআরএনএ (mRNA) এর কোড অনুযায়ী অ্যামিনো এসিড যুক্ত হয়ে প্রোটিন তৈরি হয়।"
+    },
+    {
+        "id": 78,
+        "subject": "Biology",
+        "topic": "Genetics",
+        "question": "ডিএনএ ডাবল হেলিক্স মডেলের প্রবক্তা কে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "মেন্ডেল",
+            "b": "ডারউইন",
+            "c": "ওয়াটসন ও ক্রিক",
+            "d": "রবার্ট হুক"
+        },
+        "correctAnswer": "c",
+        "explanation": "১৯৫৩ সালে জেমস ওয়াটসন ও ফ্রান্সিস ক্রিক ডিএনএর দ্বিসূত্রক মডেল প্রস্তাব করেন।"
+    },
+    {
+        "id": 79,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "মানবদেহে বৃহত্তম গ্রন্থি কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "অগ্ন্যাশয়",
+            "b": "যকৃৎ",
+            "c": "পিটুইটারি",
+            "d": "থাইরয়েড"
+        },
+        "correctAnswer": "b",
+        "explanation": "যকৃৎ বা লিভার মানবদেহের সবচেয়ে বড় গ্রন্থি, যাকে 'জৈব রসায়নাগার' বলা হয়।"
+    },
+    {
+        "id": 80,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "কোনটি রক্ত তঞ্চনে সাহায্য করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "লোহিত কণিকা",
+            "b": "শ্বেত কণিকা",
+            "c": "অনুচক্রিকা",
+            "d": "প্লাজমা"
+        },
+        "correctAnswer": "c",
+        "explanation": "থ্রম্বোসাইট বা অনুচক্রিকা রক্ত জমাট বাঁধতে বা তঞ্চনে প্রধান ভূমিকা পালন করে।"
+    },
+    {
+        "id": 81,
+        "subject": "Biology",
+        "topic": "Zoology",
+        "question": "আরশোলার রক্ত সংবহনতন্ত্রের নাম কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "বদ্ধ",
+            "b": "মুক্ত",
+            "c": "নালীবিহীন",
+            "d": "কৈশিক"
+        },
+        "correctAnswer": "b",
+        "explanation": "আরশোলার রক্ত হিমোসিল নামক গহ্বরে মুক্তভাবে প্রবাহিত হয়।"
+    },
+    {
+        "id": 82,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "কোনটি C4 উদ্ভিদ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "আম",
+            "b": "কাঁঠাল",
+            "c": "ভুট্টা",
+            "d": "ধান"
+        },
+        "correctAnswer": "c",
+        "explanation": "ভুট্টা, আখ, মুথা ঘাস হলো C4 উদ্ভিদ, যাদের সালোকসংশ্লেষণে প্রথম স্থায়ী পদার্থ ৪-কার্বন বিশিষ্ট অক্সালো অ্যাসিটিক এসিড।"
+    },
+    {
+        "id": 83,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "সর্বজনীন গ্রহীতা রক্তের গ্রুপ কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "A",
+            "b": "B",
+            "c": "AB",
+            "d": "O"
+        },
+        "correctAnswer": "c",
+        "explanation": "AB পজিটিভ রক্তে কোনো অ্যান্টিবডি থাকে না, তাই তারা সবার রক্ত গ্রহণ করতে পারে।"
+    },
+    {
+        "id": 84,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "মানুষের শরীরে মোট হাড়ের সংখ্যা কত?",
+        "hasDiagram": false,
+        "options": {
+            "a": "২০৬",
+            "b": "২০৮",
+            "c": "৩০০",
+            "d": "২০৫"
+        },
+        "correctAnswer": "a",
+        "explanation": "পূর্ণবয়স্ক মানুষের কঙ্কালতন্ত্রে ২০৬টি হাড় থাকে। শিশুদের ক্ষেত্রে সংখ্যাটি বেশি (প্রায় ৩০০)।"
+    },
+    {
+        "id": 85,
+        "subject": "Biology",
+        "topic": "Microbiology",
+        "question": "কোনটি ভাইরাসজনিত রোগ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "যক্ষা",
+            "b": "ডেঙ্গু",
+            "c": "কলেরা",
+            "d": "টাইফয়েড"
+        },
+        "correctAnswer": "b",
+        "explanation": "ডেঙ্গু ফ্লাভিভাইরাস গোত্রভুক্ত ডেঙ্গু ভাইরাস দ্বারা হয়। বাকিগুলো ব্যাকটেরিয়া জনিত।"
+    },
+    {
+        "id": 86,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "কোষ বিভাজনের কোন পর্যায়ে ক্রোমোজোমগুলো বিষুবীয় তলে বিন্যস্ত হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "প্রোফেজ",
+            "b": "মেটাফেজ",
+            "c": "অ্যানাফেজ",
+            "d": "টেলোফেজ"
+        },
+        "correctAnswer": "b",
+        "explanation": "মেটাফেজ দশায় ক্রোমোজোমগুলো স্পিন্ডল যন্ত্রের মাঝখানে বা বিষুবীয় অঞ্চলে অবস্থান নেয় (মেটাকাইনেসিস)।"
+    },
+    {
+        "id": 87,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "ইনসুলিন কোথা থেকে নিঃসৃত হয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "যকৃৎ",
+            "b": "অগ্ন্যাশয়",
+            "c": "পাকস্থলী",
+            "d": "থাইরয়েড"
+        },
+        "correctAnswer": "b",
+        "explanation": "অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ থেকে ইনসুলিন হরমোন নিঃসৃত হয়।"
+    },
+    {
+        "id": 88,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "কোনটি উদ্ভিদের মাইক্রো মৌল?",
+        "hasDiagram": false,
+        "options": {
+            "a": "নাইট্রোজেন",
+            "b": "পটাশিয়াম",
+            "c": "জিংক",
+            "d": "ফসফরাস"
+        },
+        "correctAnswer": "c",
+        "explanation": "জিংক, কপার, আয়রন ইত্যাদি উদ্ভিদের সামান্য পরিমাণে প্রয়োজন হয়, তাই এরা মাইক্রো মৌল। N, P, K হলো ম্যাক্রো মৌল।"
+    },
+    {
+        "id": 89,
+        "subject": "Biology",
+        "topic": "Genetics",
+        "question": "গ্রেগর জোহান মেন্ডেল কিসের ওপর গবেষণা করেন?",
+        "hasDiagram": false,
+        "options": {
+            "a": "গিনিপিগ",
+            "b": "ড্রসোফিলা মাছি",
+            "c": "মটরশুঁটি গাছ",
+            "d": "ইঁদুর"
+        },
+        "correctAnswer": "c",
+        "explanation": "মেন্ডেল দীর্ঘ ৭ বছর মটরশুঁটি (Pisum sativum) গাছের ওপর সংকরায়ন পরীক্ষা চালিয়ে বংশগতির সূত্র দেন।"
+    },
+    {
+        "id": 90,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "কোনটি রেচন অঙ্গ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "হৃদপিণ্ড",
+            "b": "বৃক্ক",
+            "c": "ফুসফুস (গৌণ)",
+            "d": "পাকস্থলী"
+        },
+        "correctAnswer": "b",
+        "explanation": "বৃক্ক বা কিডনি প্রধান রেচন অঙ্গ যা নাইট্রোজেনঘটিত বর্জ্য অপসারণ করে। ফুসফুস ও ত্বক গৌণ রেচন অঙ্গ।"
+    },
+    {
+        "id": 91,
+        "subject": "Biology",
+        "topic": "Zoology",
+        "question": "হাইড্রা কোন প্রক্রিয়ায় অযৌন জনন সম্পন্ন করে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দ্বি-বিভাজন",
+            "b": "মুকুলোদগম (Budding)",
+            "c": "স্পোরুলেশন",
+            "d": "নিষেকের মাধ্যমে"
+        },
+        "correctAnswer": "b",
+        "explanation": "পর্যাপ্ত খাদ্য থাকলে হাইড্রা দেহের পাশ থেকে মুকুল তৈরির মাধ্যমে বংশবৃদ্ধি করে।"
+    },
+    {
+        "id": 92,
+        "subject": "Biology",
+        "topic": "Taxonomy",
+        "question": "কোনটি দ্বিপদ নামকরণের সঠিক রূপ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "Homo Sapiens",
+            "b": "Homo sapiens",
+            "c": "homo sapiens",
+            "d": "Homo Sapiens"
+        },
+        "correctAnswer": "b",
+        "explanation": "দ্বিপদ নামকরণের নিয়ম অনুযায়ী গণ নামের প্রথম অক্ষর বড় এবং প্রজাতি নাম ছোট হাতের হবে। ছাপার সময় ইটালিক বা বাঁকা হতে হবে।"
+    },
+    {
+        "id": 93,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "কোষ প্রাচীরের প্রধান উপাদান কী?",
+        "hasDiagram": false,
+        "options": {
+            "a": "প্রোটিন",
+            "b": "লিপিড",
+            "c": "সেলুলোজ",
+            "d": "স্টার্চ"
+        },
+        "correctAnswer": "c",
+        "explanation": "উদ্ভিদ কোষ প্রাচীর প্রধানত সেলুলোজ নামক পলিস্যাকারাইড দিয়ে গঠিত।"
+    },
+    {
+        "id": 94,
+        "subject": "Biology",
+        "topic": "Plant Physiology",
+        "question": "শ্বসনে মোট কত অণু ATP উৎপন্ন হয় (সর্বশেষ মতবাদ অনুযায়ী)?",
+        "hasDiagram": false,
+        "options": {
+            "a": "৩৮",
+            "b": "৩৬",
+            "c": "৩০-৩২",
+            "d": "৪০"
+        },
+        "correctAnswer": "b",
+        "explanation": "বইভেদে ভিন্ন, তবে আধুনিক মতে ৩০-৩২, পুরনো মতে ৩৮। এইচএসসিতে সাধারণত ৩৮ বা ৩৬ অপশন থাকে। ৩৮ স্ট্যান্ডার্ড ধরা হয় (পুরনো সিলেবাস)। সঠিক উত্তর ৩৮ (গাজী আজমল স্যারের বই অনুযায়ী)।"
+    },
+    {
+        "id": 95,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "কোনটি প্লাস্টিডের প্রকারভেদ নয়?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ক্লোরোপ্লাস্ট",
+            "b": "ক্রোমোপ্লাস্ট",
+            "c": "লিউকোপ্লাস্ট",
+            "d": "প্রোটোপ্লাস্ট"
+        },
+        "correctAnswer": "d",
+        "explanation": "প্রোটোপ্লাস্ট হলো কোষ প্রাচীর ছাড়া কোষের সজীব অংশ। এটি প্লাস্টিডের প্রকার নয়।"
+    },
+    {
+        "id": 96,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "রক্তে গ্লুকোজের মাত্রা নিয়ন্ত্রণ করে কোনটি?",
+        "hasDiagram": false,
+        "options": {
+            "a": "ইনসুলিন ও গ্লুকাগন",
+            "b": "থাইরক্সিন",
+            "c": "অ্যাড্রেনালিন",
+            "d": "ইস্ট্রোজেন"
+        },
+        "correctAnswer": "a",
+        "explanation": "ইনসুলিন গ্লুকোজ কমায় এবং গ্লুকাগন গ্লুকোজ বাড়ায়—এভাবে ভারসাম্য বজায় থাকে।"
+    },
+    {
+        "id": 97,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "কোনটি জীবন্ত জীবাশ্ম?",
+        "hasDiagram": false,
+        "options": {
+            "a": "সাইকাস",
+            "b": "আম",
+            "c": "ধান",
+            "d": "ব্যাঙ"
+        },
+        "correctAnswer": "a",
+        "explanation": "সাইকাস উদ্ভিদের অনেক বৈশিষ্ট্য প্রাগৈতিহাসিক যুগের বিলুপ্ত উদ্ভিদের সাথে মিলে যায় বলে একে জীবন্ত জীবাশ্ম বলে।"
+    },
+    {
+        "id": 98,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "question": "মানুষের লালারসে কোন এনজাইম থাকে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "পেপসিন",
+            "b": "টায়ালিন",
+            "c": "ট্রিপসিন",
+            "d": "লাইপেজ"
+        },
+        "correctAnswer": "b",
+        "explanation": "লালারসে টায়ালিন (বা স্যালিভারি অ্যামাইলেজ) থাকে যা শর্করা পরিপাকে সাহায্য করে।"
+    },
+    {
+        "id": 99,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "question": "মায়োসিস কোষ বিভাজন কোথায় ঘটে?",
+        "hasDiagram": false,
+        "options": {
+            "a": "দেহকোষে",
+            "b": "জনন মাতৃকোষে",
+            "c": "স্নায়ুকোষে",
+            "d": "মূলের অগ্রভাগে"
+        },
+        "correctAnswer": "b",
+        "explanation": "গ্যামেট (শুক্রাণু ও ডিম্বাণু) তৈরির সময় জনন মাতৃকোষে মায়োসিস হয়।"
+    },
+    {
+        "id": 100,
+        "subject": "Biology",
+        "topic": "Botany",
+        "question": "কোনটি একবীজপত্রী উদ্ভিদ?",
+        "hasDiagram": false,
+        "options": {
+            "a": "আম",
+            "b": "জাম",
+            "c": "ধান",
+            "d": "লিচু"
+        },
+        "correctAnswer": "c",
+        "explanation": "ধান, গম, ভুট্টা একবীজপত্রী। বাকিগুলো দ্বিবীজপত্রী।"
+    }
+]
