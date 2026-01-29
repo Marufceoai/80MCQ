@@ -113,20 +113,6 @@
     "questionFile": "CUM_test1.json"
   },
   {
-    "studentName": "TEST",
-    "answers": {
-      "100": "c"
-    },
-    "score": 1,
-    "totalMarks": 100,
-    "timestamp": "2026-01-29T15:27:56.563Z",
-    "attempted": 1,
-    "correct": 1,
-    "wrong": 0,
-    "pass": false,
-    "questionFile": "CUM_test2.json"
-  },
-  {
     "studentName": "Maruf2",
     "answers": {
       "1": "c",
