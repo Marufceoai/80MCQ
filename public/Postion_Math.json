@@ -1,0 +1,1602 @@
+[
+    {
+        "id": 1,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "একটি উপবৃত্তের উপকেন্দ্রিক লম্বের দৈর্ঘ্য বৃহদাক্ষের দৈর্ঘ্যের অর্ধেক, উপবৃত্তটির উৎকেন্দ্রিকতা কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1/√3",
+            "b": "1/√2",
+            "c": "2/√3",
+            "d": "2/3"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 2,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "r² - 2r sinθ = 3 বৃত্তের ব্যাসার্ধ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 3,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "f(x) = √(x-3) এর f⁻¹(-2) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3",
+            "b": "5",
+            "c": "7",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 4,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "|z + i| – |z – 2| = 0 সমীকরণটি কি নির্দেশ করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "বৃত্ত",
+            "b": "সরলরেখা",
+            "c": "উপবৃত্ত",
+            "d": "পরাবৃত্ত"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 5,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "যদি z² = 5 + 12i হয়, তবে z এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "±(3+2i)",
+            "b": "±(2+3i)",
+            "c": "±(3-2i)",
+            "d": "±(1-2i)"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 6,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫₀¹ f(x)dx = 2 এবং ∫₀⁵ f(x)dx = 1 হলে ∫₁⁵ f(x)dx = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3",
+            "b": "1",
+            "c": "-1",
+            "d": "0"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 7,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "x³ + y³ – 2xy = 0 বক্ররেখার উপর (1, 1) বিন্দুতে অঙ্কিত স্পর্শক এর সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "y = x",
+            "b": "2x – y = 1",
+            "c": "3x – y = 2",
+            "d": "x + y = 2"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 8,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "x²/25 + y²/9 = 1 সমীকরণের উৎকেন্দ্রিকতা-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "4/5",
+            "b": "2/5",
+            "c": "3/5",
+            "d": "7/9"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 9,
+        "subject": "Higher Math",
+        "topic": "স্থিতিবিদ্যা",
+        "question": "120° কোণে ক্রিয়ারত P মানের দুইটি সমান বলের লব্ধি R হলে নিচের কোনটি সত্য?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "R > P",
+            "b": "R < P",
+            "c": "R = P/2",
+            "d": "R = P"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 10,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "x² + px + q = 0 সমীকরণের মূলদ্বয়ের পার্থক্য 1 হলে p² + 4q² এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1 + 4q²",
+            "b": "(1 + 2q)²",
+            "c": "1 + 2q",
+            "d": "4q²"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 11,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "x²/9 – y²/36 = 1 অধিবৃত্তের উপকেন্দ্রিক লম্বের দৈর্ঘ্য কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "24",
+            "b": "3",
+            "c": "50/3",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 12,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "tan θ + sec θ = x হলে, cosec θ -এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(x^2+1)/(x^2-1)",
+            "b": "(x^2-1)/(x^2+1)",
+            "c": "(1-x^2)/(1+x^2)",
+            "d": "(1+x^2)/(1-x^2)"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 13,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "4x + 3y = 12 সরলরেখা দ্বারা অক্ষদ্বয়ের মধ্যবর্তী খন্ডিতাংশের দৈর্ঘ্য-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 14,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "f(x) = √((1-x)/x); ফাংশনটির ডোমেইন-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(0, 1)",
+            "b": "[0, 1)",
+            "c": "(0, 1]",
+            "d": "[0, 1]"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 15,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫₀¹ |x – 1| dx = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "1/2",
+            "c": "–1",
+            "d": "1/2"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 16,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫[-3 to -2] (x+|x|) dx এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "3",
+            "b": "-3",
+            "c": "0",
+            "d": "1"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 17,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "x³ – 6x² + 12x – 16 = 0 সমীকরণের একটি মূল 1 + √3i হলে বাস্তব মূলটি কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 18,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "যদি y = mx রেখাটি x² + y² – 20y + 90 = 0 বৃত্তকে ছেদ না করার শর্ত কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "|m| > 3",
+            "b": "|m| < 3",
+            "c": "|m| > √10",
+            "d": "|m| = 3"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 19,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "x⁵ = 1 সমীকরণের কাল্পনিক মূলগুলো কোন সমীকরণের মূল?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x⁴ – x³ + x² – x + 1 = 0",
+            "b": "x⁴ + x³ + x² + x + 1 = 0",
+            "c": "x⁴ + x² + 1 = 0",
+            "d": "x⁴ + 2x³ + 3x² + 4x + 1 = 0"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 20,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "y = 1/x নির্দেশ করে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "সরলরেখা",
+            "b": "বৃত্ত",
+            "c": "পরাবৃত্ত",
+            "d": "অধিবৃত্ত"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 21,
+        "subject": "Higher Math",
+        "topic": "অন্তরীকরণ",
+        "question": "কোন ফাংশনটির জন্য (1-x²)d²y/dx² - x(dy/dx) = 2 ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "y = cos⁻¹x",
+            "b": "y = (cos⁻¹x)²",
+            "c": "y = sin⁻¹x",
+            "d": "y = tan⁻¹x"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 22,
+        "subject": "Higher Math",
+        "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+        "question": "যদি A একটি 3 × 3 অর্ডারের ম্যাট্রিক্স হয় এবং |A| = 5 হয় তবে |2A'| এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "10",
+            "b": "20",
+            "c": "30",
+            "d": "40"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 23,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "(8, 5) এবং (-4, -3) বিন্দুদ্বয়ের সংযোগ রেখার লম্ব দ্বিখণ্ডকটি y-অক্ষকে কোন বিন্দুতে ছেদ করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(0, 4)",
+            "b": "(0, 3)",
+            "c": "(0, 2)",
+            "d": "(0, -4)"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 24,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "x² + y² - 4x + 6y - 36 = 0 এবং x² + y² - 5x + 8y - 43 = 0 বৃত্তদ্বয়ের সাধারণ জ্যা-এর সমীকরণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x - 2y + 14 = 0",
+            "b": "x - 2y + 7 = 0",
+            "c": "x + 2y + 7 = 0",
+            "d": "x - 2y - 7 = 0"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 25,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫ dx / (e^x + e^–x) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "tan⁻¹(e^x) + c",
+            "b": "ln(e^x + e^–x) + c",
+            "c": "sin⁻¹(e^x) + c",
+            "d": "ln(xe^x) + c"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 26,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "x - 3y - 2 = 0 রেখার ওপর অবস্থিত P বিন্দুটি (2, 3) এবং (6, -5) হতে সমদূরবর্তী হলে P বিন্দুর স্থানাঙ্ক কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(4, 14)",
+            "b": "(-10, 4)",
+            "c": "(14, 4)",
+            "d": "(4, -10)"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 27,
+        "subject": "Higher Math",
+        "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+        "question": "$|\\begin{matrix}bc&ca&ab\\\\ \\frac{1}{a}&\\frac{1}{b}&\\frac{1}{c}\\\\ a&b&c\\end{matrix}|=?$",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "0",
+            "c": "$\\frac{1}{2}$",
+            "d": "abc"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 28,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "x² + y² + 10y = 0 বৃত্তের ব্যাসার্ধ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "4",
+            "b": "6",
+            "c": "3",
+            "d": "5"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 29,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "যদি 5 জন বালক ও 4 জন বালিকা দৌড় প্রতিযোগিতায় অংশগ্রহণ করে, তাহলে একজন বালকের ১ম ও একজন বালিকার ২য় হওয়ার সম্ভাবনা কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "5/18",
+            "b": "3/4",
+            "c": "1/2",
+            "d": "1/4"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 30,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "যদি x² + y² - 4x - 6y + c = 0 বৃত্তটি x-অক্ষকে স্পর্শ করে, তবে c এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "4",
+            "c": "3",
+            "d": "5"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 31,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫₋₁¹ |x|dx = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "–1",
+            "b": "1/2",
+            "c": "0",
+            "d": "1"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 32,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "$x^{2}+3x-4=0$ সমীকরণের মূলদ্বয় a, b হলে, $\\frac{1}{a}+\\frac{1}{b}+ab$ এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "N/A",
+            "b": "N/A",
+            "c": "N/A",
+            "d": "$-\\frac{13}{4}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 33,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "k-এর কোন মানের জন্য 2x² - kx + 1 = 0 এর একটি মূল অপর মূলের বর্গের চারগুণের সমান হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1/2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 34,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "3x + 4y = k রেখাটি x² + y² = 10x বৃত্তকে স্পর্শ করলে k-এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "8, -30",
+            "b": "-8, 30",
+            "c": "-10, 40",
+            "d": "10, -40"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 35,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "একটি বস্তু স্থির অবস্থা হতে যাত্রা শুরু করে 5 ft/sec² সমত্বরণে চলতে থাকলে 5 সেকেন্ড পরে বস্তুর বেগ হবে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "10 ft/sec",
+            "b": "5 ft/sec",
+            "c": "15 ft/sec",
+            "d": "25 ft/sec"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 36,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$\\omega^{3}=1$ হলে, $(1+\\omega-\\omega^{2})(\\omega+\\omega^{2}-1)(\\omega^{2}+1-\\omega)=?$",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0",
+            "b": "8",
+            "c": "-8",
+            "d": "1"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 37,
+        "subject": "Higher Math",
+        "topic": "সমতলে গতি",
+        "question": "একই আদিবেগে অনুভূমিক এর সাথে যথাক্রমে 15° এবং 75° কোণে দুটি বস্তু প্রক্ষিপ্ত হলো। যদি বস্তুদ্বয়ের আনুভূমিক পাল্লা যথাক্রমে R₁ এবং R₂ হয় তবে নিচের কোনটি সত্য?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "R₁ > R₂",
+            "b": "R₁ = R₂",
+            "c": "R₁ < R₂",
+            "d": "R₁ = 2R₂"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 38,
+        "subject": "Higher Math",
+        "topic": "বিপরীত ত্রিকোণমিতিক",
+        "question": "cos(π/2 + cos⁻¹x) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "-x",
+            "b": "√(1-x²)",
+            "c": "x",
+            "d": "-√(1-x²)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 39,
+        "subject": "Higher Math",
+        "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+        "question": "A = [[1, 2], [2, 5]] হলে det(AA⁻¹) -এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "-1",
+            "c": "0",
+            "d": "-1/2"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 40,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "যদি (5, 3) কেন্দ্র বিশিষ্ট একটি বৃত্ত y অক্ষকে স্পর্শ করে তবে বৃত্তটি দ্বারা x অক্ষের খন্ডিত অংশের পরিমাণ কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "8",
+            "b": "6",
+            "c": "4",
+            "d": "2"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 41,
+        "subject": "Higher Math",
+        "topic": "স্থিতিবিদ্যা",
+        "question": "P, P√3, P বল তিনটি সাম্যবস্থায় থাকলে প্রথম বলদ্বয়ের মধ্যবর্তী কোণ কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "90°",
+            "b": "120°",
+            "c": "130°",
+            "d": "150°"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 42,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "মূলবিন্দুগামী P ও Q দুটি বলের লব্ধি R। যদি P = Q হয়, তবে P ও Q এর মধ্যবর্তী কোণ কত হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "60°",
+            "b": "120°",
+            "c": "90°",
+            "d": "180°"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 43,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "A(h, k) বিন্দুটি 6x - y = 1 রেখার উপর অবস্থিত এবং B(k, h) বিন্দুটি 2x - 5y = 5 রেখার উপর অবস্থিত হলে, AB রেখাটির সমীকরণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x + y = 6",
+            "b": "3x - 5y - 5 = 0",
+            "c": "2x - 5y + 5 = 0",
+            "d": "2x - 5y - 5 = 0"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 44,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "যদি f(x) = (2x+1)/(x-3) হয়, তবে f^(-1)(x) এর কোডোমেন কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "R",
+            "b": "(3, ∞)",
+            "c": "(-∞, 3)",
+            "d": "R - {3}"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 45,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "1/x + a - bx = 0 সমীকরণের মূলদ্বয় সমান হলে কোনটি সঠিক?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "a² - 4b = 0",
+            "b": "b² - 4a = 0",
+            "c": "b² + 4a = 0",
+            "d": "a² + 4b = 0"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 46,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "y = 1 + 1/(2+x) বক্ররেখা x-অক্ষকে A বিন্দুতে এবং y-অক্ষকে B বিন্দুতে ছেদ করলে AB সরলরেখার সমীকরণ নিচের কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x + 2y + 3 = 0",
+            "b": "x + 2y - 3 = 0",
+            "c": "x - 2y + 3 = 0",
+            "d": "x - 2y - 3 = 0"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 47,
+        "subject": "Higher Math",
+        "topic": "স্থিতিবিদ্যা",
+        "question": "কোনো একটি বিন্দুতে ক্রিয়ারত 2N ও 2√2N বলদ্বয়ের লব্ধি 2√5N হলে তাদের মধ্যবর্তী কোণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "135°",
+            "b": "45°",
+            "c": "225°",
+            "d": "90°"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 48,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫₋₂⁻¹ (x + |x|) dx = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "N/A",
+            "b": "0",
+            "c": "1",
+            "d": "6"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 49,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "y=2x-x² এবং x-অক্ষ দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$\\frac{4}{3}$ square units",
+            "b": "$\\frac{2}{3}$ square units",
+            "c": "$\\frac{8}{3}$ square units",
+            "d": "1 square unit"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 50,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "A = [2 1; 3 1] হলে adj(A) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "[1 –1; –3 2]",
+            "b": "[–1 1; 3 –2]",
+            "c": "[1 1; 3 2]",
+            "d": "[1 –3; –1 2]"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 51,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$\\int_{0}^{5}f(x)dx=8$ হলে, $\\int_{-1}^{4}f(x+1)dx$ এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0",
+            "b": "6",
+            "c": "8",
+            "d": "9"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 52,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "x² + 12y = 0 পরাবৃত্তের নিয়ামকের সমীকরণ-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x = 3",
+            "b": "y = 3",
+            "c": "x = -3",
+            "d": "y = -3"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 53,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "x³ + ax² + bx + c = 0 সমীকরণের মূলগুলো গুণোত্তর প্রগমনে থাকলে একটি মূলের ঘন মান নিচের কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "–a",
+            "b": "a",
+            "c": "–c",
+            "d": "c"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 54,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "x² = 4(2 – y) পরাবৃত্তের দিকাক্ষের সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "y = 2",
+            "b": "x = 2",
+            "c": "y = 3",
+            "d": "x = 3"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 55,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$f(x)=\\frac{1}{\\sqrt{4-x^{2}}}$ ফাংশনটির ডোমেন কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$-2\\le x\\le2$",
+            "b": "$-2<x<2$",
+            "c": "$0\\le x\\le2$",
+            "d": "$-2\\le x\\le0$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 56,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "y² + 8x - 2y - 23 = 0 পরাবৃত্তের নিয়ামক রেখার সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x - 3 = 0",
+            "b": "y - 3 = 0",
+            "c": "x - 5 = 0",
+            "d": "y - 5 = 0"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 57,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "sin x + cos x ফাংশনটির গুরুমান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "√2",
+            "b": "1",
+            "c": "2",
+            "d": "–1"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 58,
+        "subject": "Higher Math",
+        "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+        "question": "(x, y) এর কোন মানের জন্য [x–2 3; –3 y+1] ম্যাট্রিক্সটি বিপ্রতিসম হবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(0, 0)",
+            "b": "(2, 0)",
+            "c": "(0, –1)",
+            "d": "(2, –1)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 59,
+        "subject": "Higher Math",
+        "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+        "question": "বামদিকে প্রদত্ত A ম্যাট্রিক্সের (কর্ণ বরাবর উপাদান 1, 2, 3) ক্ষেত্রে kA ম্যাট্রিক্সের নির্ণায়ক কোনটি, যেখানে k একটি স্কেলার?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "6k",
+            "b": "3k³",
+            "c": "5k³",
+            "d": "6k³"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 60,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sec^{-1}x=cosec^{-1}y$ হলে, নিচের কোনটি সত্য?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$x^{2}+y^{2}=1$",
+            "b": "$\\frac{1}{x^{2}}+\\frac{1}{y^{2}}=1$",
+            "c": "$\\frac{1}{x}+\\frac{1}{y}=\\frac{\\pi}{2}$",
+            "d": "$x+y=\\frac{\\pi}{2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 61,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "x² - x + 1 = 0 সমীকরণের মূলদ্বয় α, β হলে α³ + β³ এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "-2",
+            "c": "1",
+            "d": "-1"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 62,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫ dx / (e^x + e^(-x)) এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "tan^(-1)(e^(-x))",
+            "b": "tan(e^(-x))",
+            "c": "tan^(-1)(e^x)",
+            "d": "tan(e^x)"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 63,
+        "subject": "Higher Math",
+        "topic": "সমতলে গতি",
+        "question": "যদি H সর্বোচ্চ উচ্চতা এবং R আনুভূমিক পাল্লা হয়, তবে একটি বস্তুকে ভূমির সাথে 30° কোণে নিক্ষেপ করা হলে নিচের কোনটি সঠিক?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "R = √3 H",
+            "b": "R = 4H",
+            "c": "R = 4√3 H",
+            "d": "R = 3√2 H"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 64,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫[1 to e²] dx / (x(1+lnx)²) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1/2",
+            "b": "1/3",
+            "c": "2/3",
+            "d": "3/2"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 65,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "(0,2) এবং (-2,0) বিন্দুগামী সরলরেখা x-অক্ষের ধনাত্মক দিকের সাথে কী কোণ উৎপন্ন করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "30°",
+            "b": "45°",
+            "c": "60°",
+            "d": "120°"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 66,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "যদি f(x) = x² - 1 এবং g(x) = √x, তাহলে (gof)(x) এর ডোমেন কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "R",
+            "b": "x ≥ 0",
+            "c": "-1 < x < 1",
+            "d": "x ≤ -1 or x ≥ 1"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 67,
+        "subject": "Higher Math",
+        "topic": "বিপরীত ত্রিকোণমিতিক",
+        "question": "θ = sin⁻¹(3/5) হলে (1 - tan²θ) / (1 + tan²θ) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "7/25",
+            "b": "7/16",
+            "c": "41/25",
+            "d": "41/16"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 68,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "y² = 8x + 2y - 9 পরাবৃত্তটির উপকেন্দ্রের স্থানাঙ্ক কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(3, 1)",
+            "b": "(3, 0)",
+            "c": "(-1, 1)",
+            "d": "(2, 0)"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 69,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "একটি ভবনের ছাদ হতে মুক্তভাবে পড়ন্ত একটি বস্তু মাটিতে পড়তে 5 সেকেন্ড সময় নেয়। ভবনের উচ্চতা কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "245 m",
+            "b": "24.5 m",
+            "c": "122.5 m",
+            "d": "150.5 m"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 70,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "y = x^(-2) ln x হলে, (d^2y)/(dx^2) এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "13x^(-4)ln x - ...",
+            "b": "6x^(-4)ln x - 5x^(-4)",
+            "c": "6x^(-4)ln x - 2x^(-2) - 3x^(-4)",
+            "d": "x^(-4)ln x - 2x^(-2) + 3x^(-4)"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 71,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "(x - 1/x)⁸ এর বিস্তৃতিতে x-বর্জিত পদটি কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "5",
+            "c": "-1",
+            "d": "0"
+        },
+        "correctAnswer": "Not Given",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 72,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "√3y - x + 5 = 0 সরলরেখাটি y-অক্ষের সাথে যে কোণ উৎপন্ন করে তার মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "45°",
+            "b": "60°",
+            "c": "30°",
+            "d": "90°"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 73,
+        "subject": "Higher Math",
+        "topic": "জটিল সংখ্যা",
+        "question": "যদি arg(z) = π/6 হয় তবে arg(z / z̄) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "π/3",
+            "b": "0",
+            "c": "-π/3",
+            "d": "π/2"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 74,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "1 / |x+2| > 4 অসমতাটির সমাধান সেট হবে নিচের কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "[-9/4, -7/4]",
+            "b": "[-7/4, -1/4]",
+            "c": "[-9/4, 1/4]",
+            "d": "[-7/4, 1/4]"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 75,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$9x^{2}+25y^{2}=225$ কনিকের নিয়ামকদ্বয়ের মধ্যবর্তী দূরত্ব কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$\\frac{25}{2}$",
+            "b": "25",
+            "c": "$\\frac{15}{2}$",
+            "d": "5"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 76,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "যদি sin x – cos x = cos y – sin y হয় তবে x + y = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2π",
+            "b": "π",
+            "c": "π/2",
+            "d": "π/4"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 77,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "lim(x→2) (8ˣ - 2ˣ) / x এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "ln 4",
+            "b": "ln 16",
+            "c": "ln 2",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 78,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$lim_{x\\rightarrow0}\\frac{ln(1+x)}{x}=?$",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0",
+            "b": "$\\frac{1}{2}$",
+            "c": "-1",
+            "d": "1"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 79,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "lim(x→1) {2x^3 - (2k+1)x^2 + 2x + k} / (x-1) = -6 হলে, k-এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "1",
+            "b": "-1",
+            "c": "3",
+            "d": "-1/2"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 80,
+        "subject": "Higher Math",
+        "topic": "যোগজীকরণ",
+        "question": "∫ dx / (x² + 6x + 25) এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "tan⁻¹((x+3)/4) + c",
+            "b": "1/4 tan⁻¹((x+3)/4) + c",
+            "c": "ln x",
+            "d": "1/4 tan⁻¹(4/(x+3)) + c"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 81,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "y² = 4px পরাবৃত্তটি (3, -2) বিন্দু দিয়ে অতিক্রম করলে উপকেন্দ্রের স্থানাঙ্ক-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(4, 0)",
+            "b": "(1/4, 0)",
+            "c": "(3, 0)",
+            "d": "(1/3, 0)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 82,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "tan(sin⁻¹√(1-x²)) = sin(cos⁻¹x) হলে x এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "±1",
+            "b": "±√(5/3)",
+            "c": "±(√5)/3",
+            "d": "±1/3"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 83,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "y-অক্ষের সমান্তরাল এবং 2x-7y+11=0 ও x+3y-8=0 রেখাদ্বয়ের ছেদবিন্দু দিয়ে অতিক্রমকারী সরলরেখার সমীকরণ নিচের কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "13x - 23 = 0",
+            "b": "3x - 7 = 0",
+            "c": "7x - 3 = 0",
+            "d": "23x - 13 = 0"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 84,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "y = 2x + c সরলরেখাটি y² = 4x পরাবৃত্তের স্পর্শক হলে স্পর্শ বিন্দুর স্থানাঙ্ক কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(1/4, 1)",
+            "b": "(1/4, –1)",
+            "c": "(4, 4)",
+            "d": "(4, –4)"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 85,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "2(cos²θ – sin²θ) = 1 সমীকরণটির সমাধান নিচের কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "π/2",
+            "b": "5π/6",
+            "c": "4π/3",
+            "d": "π/3"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 86,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "1/x + a - bx = 0 সমীকরণের মূলদ্বয় সমান হলে-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "a² - 4b = 0",
+            "b": "b² - 4a = 0",
+            "c": "b² + 4a = 0",
+            "d": "a² + 4b = 0"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 87,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "y = 2x রেখাটি x² + y² = 10x বৃত্তের একটি জ্যা। উক্ত জ্যা কে ব্যাস ধরে অঙ্কিত বৃত্তের সমীকরণ কোনটি?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x² + y² – x – 2y = 0",
+            "b": "x² + y² + 2x + 4y = 0",
+            "c": "x² + y² – 2x – 4y = 0",
+            "d": "x² + y² + x + 2y = 0"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 88,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$f(x)=\\sqrt{1-\\sqrt{x}}$ হলে, $\\frac{df}{dx}=?$",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$\\frac{1}{4\\sqrt{x}\\sqrt{1-\\sqrt{x}}}$",
+            "b": "$-\\frac{1}{2\\sqrt{x}\\sqrt{1-\\sqrt{x}}}$",
+            "c": "$\\frac{1}{2\\sqrt{x}\\sqrt{1-\\sqrt{x}}}$",
+            "d": "$-\\frac{1}{4\\sqrt{x}\\sqrt{1-\\sqrt{x}}}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 89,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "$3x+7y=21$ এবং $2ax-3by+6=0$ সমীকরণদ্বয় একই সরলরেখা প্রকাশ করলে a এবং b এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$a=1, b=2$",
+            "b": "$a=-\\frac{3}{7}, b=\\frac{2}{3}$",
+            "c": "$a=0, b=1$",
+            "d": "$a=\\frac{1}{2}, b=4$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 90,
+        "subject": "Higher Math",
+        "topic": "সরলরেখা",
+        "question": "k এর কোন মানের জন্য x – y = 5 সরলরেখা x²/k² + y²/9 = 1 উপবৃত্তকে স্পর্শ করে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "1/4",
+            "c": "4",
+            "d": "1/2"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 91,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "f(x) = (1 – tan x)/(1 + tan x) হলে f(π/4 – x) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "sin x",
+            "b": "tan x",
+            "c": "sec x",
+            "d": "cos x"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 92,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "কোন ব্যবধিতে f(x) = x/(x² + 1) ক্রমবর্ধমান?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(-∞, 0)",
+            "b": "(-1, 1)",
+            "c": "(0, ∞)",
+            "d": "(-1, ∞)"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 93,
+        "subject": "Higher Math",
+        "topic": "বৃত্ত",
+        "question": "x² - 3y² - 2x = 8 অধিবৃত্তের শীর্ষবিন্দুদ্বয়-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "(-4, 0), (2, 0)",
+            "b": "(0, 4), (0, 2)",
+            "c": "(0, -4), (0, -1)",
+            "d": "(4, 0), (-2, 0)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 94,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "$x^{2}+y^{2}-4x-6y+c=0$ বৃত্তটি x-অক্ষকে স্পর্শ করলে, c এর মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0",
+            "b": "4",
+            "c": "1",
+            "d": "12"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 95,
+        "subject": "Higher Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "5y² + sin y = x² হলে dy/dx = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "x / (5y + cos y)",
+            "b": "2x / (5y - cos y)",
+            "c": "2y / (5y - cos y)",
+            "d": "2x / (10y + cos y)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 96,
+        "subject": "Higher Math",
+        "topic": "বহুপদী",
+        "question": "k এর কোন মানের জন্য f(x) = x² + k/x এর x = 1 বিন্দুতে লঘুমান পাওয়া যাবে?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "0",
+            "b": "-1",
+            "c": "2",
+            "d": "1"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 97,
+        "subject": "Higher Math",
+        "topic": "বিপরীত ত্রিকোণমিতিক",
+        "question": "cos²(sin⁻¹(3/5)) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "16/25",
+            "b": "4/5",
+            "c": "9/25",
+            "d": "4/25"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 98,
+        "subject": "Higher Math",
+        "topic": "স্থিতিবিদ্যা",
+        "question": "$\\sqrt{14}$ এককের দুটি সমান বল $120^{\\circ}$ কোণে এক বিন্দুতে কাজ করে। তাদের লব্ধির মান কত?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "$2\\sqrt{14}$",
+            "b": "$4\\sqrt{14}$",
+            "c": "$\\sqrt{14}$",
+            "d": "$12\\sqrt{14}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 99,
+        "subject": "Higher Math",
+        "topic": "Mixed Topics",
+        "question": "A - B = π/4 হলে (1 + tanA)(1 - tanB) এর মান-",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "2",
+            "b": "-2",
+            "c": "√2",
+            "d": "-√2"
+        },
+        "correctAnswer": "a",
+        "explanation": "No NEED"
+    },
+    {
+        "id": 100,
+        "subject": "Higher Math",
+        "topic": "বিপরীত ত্রিকোণমিতিক",
+        "question": "cosec²(tan⁻¹(1/2)) - 3sec²(cot⁻¹√3) = ?",
+        "hasDiagram": false,
+        "svg_code": "",
+        "options": {
+            "a": "N/A",
+            "b": "1",
+            "c": "N/A",
+            "d": "-3"
+        },
+        "correctAnswer": "b",
+        "explanation": "No NEED"
+    }
+]
